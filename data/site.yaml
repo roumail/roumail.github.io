@@ -1,0 +1,18 @@
+# Meta description for your site.  This will help the search engines to find your site.
+description: Rohail Taimour project portfolio for Machine Learning, Data science projects
+copyright: © 2023 Copyright.
+
+# # Doesn't show anything
+# customMenus:
+# - name: Resume
+#   url: https://roumail.github.io/markdown-cv
+#   hideFromNavbar: false
+#   showOnFooter: false
+
+# # Specify OpenGraph Headers ? 
+# openGraph:
+#   title: John's Blog
+#   type: website
+#   description: Portfolio and personal blog of John Doe.
+#   # image: images/author/john.png
+#   url: https://roumail.github.io/markdown-cv

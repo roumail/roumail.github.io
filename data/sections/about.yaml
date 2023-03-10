@@ -1,0 +1,45 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Director
+# your company information
+company:
+  name: Sigma Graph Inc
+  url: "https://www.dnb.com/business-directory/company-profiles.sigma_graph_inc.8db33277d45ebd522663aa9fa41ed64e.html"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/rohail-taimour-cv-202303.pdf"
+
+# a summary about you
+summary: 'I am a Statistician turned Data scientist turned software enthusiast with 6+ years of working experience. I setup my own shop in October 2022 to chart my journey as a Freelancer. I enjoy working on challenging projects, whether from business or technical perspective, to find the simplest solution that delivers the most value. I am comfortable demystifying AI, machine learning and data science to a non-technical audience.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/roumail"
+
+# # your soft skills
+# # give the percentage between 50 to 100 with 5 intervals.
+# # currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Can-Do-Attitude
+  percentage: 100
+  color: orange
+- name: Communication
+  percentage: 85
+  color: green
+# - name: Leadership
+#   percentage: 85
+#   color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow

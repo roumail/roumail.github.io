@@ -1,0 +1,34 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "Advanced user with 5+ years experience. Comportable working with modern data science stack. Took 'Software engineering for Data scientists' training in 2019 from Ian Ozsvald (PyData London)."
+  # url: "https://kubernetes.io/"
+
+- name: R
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "Advanced user with 5+ years experience. Capable of writing scalable, testable, and maintainable code as R packages."
+  # url: "https://golang.org/"
+
+- name: Machine Learning
+  # logo: "/images/sections/skills/cloud.png"
+  summary: "Comfortable with regression, classification, clustering using classical statistical methods; Tree-based methods such as XGboost, Random Forest etc on tabular data; Xplainable AI (Shap); Time series forecasting, clustering, visualization; Probabilistic programming, Monte Carlo simulation and Bayesian statistics; Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis"
+
+- name: Docker
+  # logo: "/images/sections/skills/docker.svg"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Git
+  # logo: "/images/sections/skills/git.png"
+  summary: "Comfortable with git flow branching method, gitlab and github"
