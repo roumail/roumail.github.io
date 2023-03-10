@@ -25,7 +25,7 @@ skills:
   # logo: "/images/sections/skills/cloud.png"
   summary: "Comfortable with regression, classification, clustering using classical statistical methods; Tree-based methods such as XGboost, Random Forest etc on tabular data; Xplainable AI (Shap); Time series forecasting, clustering, visualization; Probabilistic programming, Monte Carlo simulation and Bayesian statistics; Natural language processing (NLP) text embeddings, Named entity Recognition (NER), sentiment/topic analysis"
 
-- name: Docker
+- name: Cloud
   # logo: "/images/sections/skills/docker.svg"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
