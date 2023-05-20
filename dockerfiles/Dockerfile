@@ -1,5 +1,15 @@
 FROM rocker/rstudio:4.3
 
+# Add host username so you're able to perform operations as a mix of rstudio and your host user
+ARG UID
+ARG GID
+ARG USERNAME
+
+RUN groupadd --gid $GID $USERNAME || true \
+    && useradd --uid $UID --gid $GID --create-home --shell /bin/bash $USERNAME
+
+# USER $USERNAME
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         parallel \
@@ -17,6 +27,7 @@ RUN apt-get update && \
         make \
         libtool \
         pkg-config \
+        openssh-client \
         systemd \
         libxml2-dev\
         wget && \

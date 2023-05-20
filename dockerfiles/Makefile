@@ -2,7 +2,7 @@ PROJECT_ROOT_DIR := $(shell cd ..; pwd) # Go directory up from dockerfiles where
 PROJECT_DIR_CONTAINER=/home/rstudio/project
 DOCKERHUB_USERNAME := rohailt
 DOCKERHUB_REPO := website-env
-DOCKERHUB_TAG := linux-amd64-v1.0.1
+DOCKERHUB_TAG := linux-amd64-v1.0.2
 DOCKERHUB_IMAGE= ${DOCKERHUB_USERNAME}/${DOCKERHUB_REPO}:${DOCKERHUB_TAG}
 HOST_PORT ?= 8787
 
