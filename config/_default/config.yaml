@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'My Notes' # Website name
-baseURL: 'https://example.com/' # Website URL
+title: 'Rohail Taimour - Sigma Graph Inc' # Website name
+baseURL: 'https://roumail.github.io' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -48,7 +48,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, (^|/)renv$, renv\\.lock$]
 permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'
@@ -67,6 +67,9 @@ taxonomies:
   category: categories
   author: authors
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   _merge: deep
 related:
   threshold: 80

@@ -27,6 +27,7 @@ RUN apt-get update && \
         make \
         libtool \
         pkg-config \
+        lsof \
         openssh-client \
         systemd \
         libxml2-dev\
