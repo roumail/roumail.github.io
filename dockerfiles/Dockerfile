@@ -4,7 +4,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         parallel \
         git \
-        libglpk-dev \
+        libxt-dev \
+        xorg \ 
         gawk \
         curl \
         procps \

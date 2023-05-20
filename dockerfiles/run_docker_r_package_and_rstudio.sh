@@ -29,7 +29,7 @@ if [ "${ACTION}" == "install" ]; then
     docker run "${DOCKER_RUN_OPTIONS[@]}" ${DOCKERHUB_IMAGE} su rstudio -c "Rscript ${PROJECT_DIR_CONTAINER}/dockerfiles/install_r_packages.R install"
 elif [ "${ACTION}" == "launch" ]; then
     # Launch RStudio Server
-    LAUNCH_OPTIONS=("-p" "${HOST_PORT}:8787" "-e" "PASSWORD=yourpassword" "--name" "rstudio_server")
+    LAUNCH_OPTIONS=("-p" "${HOST_PORT}:8787" "-p" "60791:60791" "-e" "PASSWORD=yourpassword" "--name" "rstudio_server")
     docker run "${DOCKER_RUN_OPTIONS[@]}" "${LAUNCH_OPTIONS[@]}" ${DOCKERHUB_IMAGE} /init
 elif [ "${ACTION}" == "restore" ]; then
     # Run the container and restore the packages
