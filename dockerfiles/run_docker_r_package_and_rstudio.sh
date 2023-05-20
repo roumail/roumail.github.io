@@ -32,8 +32,10 @@ elif [ "${ACTION}" == "launch" ]; then
     LAUNCH_OPTIONS=("-p" "${HOST_PORT}:8787" "-p" "60791:60791" "-e" "PASSWORD=yourpassword" "--name" "rstudio_server")
     docker run "${DOCKER_RUN_OPTIONS[@]}" "${LAUNCH_OPTIONS[@]}" ${DOCKERHUB_IMAGE} /init
 elif [ "${ACTION}" == "restore" ]; then
+    echo "Unsupported action so far. Please use 'install' or 'launch'."
+    exit 1
     # Run the container and restore the packages
-    docker run "${DOCKER_RUN_OPTIONS[@]}" ${DOCKERHUB_IMAGE} su rstudio -c "Rscript ${PROJECT_DIR_CONTAINER}/dockerfiles/install_r_packages.R restore"
+    # docker run "${DOCKER_RUN_OPTIONS[@]}" ${DOCKERHUB_IMAGE} su rstudio -c "Rscript ${PROJECT_DIR_CONTAINER}/dockerfiles/install_r_packages.R restore"
 else
     echo "Invalid action specified. Please use 'install' or 'launch'."
     exit 1
