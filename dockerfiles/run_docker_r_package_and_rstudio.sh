@@ -26,14 +26,6 @@ DOCKER_RUN_OPTIONS=(--platform linux/x86_64 \
  -e RENV_PATHS_LIBRARY=${RENV_PATHS_LIBRARY})
     
 if [ "${ACTION}" == "install" ]; then
-    # Run the container in detached mode
-    # docker run -dit "${DOCKER_RUN_OPTIONS[@]}" --name tmp_container_name ${DOCKERHUB_IMAGE} bash
-    # Execute your commands in the running container
-    # docker exec tmp_container_name su rstudio -c "Rscript ${PROJECT_DIR_CONTAINER}/dockerfiles/install_r_packages.R install"
-    # Stop and remove the container
-    # docker rm -f tmp_container_name
-    # # Run the container and install the packages
-    # docker run "${DOCKER_RUN_OPTIONS[@]}" ${DOCKERHUB_IMAGE} Rscript -e 'list.dirs(full.names = TRUE, recursive = TRUE)' #''
     docker run "${DOCKER_RUN_OPTIONS[@]}" ${DOCKERHUB_IMAGE} su rstudio -c "Rscript ${PROJECT_DIR_CONTAINER}/dockerfiles/install_r_packages.R install"
 elif [ "${ACTION}" == "launch" ]; then
     # Launch RStudio Server
