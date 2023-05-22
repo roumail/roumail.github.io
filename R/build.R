@@ -10,4 +10,4 @@ hugo_version <- system2('jq', args = c('-r', '.build.env.HUGO_VERSION', 'vercel.
 blogdown::install_hugo(version = hugo_version)
 
 # Build the site
-blogdown::build_site()
+blogdown::build_site(TRUE)
