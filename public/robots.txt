@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://roumail.github.io/sitemap.xml
