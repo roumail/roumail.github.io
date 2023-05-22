@@ -15,23 +15,23 @@ appearance:
 
 marketing:
   seo:
-    site_type: Project
+    site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo notes theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Sigma Graph Inc'
+    description: 'Project portfolio and blog website of Rohail Taimour for Machine Learning, Data science and personal musics about Drums and life'
+    # twitter: 'wowchemy'
   analytics:
     google_analytics: ''
-    baidu_tongji: ''
+    # baidu_tongji: ''
   verification:
     google: ''
-    baidu: ''
+    # baidu: ''
 
 # Site header
 
 header:
   navbar:
-    enable: false
+    enable: true
     align: l
     show_logo: true
     show_language: false
@@ -61,25 +61,25 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/wowchemy/hugo-second-brain-theme'
+    url: 'github.com/roumail/roumail.github.io'
     content_dir: content
     branch: main
   comment:
     provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    # disqus:
+    #   shortname: ''
+    #   show_count: true
+    # commento:
+    #   url: ''
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'roumail/website-stuff'
+      repo_id: 'R_kgDOJIE7Sw'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOJIE7S84CUy6u'
   search:
     provider: wowchemy
     algolia:

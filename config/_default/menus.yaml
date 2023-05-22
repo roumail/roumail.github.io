@@ -7,4 +7,9 @@ main:
   - name: Home
     url: /
     weight: 10
-
+  - name: Tags
+    identifier: tags
+    weight: 20
+  - name: Resume
+    url: https://roumail.github.io/markdown-cv
+    weight: 10
