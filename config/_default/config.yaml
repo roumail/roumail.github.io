@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'Rohail Taimour - Sigma Graph Inc' # Website name
+title: 'Musings from Rohail Taimour' # Website name
 baseURL: 'https://roumail.github.io' # Website URL
 
 ############################

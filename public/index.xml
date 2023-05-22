@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>✍️ Second Brain | Rohail Taimour - Sigma Graph Inc</title>
+    <title>Rohail Taimour | Musings from Rohail Taimour</title>
     <link>https://roumail.github.io/</link>
       <atom:link href="https://roumail.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>✍️ Second Brain</description>
+    <description>Rohail Taimour</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://roumail.github.io/media/covers/nasa-Q1p7bh3SHj8-unsplash.jpg</url>
-      <title>✍️ Second Brain</title>
+      <title>Rohail Taimour</title>
       <link>https://roumail.github.io/</link>
     </image>
     

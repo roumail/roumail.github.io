@@ -41,6 +41,9 @@ social:
 - icon: linkedin-in
   icon_pack: fab
   link: https://www.linkedin.com/in/rohailtaimour/
+# - icon: file-pdf
+#   icon_pack: fab
+#   link: https://www.github.com/roumail/markdown-cv
 ---
 
 I am a freelance data scientist with a passion for building software with user 
