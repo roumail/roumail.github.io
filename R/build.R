@@ -1,4 +1,4 @@
-# R/build.R
+#/usr/bin/env Rscript
 
 # Install packages
 install.packages(c('blogdown', 'remotes'))
