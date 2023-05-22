@@ -1,5 +1,6 @@
 #/usr/bin/env Rscript
 
+# This script gets called AFTER build -
 # # Check if packages are installed. Install them if they are not already installed.
 # packages <- c('blogdown', 'remotes')
 # if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
