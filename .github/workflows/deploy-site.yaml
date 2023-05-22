@@ -24,11 +24,18 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y jq        
+        sudo apt-get install -y jq
+        Rscript -e "install.packages(c('blogdown', 'remotes'))"        
     
+    - name: Install Hugo
+      run: |
+        hugo_version=$(jq -r '.build.env.HUGO_VERSION' vercel.json)
+        Rscript -e "blogdown::install_hugo(version = '${hugo_version}')"
+
     - name: Build site
-      run: Rscript R/build.R    
-    
+      run:  |
+      Rscript -e "blogdown::build_site(local = FALSE)"
+      
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.9.0
       with:
