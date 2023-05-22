@@ -12,9 +12,19 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Run RStudio Docker image
+    
+    - name: Setup R
+      uses: r-lib/actions/setup-r@v1
+      with:
+        r-version: 4.3
+    - name: Install dependencies
       run: |
-        docker run -v $PWD:/home/rstudio -w /home/rstudio rocker/rstudio:4.3 bash -c 'apt-get update && apt-get install -y jq; Rscript R/build.R; exit'
+        sudo apt-get update
+        sudo apt-get install -y jq        
+    
+    - name: Build site
+      run: Rscript R/build.R    
+    
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.9.0
       with:
