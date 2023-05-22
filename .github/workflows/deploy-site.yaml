@@ -25,12 +25,15 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y jq
+        Rscript -e "install.packages(c('blogdown'))"
     
-    - name: Install Hugo
-      run: |
-        hugo_version=$(jq -r '.build.env.HUGO_VERSION' vercel.json)
-        Rscript -e "blogdown::install_hugo(version = '${hugo_version}')"
+    - name: Set HUGO_VERSION as env variable
+      run: echo "HUGO_VERSION=$(jq -r '.build.env.HUGO_VERSION' vercel.json)" >> $GITHUB_ENV
 
+    - name: Install Hugo
+      run: blogdown::install_hugo(Sys.getenv("HUGO_VERSION"))
+      shell: Rscript {0}
+      
     - name: Build site
       run:  |
         Rscript -e "blogdown::build_site(local = FALSE)"
