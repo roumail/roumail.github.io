@@ -9,5 +9,6 @@ Thumbs.db
 public/
 resources/
 # exclude 
+share/
 bin/*
 !bin/.gitkeep
