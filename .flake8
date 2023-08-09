@@ -1,0 +1,8 @@
+[flake8]
+ignore = E203, E266, W503, F403, E501, E731, W291
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
+max-line-length = 88
+exclude = references/
+; per-file-ignores =
+;     types.py: F401
