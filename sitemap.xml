@@ -2,55 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roumail.github.io/machine-learning/syllabus/</loc>
+    <loc>https://roumail.github.io/blog/ml-data-etc/syllabus/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/tmp/syllabus/</loc>
+    <loc>https://roumail.github.io/blog/tmp/syllabus/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/machine-learning/</loc>
+    <loc>https://roumail.github.io/blog/ml-data-etc/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/machine-learning/reading-list/</loc>
+    <loc>https://roumail.github.io/blog/ml-data-etc/reading-list/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/tmp/reading-list/</loc>
+    <loc>https://roumail.github.io/blog/tmp/reading-list/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/tmp/</loc>
+    <loc>https://roumail.github.io/blog/tmp/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/machine-learning/takeaways/</loc>
+    <loc>https://roumail.github.io/blog/ml-data-etc/takeaways/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/tmp/takeaways/</loc>
+    <loc>https://roumail.github.io/blog/tmp/takeaways/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/</loc>
-    <lastmod>2022-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/blog/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/blog/drums/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/post/2020-12-01-r-rmarkdown/</loc>
+    <loc>https://roumail.github.io/blog/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/tag/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/post/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
