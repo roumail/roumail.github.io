@@ -1,7 +1,7 @@
 from invoke import task
 
-from .config import read_config
-from .constants import construct_image_name, create_base_docker_run_options
+from .utils.config import read_config
+from .utils.constants import construct_image_name, create_base_docker_run_options
 from .rosetta import check_rosetta
 
 

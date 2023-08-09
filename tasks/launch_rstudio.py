@@ -1,8 +1,8 @@
 from invoke import task
 
-from .config import read_config, create_volume_mounts
+from .utils.config import read_config, create_volume_mounts
 from .rosetta import check_rosetta
-from .constants import construct_image_name, create_base_docker_run_options
+from .utils.constants import construct_image_name, create_base_docker_run_options
 
 
 @task(pre=[check_rosetta])
@@ -14,7 +14,7 @@ def launch_rstudio(c):
     config = read_config()
     project_root_dir, tag, host_port = (
         config["project_root_dir"],
-        config["tag"],
+        config["image_tag"],
         config["host_port"],
     )
     dockerhub_image = construct_image_name(tag)
@@ -25,7 +25,7 @@ def launch_rstudio(c):
         f"-p {host_port}:8787",
         "-p 60791:60791",
         "-e PASSWORD=yourpassword",
-        "--name rstudio_server",
+        # "--name rstudio_server",
         *volume_mounts,
     )
 
