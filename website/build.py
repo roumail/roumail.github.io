@@ -1,11 +1,15 @@
 import os
 from invoke import task
+
+from .config import read_config
 from .rosetta import check_rosetta
 from .constants import construct_image_name
 
 
 @task(pre=[check_rosetta])
-def build(c, tag):
+def build(c):
+    config = read_config()
+    tag = config["tag"]
     uid = os.getuid()
     gid = os.getgid()
     username = os.getlogin()

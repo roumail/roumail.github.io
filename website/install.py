@@ -1,12 +1,14 @@
 from invoke import task
+
+from .config import read_config
 from .constants import construct_image_name, create_base_docker_run_options
 from .rosetta import check_rosetta
 
-# PROJECT_DIR_CONTAINER
-
 
 @task(pre=[check_rosetta])
-def install(c, project_root_dir, tag):
+def install(c):
+    config = read_config()
+    project_root_dir, tag = config["project_root_dir"], config["tag"]
     dockerhub_image = construct_image_name(tag)
     docker_run_options = create_base_docker_run_options(project_root_dir)
 
