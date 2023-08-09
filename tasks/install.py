@@ -5,8 +5,22 @@ from .constants import construct_image_name, create_base_docker_run_options
 from .rosetta import check_rosetta
 
 
+# TODO: check if clean install needed
+
+# clean-previous-install:
+# 	@echo "Removing previous renv installation files..."
+# 	@echo "Deleting ${PROJECT_ROOT_DIR}/.Rprofile"
+# 	@rm -rf ${PROJECT_ROOT_DIR}/.Rprofile
+# 	@echo "Deleting ${PROJECT_ROOT_DIR}/renv/"
+# 	@rm -rf ${PROJECT_ROOT_DIR}/renv/
+# 	@echo "Previous renv installation files have been removed."
+
 @task(pre=[check_rosetta])
 def install(c):
+    """
+    Install R packages.
+    If a previous renv installation is detected, it will be cleaned up first.
+    """
     config = read_config()
     project_root_dir, tag = config["project_root_dir"], config["tag"]
     dockerhub_image = construct_image_name(tag)

@@ -7,6 +7,10 @@ from .constants import construct_image_name, create_base_docker_run_options
 
 @task(pre=[check_rosetta])
 def launch_rstudio(c):
+    """
+    Running RStudio Server in Docker container, pulling from dockerhub.
+    pass volume mounts, etc
+    """
     config = read_config()
     project_root_dir, tag, host_port = (
         config["project_root_dir"],

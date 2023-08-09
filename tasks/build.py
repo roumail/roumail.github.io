@@ -8,6 +8,9 @@ from .constants import construct_image_name
 
 @task(pre=[check_rosetta])
 def build(c):
+    """
+    Build Docker image for linux amd64 architecture.
+    """
     config = read_config()
     tag = config["tag"]
     uid = os.getuid()

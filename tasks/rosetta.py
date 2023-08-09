@@ -4,6 +4,10 @@ from invoke import task
 
 @task
 def check_rosetta(c):
+    """
+    Check if Rosetta is enabled.
+    If not, print an error message and exit.
+    """
     try:
         result = subprocess.run(
             ["sysctl", "-n", "sysctl.proc_translated"],
