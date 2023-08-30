@@ -11,7 +11,7 @@ sections:
     content:
       title: "Hello, I'm Rohail Taimour"
       subtitle: "Welcome to my website!"
-      text: "I'm a software engineer with a passion for data science and machine learning. Here you'll find my blog posts, projects, and more."
+      text: "I'm a software engineer with a passion for drumming, data science and machine learning. Here you'll find my blog posts, projects, and more."
       image:
         filename: "covers/webResult.JPG"
         focal_point: "Smart"

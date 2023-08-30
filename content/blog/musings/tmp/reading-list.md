@@ -4,6 +4,7 @@ linktitle: Reading List
 title: Reading List
 categories: ["musings"]
 weight: 2
+parent: "tmp"
 ---
 
 A recommended reading list for the course.

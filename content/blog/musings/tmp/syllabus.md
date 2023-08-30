@@ -4,6 +4,7 @@ linktitle: Syllabus
 title: Syllabus
 categories: ["musings"]
 weight: 1
+parent: "tmp"
 ---
 
 ## Goals
