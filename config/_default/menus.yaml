@@ -10,9 +10,6 @@ main:
   - name: Contact
     url: /contact/
     weight: 10
-  - name: About
-    url: /#contact-me
-    weight: 11
   - name: Blog
     url: /#contact-me
     weight: 12
@@ -20,5 +17,5 @@ main:
     url: https://roumail.github.io/markdown-cv
     weight: 15
   - name: Tags
-    identifier: tags
+    url: /tags/ 
     weight: 20
