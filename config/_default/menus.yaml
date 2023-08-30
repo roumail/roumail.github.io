@@ -11,11 +11,17 @@ main:
     url: /contact/
     weight: 10
   - name: Blog
-    url: /#contact-me
+    url: /blog/
     weight: 12
+  - name: Drumming
+    url: /categories/drumming/
+    weight: 13
+  - name: Technology
+    url: /categories/technology/
+    weight: 14
+  - name: Musings
+    url: /categories/musings/
+    weight: 15
   - name: Resume
     url: https://roumail.github.io/markdown-cv
-    weight: 15
-  - name: Tags
-    url: /tags/ 
-    weight: 20
+    weight: 16
