@@ -1,10 +1,7 @@
 ---
 date: "2023-05-26"
-image:
-  caption: NASA
-  filename: covers/webResult.JPG
 title: Rohail Taimour
-toc: false
+toc: false      
 type: landing
 
 # Your landing page sections - add as many different content blocks as you like
@@ -14,8 +11,9 @@ sections:
     content:
       title: "Hello, I'm Rohail Taimour"
       subtitle: "Welcome to my website!"
+      text: "I'm a software engineer with a passion for data science and machine learning. Here you'll find my blog posts, projects, and more."
       image:
-        filename: "covers/IMG_5270.jpg"  # Update this to the image you want to use
+        filename: "covers/webResult.JPG"
         focal_point: "Smart"
         preview_only: false
       avatar: true  # Set this to true to make the image an avatar
