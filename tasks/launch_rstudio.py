@@ -1,13 +1,16 @@
 from invoke import task
 
+from website.utils.ConfigManager import ConfigManager
 from website.utils.docker import (
     construct_image_name,
     create_base_docker_run_options,
     create_volume_mounts,
 )
 
-from . import config
 from .rosetta import check_rosetta
+
+config_manager = ConfigManager()
+config = config_manager.get_config()
 
 
 @task(pre=[check_rosetta])
