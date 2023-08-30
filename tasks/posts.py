@@ -1,7 +1,17 @@
 import os
+import re
 from datetime import datetime
 
 from invoke import task
+
+
+def harmonize_name(name):
+    """
+    Harmonize the given name by removing colons and replacing spaces with hyphens.
+    """
+    name = re.sub(r":", "", name)  # Remove colons
+    name = name.replace(" ", "-")  # Replace spaces with hyphens
+    return name
 
 
 @task
@@ -11,11 +21,18 @@ def new_post(c, title, category, series=None):
     Optionally, specify a series name.
     """
     # Replace spaces in the title with hyphens
-    filename = title.replace(" ", "-").lower()
+    title = harmonize_name(title)
+    if series:
+        series = harmonize_name(series)
 
     # Create a timestamped directory
     timestamp = datetime.now().strftime("%Y-%m-%d")
-    timestamped_dir = f"{timestamp}-{filename}"
+
+    # Include the series name in the directory if provided
+    if series:
+        timestamped_dir = f"{timestamp}-{series}-{title}"
+    else:
+        timestamped_dir = f"{timestamp}-{title}"
 
     # Create the directory for the category if it doesn't exist
     category_path = f"content/blog/{category}/{timestamped_dir}"
