@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drumming | Musings from Rohail Taimour</title>
+    <link>https://roumail.github.io/categories/drumming/</link>
+      <atom:link href="https://roumail.github.io/categories/drumming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drumming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://roumail.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Drumming</title>
+      <link>https://roumail.github.io/categories/drumming/</link>
+    </image>
+    
+    <item>
+      <title>Drums, Music, etc</title>
+      <link>https://roumail.github.io/blog/drumming/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://roumail.github.io/blog/drumming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

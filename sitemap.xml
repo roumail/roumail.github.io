@@ -2,35 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roumail.github.io/blog/ml-data-etc/syllabus/</loc>
+    <loc>https://roumail.github.io/blog/musings/tmp/syllabus/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/tmp/syllabus/</loc>
+    <loc>https://roumail.github.io/blog/musings/tmp/reading-list/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/ml-data-etc/</loc>
+    <loc>https://roumail.github.io/blog/musings/tmp/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/ml-data-etc/reading-list/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/blog/tmp/reading-list/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/blog/tmp/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/blog/ml-data-etc/takeaways/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/blog/tmp/takeaways/</loc>
+    <loc>https://roumail.github.io/blog/musings/tmp/takeaways/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -42,23 +26,23 @@
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/drums/</loc>
+    <loc>https://roumail.github.io/categories/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/categories/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://roumail.github.io/categories/drumming/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/2020-12-01-r-rmarkdown/</loc>
+    <loc>https://roumail.github.io/blog/drumming/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/blog/technology/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/tag/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/category/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -74,6 +58,14 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://roumail.github.io/categories/technology/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/categories/musings/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://roumail.github.io/authors/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -81,6 +73,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/author/rohail-taimour/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
