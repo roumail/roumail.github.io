@@ -17,4 +17,13 @@ sections:
         focal_point: "Smart"
         preview_only: false
       avatar: true  # Set this to true to make the image an avatar
+  # - block: pages
+  #   id: recent-posts
+  #   content:
+  #     title: "Recent Posts"
+  #     count: 5  # Number of posts to display
+  #     filters:
+  #       folders:
+  #         - blog  # Assuming your posts are in the 'content/blog' directory
+  #     order: desc
 ---
