@@ -1,8 +1,8 @@
-import importlib_resources
 import logging
 import logging.config
 import os
 
+import importlib_resources
 import yaml
 
 
@@ -30,9 +30,7 @@ def initialize_logging(
         os.makedirs(log_dir, exist_ok=True)
 
     # Use the default path to the config file
-    path2log_config = importlib_resources.files("tasks").joinpath(
-        "etc/logging.yml"
-    )
+    path2log_config = importlib_resources.files("tasks").joinpath("etc/logging.yml")
 
     # Load the logging configuration file
     with open(path2log_config) as f:
@@ -47,6 +45,7 @@ def initialize_logging(
     logging.config.dictConfig(config)
 
     return log_dir
+
 
 class LoggerFile:
     def __init__(self, logger, level):

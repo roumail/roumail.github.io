@@ -1,13 +1,15 @@
 host_port: 8787
-project_root_dir: /Users/rohailtaimour/home/2_AREAS/WEBSITE/blogdown
-project_dir_container: /home/rstudio/project
-home_dir_container: /home/rstudio
-image_tag: linux-amd64-v1.0.2
+project_root_dir: {{ project_root_dir }}
+project_dir_container: {{ project_dir_container }}
+home_dir_container: {{ home_dir_container }}
+image_tag: {{ image_tag }}
 volume_mounts:
   - local: {{ project_root_dir }}
     container: {{ project_dir_container }}
   - local: {{ project_root_dir }}/bin
     container: {{ project_dir_container }}/bin
+  - local: {{ project_root_dir }}/.env
+    container: {{ project_dir_container }}/.env
   - local: {{ project_root_dir }}/share
     container: {{ project_dir_container }}/share
   - local: ~/.ssh

@@ -1,9 +1,9 @@
 from invoke import task
 
-from .utils.config import read_config
-from .utils.constants import construct_image_name, create_base_docker_run_options
-from .rosetta import check_rosetta
+from website.utils.docker import construct_image_name, create_base_docker_run_options
 
+from . import config
+from .rosetta import check_rosetta
 
 # TODO: check if clean install needed
 
@@ -15,14 +15,14 @@ from .rosetta import check_rosetta
 # 	@rm -rf ${PROJECT_ROOT_DIR}/renv/
 # 	@echo "Previous renv installation files have been removed."
 
+
 @task(pre=[check_rosetta])
 def install(c):
     """
     Install R packages.
     If a previous renv installation is detected, it will be cleaned up first.
     """
-    config = read_config()
-    project_root_dir, tag = config["project_root_dir"], config["tag"]
+    project_root_dir, tag = config.get("project_root_dir"), config.get("image_tag")
     dockerhub_image = construct_image_name(tag)
     docker_run_options = create_base_docker_run_options(project_root_dir)
 

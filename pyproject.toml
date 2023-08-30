@@ -8,19 +8,20 @@ version = "0.1.0"
 description = "Automation and build tools for my website"
 authors = ["Rohail Taimour"]
 license = "MIT"
-include = [
-    "tasks/etc/logging.yml",
+packages = [
+    { include = "ica_db_update" },
 ]
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<3.9.0"
-invoke = "^1.6.0"
 pyyaml = "^6.0.1"
 jinja2 = "^3.1.2"
 colorlog = "^6.7.0"
 importlib-resources = "^6.0.1"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
+invoke = "^1.6.0"
 black = "^23.7.0"
 isort = "^5.12.0"
 pre-commit = "^3.3.3"
@@ -29,7 +30,7 @@ flake8 = "^6.1.0"
 
 [tool.black]
 line-length = 88
-target-version = ['py308']
+target-version = ['py38']
 include = '\.pyi?$'
 # 'extend-exclude' excludes files or directories in addition to the defaults
 extend-exclude = '''

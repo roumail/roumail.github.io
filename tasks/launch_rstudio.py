@@ -1,8 +1,13 @@
 from invoke import task
 
-from .utils.config import read_config, create_volume_mounts
+from website.utils.docker import (
+    construct_image_name,
+    create_base_docker_run_options,
+    create_volume_mounts,
+)
+
+from . import config
 from .rosetta import check_rosetta
-from .utils.constants import construct_image_name, create_base_docker_run_options
 
 
 @task(pre=[check_rosetta])
@@ -11,11 +16,10 @@ def launch_rstudio(c):
     Running RStudio Server in Docker container, pulling from dockerhub.
     pass volume mounts, etc
     """
-    config = read_config()
     project_root_dir, tag, host_port = (
-        config["project_root_dir"],
-        config["image_tag"],
-        config["host_port"],
+        config.get("project_root_dir"),
+        config.get("image_tag"),
+        config.get("host_port"),
     )
     dockerhub_image = construct_image_name(tag)
     docker_run_options = create_base_docker_run_options(project_root_dir)
