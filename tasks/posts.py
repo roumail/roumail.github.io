@@ -14,6 +14,16 @@ def harmonize_name(name):
     return name
 
 
+def update_series(category_path, series):
+    with open(f"{category_path}/index.md", "r") as f:
+        lines = f.readlines()
+    for line in lines:
+        if line.startswith("series:"):
+            f.write(f"series: {series}\n")
+        else:
+            f.write(line)
+
+
 @task
 def new_post(c, title, category, series=None):
     """
@@ -49,7 +59,6 @@ def new_post(c, title, category, series=None):
 
     # If it's part of a series, add the series metadata
     if series:
-        with open(f"{category_path}/index.md", "a") as f:
-            f.write(f"series: {series}\n")
+        update_series(category_path, series)
 
     print(f"New post created at {category_path}/index.md")
