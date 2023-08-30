@@ -3,6 +3,7 @@ date: "2019-05-05T00:00:00+01:00"
 linktitle: Takeaways
 title: Takeaways
 toc: true
+categories: ["musings"]
 weight: 3
 ---
 
