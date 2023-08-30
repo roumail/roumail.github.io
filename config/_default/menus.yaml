@@ -12,20 +12,12 @@ main:
     weight: 10
   - name: Blog
     url: /blog/
-    weight: 12
+    weight: 11
     identifier: "blog"
-  - name: Drumming
-    url: /categories/drumming/
-    weight: 13
-    parent: "blog"
-  - name: Technology
-    url: /categories/technology/
-    weight: 14
-    parent: "blog"
-  - name: Musings
-    url: /categories/musings/
-    weight: 15
-    parent: "blog"
+  - name: Blog categories
+    url: /categories/
+    weight: 12
+    identifier: "categories"
   - name: Resume
     url: https://roumail.github.io/markdown-cv
     weight: 16
