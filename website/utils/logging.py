@@ -5,6 +5,8 @@ import os
 import importlib_resources
 import yaml
 
+from website.etc.constants import PACKAGE_NAME
+
 
 def get_logger(module_name):
     parts = module_name.split(".")
@@ -30,7 +32,9 @@ def initialize_logging(
         os.makedirs(log_dir, exist_ok=True)
 
     # Use the default path to the config file
-    path2log_config = importlib_resources.files("tasks").joinpath("etc/logging.yml")
+    path2log_config = importlib_resources.files(PACKAGE_NAME).joinpath(
+        "etc/logging.yml"
+    )
 
     # Load the logging configuration file
     with open(path2log_config) as f:
