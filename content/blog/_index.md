@@ -2,7 +2,7 @@
 title: "My Blog Posts"
 description: "A collection of my thoughts, insights, and tutorials."
 type: landing
-
+# text: The listing doesn't work
 sections:
   - block: about.biography
     id: about
@@ -13,4 +13,3 @@ sections:
 ---
 
 
-The listing doesn't work
