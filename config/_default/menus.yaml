@@ -24,6 +24,6 @@ main:
   - name: Resume
     url: https://roumail.github.io/markdown-cv
     weight: 16
-  - name: Tags
-    url: /tags/  # Pointing to the new tags page
+  - name: Sitemap
+    url: /sitemap/  # Pointing to the new tags page
     weight: 20

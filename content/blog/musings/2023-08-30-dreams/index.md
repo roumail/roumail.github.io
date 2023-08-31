@@ -1,10 +1,10 @@
 ---
 title: "2023 08 30 Dreams"
 date: 2023-08-30T23:45:46+02:00
-draft: true
+draft: false
 type: "post"
 categories: ["musings"]
-tags: []
+tags: ["reflections"]
 ---
 
 Your content here...
