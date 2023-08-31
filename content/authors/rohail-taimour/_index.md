@@ -2,6 +2,9 @@
 # Display name
 title: "Rohail Taimour"
 
+first_name: Rohail
+last_name: Taimour
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "rohail-taimour"

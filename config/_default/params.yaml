@@ -58,6 +58,9 @@ locale:
 
 features:
   syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
     theme_light: github-light
     theme_dark: dracula
   math:
@@ -80,6 +83,10 @@ features:
       repo_id: 'R_kgDOJIE7Sw'
       category: 'Announcements'
       category_id: 'DIC_kwDOJIE7S84CUy6u'
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
   search:
     provider: wowchemy
     algolia:
