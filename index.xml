@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>2023 08 30 Dreams</title>
+      <link>https://roumail.github.io/blog/musings/2023-08-30-dreams/</link>
+      <pubDate>Wed, 30 Aug 2023 23:45:46 +0200</pubDate>
+      <guid>https://roumail.github.io/blog/musings/2023-08-30-dreams/</guid>
+      <description>&lt;p&gt;Your content here&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Drums, Music, etc</title>
       <link>https://roumail.github.io/blog/drumming/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
@@ -29,12 +38,11 @@
     </item>
     
     <item>
-      <title>Tags</title>
-      <link>https://roumail.github.io/tags/</link>
+      <title>Sitemap</title>
+      <link>https://roumail.github.io/sitemap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://roumail.github.io/tags/</guid>
-      <description>&lt;p&gt;Browse blog posts by tags.&lt;/p&gt;
-</description>
+      <guid>https://roumail.github.io/sitemap/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -5,12 +5,32 @@
     <loc>https://roumail.github.io/blog/musings/reading-list/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+    <loc>https://roumail.github.io/blog/musings/2023-08-30-dreams/</loc>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/categories/</loc>
-    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/categories/musings/</loc>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/blog/</loc>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/tag/reflections/</loc>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/tags/</loc>
+    <lastmod>2023-08-30T23:45:46+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://roumail.github.io/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/categories/drumming/</loc>
@@ -21,29 +41,22 @@
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/blog/</loc>
-    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://roumail.github.io/authors/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/about/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/contact/</loc>
+    <loc>https://roumail.github.io/authors/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/categories/musings/</loc>
+    <loc>https://roumail.github.io/contact/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/authors/rohail-taimour/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://roumail.github.io/tags/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/tags/</loc>
+    <loc>https://roumail.github.io/sitemap/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://roumail.github.io/categories/technology/</loc>
