@@ -8,6 +8,6 @@ sections:
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: rohail-taimour
+      username: admin # or rohail-taimour
 ---
 Doesn't work

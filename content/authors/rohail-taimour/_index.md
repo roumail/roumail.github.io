@@ -10,7 +10,7 @@ authors:
 - "rohail-taimour"
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: "Data Scientist & Professional Educator"
