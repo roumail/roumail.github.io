@@ -7,7 +7,7 @@ sections:
     content:
       title: Blog Tags
     #   subtitle: My subtitle
-    #   text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      text: Choose a tag to see all the posts associated with it.
       # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
       taxonomy: tags
       # Choose how many tags you would like to display (0 = all tags)
@@ -19,8 +19,8 @@ sections:
   - block: tag_cloud
     content:
       title: Blog categories
-    #   subtitle: My subtitle
-    #   text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      subtitle: Drumming, technology, musings.
+      text: Welcome to the categories section of my blog. Here, you can explore posts organized by various topics. Choose a category to see all the posts associated with it.
       # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
       taxonomy: categories
       # Choose how many tags you would like to display (0 = all tags)
@@ -30,5 +30,3 @@ sections:
       font_size_min: 0.7
       font_size_max: 2.0
 ---
-
-Browse blog posts by tags.

@@ -17,10 +17,6 @@ main:
     url: /blog/
     weight: 11
     identifier: "blog"
-  - name: Blog categories
-    url: /categories/
-    weight: 12
-    identifier: "categories"
   - name: Resume
     url: https://roumail.github.io/markdown-cv
     weight: 16
