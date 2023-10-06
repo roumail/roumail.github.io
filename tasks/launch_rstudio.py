@@ -26,7 +26,7 @@ def launch_rstudio(c):
     )
     dockerhub_image = construct_image_name(tag)
     docker_run_options = create_base_docker_run_options(project_root_dir)
-    volume_mounts = create_volume_mounts(config["volume_mounts"])
+    volume_mounts = create_volume_mounts(config.get("volume_mounts"))
 
     launch_options = (
         f"-p {host_port}:8787",
