@@ -54,6 +54,7 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
+  series: series
   # publication_type: publication_types
   # author: authors
 markup:
