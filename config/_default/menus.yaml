@@ -10,6 +10,11 @@ main:
   - name: Posts
     url: '/post/'
     weight: 20
+    identifier: "posts"
+  - name: Blog Series
+    url: '/series/'
+    weight: 21
+    parent: "posts"
   - name: Resume
     url: https://roumail.github.io/markdown-cv
     weight: 24
