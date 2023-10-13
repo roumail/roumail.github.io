@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div>
+  {{ .Content }}
+</div>
+
+{{ with .Params.series }}
+<h2>Articles in this series:</h2>
+<ul>
+  {{ $pages := where $.Site.RegularPages "Params.series" . }}
+  {{ range $pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+{{ end }}
