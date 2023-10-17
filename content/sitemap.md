@@ -3,11 +3,12 @@ title: "Sitemap"
 type: landing
 
 sections:
-# - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-  #   design:
-  #     columns: '2'
+  - block: markdown
+    content:
+      title: Blog series
+      text: 'Interested in diving deeper into specific topics? Check out my [Blog Series](/series/) for curated content.'
+    design:
+      columns: '2'
   - block: tag_cloud
     content:
       title: Blog Tags
