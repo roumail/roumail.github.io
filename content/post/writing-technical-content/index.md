@@ -1,6 +1,7 @@
 ---
 title: Writing technical content in Markdown
 date: 2019-07-12
+draft: true
 categories: ["musings", "drumming"]
 math: true
 image:
