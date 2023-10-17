@@ -77,8 +77,5 @@
   </url><url>
     <loc>https://roumail.github.io/sitemap/</loc>
     <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://roumail.github.io/post/writing-a-scraper-that-scales-series/</loc>
-    <changefreq>weekly</changefreq>
   </url>
 </urlset>
