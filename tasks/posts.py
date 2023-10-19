@@ -1,7 +1,7 @@
 import os
 import re
 from datetime import datetime
-
+from pathlib import Path
 from invoke import task
 
 
@@ -58,8 +58,7 @@ def new_post(c, title, series=None, quarto=False):
     os.makedirs(post_dir, exist_ok=True)
 
     # Determine the file extension based on the quarto flag
-    file_ext = ".qmd" if quarto else ".md"
-    path2post = f"{post_dir}/index{file_ext}"
+    path2post = Path(f"{post_dir}/index.md")
 
     # Create the new Hugo blog post
     c.run(f"hugo new --kind blog-post {path2post}")
@@ -67,6 +66,9 @@ def new_post(c, title, series=None, quarto=False):
 
     # Add Quarto specific format specifications if quarto flag is enabled
     if quarto:
+        path2post_qmd = path2post.with_suffix('.qmd')
+        path2post.rename(path2post_qmd)
+        path2post = path2post_qmd 
         with open(path2post, "a") as f:
             f.write("\nformat: hugo-md\njupyter: python3\n")
 
