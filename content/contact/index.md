@@ -44,6 +44,7 @@ sections:
         provider: formspree
         formspree:
           id: xpzeelgp
+          captcha: true
   #       netlify:
   #         # Enable CAPTCHA challenge to reduce spam?
   #         captcha: false
