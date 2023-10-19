@@ -6,11 +6,10 @@ from invoke import task
 
 
 def update_series(post_path, series):
-    index_file_path = os.path.join(post_path, "index.md")
-    with open(index_file_path, "r") as f:
+    with open(post_path, "r") as f:
         lines = f.readlines()
 
-    with open(index_file_path, "w") as f:
+    with open(post_path, "w") as f:
         for line in lines:
             if "series:" in line:
                 f.write(f"series: {series}\n")
@@ -77,8 +76,7 @@ def new_post(c, title, series=None, quarto=False):
         path2series_dir = f"content/post/{series_harmonized}"
 
         # Update the series front matter in index.md
-        update_series(post_dir, series_harmonized)
-
+        update_series(path2post, series_harmonized)
         print(f"Updated series front matter for '{series}' at {path2post}")
 
         # Path to the _index.md file
