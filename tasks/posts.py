@@ -36,7 +36,7 @@ def new_post(c, title, series=None):
     # Harmonize the title and series names
     title_harmonized = harmonize_name(title)
     if series:
-        series_harmonized = harmonize_name(series)
+        series_harmonized = f"series-{harmonize_name(series)}"
 
     # Create a timestamped directory
     timestamp = datetime.now().strftime("%Y-%m-%d")
