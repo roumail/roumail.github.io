@@ -65,9 +65,9 @@ def new_post(c, title, series=None, quarto=False):
 
     # Add Quarto specific format specifications if quarto flag is enabled
     if quarto:
-        path2post_qmd = path2post.with_suffix('.qmd')
+        path2post_qmd = path2post.with_suffix(".qmd")
         path2post.rename(path2post_qmd)
-        path2post = path2post_qmd 
+        path2post = path2post_qmd
         with open(path2post, "a") as f:
             f.write("\nformat: hugo-md\njupyter: python3\n")
 
