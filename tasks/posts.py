@@ -57,10 +57,18 @@ def new_post(c, title, series=None, quarto=False):
     # Create the directory
     os.makedirs(post_dir, exist_ok=True)
 
+    # Determine the file extension based on the quarto flag
+    file_ext = ".qmd" if quarto else ".md"
+    path2post = f"{post_dir}/index{file_ext}"
+
     # Create the new Hugo blog post
-    path2post = f"{post_dir}/index.md"
     c.run(f"hugo new --kind blog-post {path2post}")
     print(f"New post created at {path2post}")
+
+    # Add Quarto specific format specifications if quarto flag is enabled
+    if quarto:
+        with open(path2post, "a") as f:
+            f.write("\nformat: hugo-md\njupyter: python3\n")
 
     # Check if a series is specified
     if series:
