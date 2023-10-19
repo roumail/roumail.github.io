@@ -13,7 +13,10 @@ def harmonize_name(name):
     name = name.replace(" ", "-")  # Replace spaces with hyphens
     return name
 
-@task
+@task(help={
+    'title': 'The title of the blog post you want to create.',
+    'series': 'The series to which the blog post belongs (optional).'
+})
 def new_post(c, title, series=None):
     """
     Create a new post with a given title under a specified category.
