@@ -11,7 +11,7 @@ def update_series(post_path, series):
 
     with open(index_file_path, "w") as f:
         for line in lines:
-            if line.startswith("series:"):
+            if "series:" in line:
                 f.write(f"series: {series}\n")
             else:
                 f.write(line)
@@ -60,7 +60,7 @@ def new_post(c, title, series=None):
         series_path = f"content/post/{series_harmonized}"
 
         # Update the series front matter in index.md
-        update_series(path, series)
+        update_series(path, series_harmonized)
 
         print(f"Updated series front matter for '{series}' at {path}/index.md")
 
