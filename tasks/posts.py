@@ -22,7 +22,7 @@ def harmonize_name(name):
     """
     name = re.sub(r":", "", name)  # Remove colons
     name = name.replace(" ", "-")  # Replace spaces with hyphens
-    return name
+    return name.lower()
 
 @task(help={
     'title': 'The title of the blog post you want to create.',
