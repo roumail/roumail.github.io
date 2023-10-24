@@ -97,6 +97,7 @@ draft: true
 #   2 = Compact
 #   3 = Card
 view: 2
+---
 """
                 )
             print(f"_index.md for series '{series}' created at {index_file_path}")
