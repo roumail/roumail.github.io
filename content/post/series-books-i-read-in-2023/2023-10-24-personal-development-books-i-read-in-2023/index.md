@@ -1,12 +1,16 @@
 ---
-title: "Books I Read in 2023"
-summary: "Explore a curated list of books I've read this year, covering a range of topics from boosting productivity and unlocking creativity to diving into technical subjects and personal growth. Discover spiritual insights and life-changing perspectives."
+title: "Personal Development Books I Read in 2023"
+summary: "Explore a curated list of productivity books I've read this year, 
+covering a range of topics from boosting productivity and unlocking creativity 
+personal growth, spiritual insights and life-changing perspectives."
 categories: ["musings"]
 tags: ["books"]
 authors:
+series: books-i-read-in-2023
+authors:
  - admin
-url: "/read-list-2023/"
-date: 2023-10-24T09:11:37+02:00
+url: "/personal-development-read-list-2023/"
+date: 2023-10-24T12:01:32+02:00
 draft: true
 gallery_item:
   - album: "reading-list-2023"
@@ -40,9 +44,6 @@ gallery_item:
     image: "nothin.jpeg"
     caption: "How to Do Nothing"
   - album: "reading-list-2023"
-    image: "python.jpeg"
-    caption: "Python Object Oriented Programming"
-  - album: "reading-list-2023"
     image: "rework.png"
     caption: "Rework"
   - album: "reading-list-2023"
@@ -66,7 +67,7 @@ gallery_item:
 crucial ingredient in achieving this was  
 
 
-### Comments from the books below
+## Comments from the books below
 
 Personal Development
 * [The Magic of Thinking Big](https://www.amazon.com/Magic-Thinking-Big-David-Schwartz-ebook/dp/B00NGZIR92/ref=sr_1_1?crid=OA4UZM6K54PT&keywords=The+Magic+of+Thinking+Big&qid=1698135439&s=digital-text&sprefix=the+magic+of+thinking+big%2Cdigital-text%2C144&sr=1-1)
@@ -85,7 +86,7 @@ Productivity
 * insight 2
 * insight 3
 
-### Comments from the books below
+## Comments from the books below
 
 Spirituality
 * [The Surrender Experiment](https://www.amazon.com/Surrender-Experiment-Journey-Lifes-Perfection-ebook/dp/B00NDTUDOS/ref=sr_1_1?crid=2OFNLINWYWBIC&keywords=the+surrender+experiment+by+michael+singer&qid=1698135330&s=digital-text&sprefix=Surrender+Experiment+%2Cdigital-text%2C140&sr=1-1)
@@ -96,9 +97,9 @@ Spirituality
 * insight 2
 * insight 3
 
-### Comments from the books below
+## Comments from the books below
 
-### Creativity 
+## Creativity 
 
 * [Effortless Mastery](https://www.amazon.com/Effortless-Mastery-Liberating-Musician-Within-ebook/dp/B005OUHOLY/ref=sr_1_1?crid=M330Y58Q9VA4&keywords=Effortless+Mastery&qid=1698135274&s=digital-text&sprefix=effortless+mastery%2Cdigital-text%2C128&sr=1-1)
 * [The Memory Palace](https://www.amazon.com/Memory-Palace-Anything-Everything-Shakespeare-ebook/dp/B007V3FLTE)
@@ -107,11 +108,6 @@ Spirituality
 * insight 1  
 * insight 2
 * insight 3
-
-### Comments from the books below
-
-Technical Topics
-* [Python Object Oriented Programming](https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented-ebook/dp/B07JG9BQZC/ref=sr_1_1?crid=195YD6YSF5GE&keywords=Python+Object+Oriented+Programming+dusty&qid=1698135293&s=digital-text&sprefix=python+object+oriented+programming+dusty%2Cdigital-text%2C137&sr=1-1)
 
 
 {{% callout note %}}
