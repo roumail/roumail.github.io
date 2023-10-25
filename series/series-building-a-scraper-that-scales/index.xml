@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>series-building-a-scraper-that-scales | Musings from Rohail</title>
+    <link>https://roumail.github.io/series/series-building-a-scraper-that-scales/</link>
+      <atom:link href="https://roumail.github.io/series/series-building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
+    <description>series-building-a-scraper-that-scales</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Oct 2023 16:15:28 +0200</lastBuildDate>
+    <image>
+      <url>https://roumail.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>series-building-a-scraper-that-scales</title>
+      <link>https://roumail.github.io/series/series-building-a-scraper-that-scales/</link>
+    </image>
+    
+    <item>
+      <title>Stateful Applications Need to Be Designed Differently</title>
+      <link>https://roumail.github.io/a-scraper-that-scales-part-ii/</link>
+      <pubDate>Wed, 25 Oct 2023 16:15:28 +0200</pubDate>
+      <guid>https://roumail.github.io/a-scraper-that-scales-part-ii/</guid>
+      <description>&lt;p&gt;Complete me&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Motivation to Build a Scraper in Python</title>
+      <link>https://roumail.github.io/a-scraper-that-scales-part-i/</link>
+      <pubDate>Tue, 24 Oct 2023 16:14:00 +0200</pubDate>
+      <guid>https://roumail.github.io/a-scraper-that-scales-part-i/</guid>
+      <description>
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;Motivation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#implementing-the-proof-of-concept&#34;&gt;Implementing the Proof of concept&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#a-sidenote-on-bayesian-statistics&#34;&gt;A sidenote on Bayesian statistics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#revisiting-the-implementation-once-again&#34;&gt;Revisiting the implementation once again&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#areas-of-improvement&#34;&gt;Areas of improvement&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-efficiency-in-data-scraping&#34;&gt;1. Efficiency in Data Scraping&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-dependency-management&#34;&gt;2. Dependency Management&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#3-code-refactoring-for-readability-and-maintainability&#34;&gt;3. Code Refactoring for Readability and Maintainability&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#5-data-storage-and-validation&#34;&gt;5. Data Storage and Validation&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#final-comments&#34;&gt;Final comments&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Remember that period when most parts of the world were in a lockdown due to
+COVID? Yes, we&amp;rsquo;re nearing the end of 2023 and COVID seems like a distant memory
+at this point. However, like I imagine many of us, I suddenly found that being
+restricted in movement and social interaction to a large extent, I had a lot
+more time at my disposal. This was also a time where my wife and I realised that
+we could have more space for ourselves so each of us could have an office setup
+we could be happy with. This also being a time of low interest rates to
+encourage consumption in the economy, it was an especially interesting property
+market.&lt;/p&gt;
+&lt;p&gt;This seemed as good a time as any to write a scraper for Belgium&amp;rsquo;s most popular
+property listings website: &lt;a href=&#34;https://immoweb.be&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;immoweb&lt;/a&gt;. My desire for this
+first version was to first, be able to have a very general idea of the Brussels
+property market. Thereafter, I would launch this script every few days to look
+at the new  properties. The output of this script would be a CSV that I&amp;rsquo;d use
+to spot good deals and have all the relevant information I&amp;rsquo;d need to schedule
+visits.&lt;/p&gt;
+&lt;h2 id=&#34;implementing-the-proof-of-concept&#34;&gt;Implementing the Proof of concept&lt;/h2&gt;
+&lt;p&gt;I was running this script from a windows machine at the time and having done a
+scraping project once before already, knew that I&amp;rsquo;d start with &lt;code&gt;selenium&lt;/code&gt; for
+the browser automation and parsing of the html. The setup required that I choose
+a browser and a corresponding geckodriver (with the appropriate version for your
+browser) to go along with it. I&amp;rsquo;ve used firefox and edge browsers (and their
+respective drivers) for different iterations of the  scraper implementation.&lt;/p&gt;
+&lt;p&gt;After messing around with developer tools, looking into the dom&amp;rsquo;s containing
+the information I was looking for using &lt;code&gt;inspect&lt;/code&gt;, I had a script that was doing
+the job. I made a conda export of the environment I used for the scraping in
+case I ever needed to revisit this work again. This script did the job and I
+was quite happy leaving it at that with an environment export so I could pick
+up from this analysis when needed. This version of the script can be found
+&lt;a href=&#34;https://github.com/roumail/immoweb-scraper/tree/second_run&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for
+those who are interested.&lt;/p&gt;
+&lt;h2 id=&#34;a-sidenote-on-bayesian-statistics&#34;&gt;A sidenote on Bayesian statistics&lt;/h2&gt;
+&lt;p&gt;For the longest time I&amp;rsquo;ve been a fan of Bayesian statistics. Being able to
+explicitly encode your modelling assumptions in the form of priors, as well as
+being very deliberate in reconstructing the data generating process of the
+phenomenon you&amp;rsquo;re modelling. You can visually verify how well your model is
+generalizing by doing what is called a &lt;a href=&#34;https://en.wikipedia.org/wiki/Posterior_predictive_distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;posterior predictive check&lt;/a&gt;. The computational aspects of MCMC sampling
+also appeals to the nerd in me, while the convergence of your sampler gives
+indications about how well-informed a hypothesis you have for your data
+generating process. An ill-formulated model will simply not converge,
+unlike a number of other approaches which would always give a solution and then
+you&amp;rsquo;re left to figure out if you&amp;rsquo;re overfitting or underfitting. Then there is
+the fact that you are always able to work with distributions of your phenomenon
+of interest rather than relying solely on point estimates like we would in most
+other methods. There&amp;rsquo;s a number of fascinating things that are possible with
+these posterior distributions, which include bayesian decision making. I will
+link to a great discussion on the subject by Thomas Wiecki on the subject
+&lt;a href=&#34;https://twiecki.io/blog/2019/01/14/supply_chain/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; where we can see how
+to use our models to directly show the impact of uncertainy on real business
+metrics rather than arcane statistical metrics such as &lt;code&gt;mean squared error&lt;/code&gt;,
+&lt;code&gt;f1 score&lt;/code&gt; and the like which don&amp;rsquo;t hold any real business meaning.&lt;/p&gt;
+&lt;p&gt;Naturally, I have my bias for these methods and using these models bring their
+own challenges. In some cases, traditional machine learning approaches would
+give better performance without sacrificing interpretability and help you reach
+a conclusion faster than using these bespoke modelling approaches. Nonetheless,
+I was on the lookout for an opportunity to find a dataset where I could exploit
+the natural hierarchical structure of data in a
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hierarchical modelling&lt;/a&gt;
+or the flexiblity of Gaussian process modelling to capture the intricaties of
+non-linear processes. The &lt;a href=&#34;https://www.pymc.io/projects/examples/en/latest/gaussian_processes/GP-smoothing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; shows the distinction between modelling
+the same problem as a regression vs using a gaussian process smoothing model.&lt;/p&gt;
+&lt;h2 id=&#34;revisiting-the-implementation-once-again&#34;&gt;Revisiting the implementation once again&lt;/h2&gt;
+&lt;p&gt;Any data scientist or machine learning practitioner will tell you about their
+struggles with data. It&amp;rsquo;s either data quality (or lack thereof) or just the lack
+of data itself for performing interesting analyses. Then it suddenly occurred
+to me: property data is perfect for the experiments I wanted to conduct.&lt;/p&gt;
+&lt;p&gt;Scraping property prices over time gives the opportunity to model property
+prices over time and ask interesting questions, including, but not limited to
+the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Are rental property prices growing at the same rate as purchase properties?&lt;/li&gt;
+&lt;li&gt;Do we observe a similar growth rate across different communes?&lt;/li&gt;
+&lt;li&gt;Are properties in the same commune priced similarly and if so, how much does
+this vary by commune?&lt;/li&gt;
+&lt;li&gt;What are the most important determinants of price?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A dataset of this nature contains elements of time series analysis since
+property prices evolve over time. There is also a natural structure in the data
+that can be exploited since we can indeed expect properties within communes to
+be similarly priced. This would be a place where we can use Gaussian process
+modelling to capture the underlying trends and fluctuations in property
+prices within each commune. We can use property proximity to model the inherent
+spatial relationships between properties, assuming that properties closer to
+each other are more likely to have similar prices!&lt;/p&gt;
+&lt;p&gt;By revisiting my initial scraper implementation with this newfound focus, I am
+not just enhancing a tool; I am building a robust data collection pipeline
+that will serve as the backbone for these sophisticated analytical experiments.&lt;/p&gt;
+&lt;h2 id=&#34;areas-of-improvement&#34;&gt;Areas of improvement&lt;/h2&gt;
+&lt;p&gt;With a clear goal in mind, I identified several key areas to refine the
+scraper&amp;rsquo;s implementation. These improvements were aimed at making the scraper
+more efficient, easier to manage, and more robust for data collection and
+analysis.&lt;/p&gt;
+&lt;h3 id=&#34;1-efficiency-in-data-scraping&#34;&gt;1. Efficiency in Data Scraping&lt;/h3&gt;
+&lt;p&gt;Switch to Beautiful Soup: I wanted to transition from
+&lt;a href=&#34;https://pypi.org/project/selenium/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Selenium&lt;/a&gt; to
+&lt;a href=&#34;https://pypi.org/project/beautifulsoup4/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beautiful Soup&lt;/a&gt; for parsing raw
+HTML. This change ought to significantly reduced the time needed to scrape data.&lt;/p&gt;
+&lt;p&gt;Parametrization of Postal Codes: Allowing postal codes as an input parameter
+to make the scraper more flexible. I was initially only looking into a few
+communes in Brussels that I was interested in. However, if I wanted to do some
+interesting analyses, I also wanted to consider communes neighboring Brussels.&lt;/p&gt;
+&lt;h3 id=&#34;2-dependency-management&#34;&gt;2. Dependency Management&lt;/h3&gt;
+&lt;p&gt;Use of Poetry: To manage the project&amp;rsquo;s dependencies more effectively, I
+wanted to convert the script into a Python package and used &lt;a href=&#34;&#34;&gt;Poetry&lt;/a&gt; for managing
+the dependencies. This streamlines the installation process and allows me to
+manage the package versions in a systematic version. This would be especially
+useful as we dockerize the analysis in the future and build a CI/CD pipeline.&lt;/p&gt;
+&lt;p&gt;Implementation of Typer: I used &lt;a href=&#34;https://pypi.org/project/typer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Typer&lt;/a&gt; to
+create a command-line interface from the main application entrypoint. I&amp;rsquo;ve
+effectively transitioned to using this instead of
+&lt;a href=&#34;https://pypi.org/project/click/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;click&lt;/code&gt;&lt;/a&gt; recently.&lt;/p&gt;
+&lt;h3 id=&#34;3-code-refactoring-for-readability-and-maintainability&#34;&gt;3. Code Refactoring for Readability and Maintainability&lt;/h3&gt;
+&lt;p&gt;Object-Oriented Approach: I wanted to refactor the code to use Python classes
+instead of just functions where appropriate. By using meaningful class names, the
+code can become self-documenting and easier to maintain and extend in the long
+run.&lt;/p&gt;
+&lt;h3 id=&#34;5-data-storage-and-validation&#34;&gt;5. Data Storage and Validation&lt;/h3&gt;
+&lt;p&gt;SQLite Database: I wanted to use a SQLite database with an initial schema to
+store the data I&amp;rsquo;d be accumulating over time. I&amp;rsquo;ve really enjoyed working with
+&lt;a href=&#34;https://pypi.org/project/SQLAlchemy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;SQLAlchemy&lt;/code&gt;&lt;/a&gt; as the ORM mapper to interact with the database.&lt;/p&gt;
+&lt;p&gt;Data Validation with Pydantic: Before adding the scraped data to the database,
+I implemented validation checks using
+&lt;a href=&#34;https://pypi.org/project/pydantic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pydantic&lt;/a&gt;. This ensured that only
+high-quality, accurate data was stored.&lt;/p&gt;
+&lt;p&gt;By focusing on these areas, I aimed to build a scraper that was not just a
+one-off script but a robust data collection tool capable of supporting more
+complex analyses and experiments.&lt;/p&gt;
+&lt;h2 id=&#34;final-comments&#34;&gt;Final comments&lt;/h2&gt;
+&lt;p&gt;In the next blog &lt;a href=&#34;https://roumail.github.io/a-scraper-that-scales-part-ii/&#34;&gt;post&lt;/a&gt; in the series, I will go over the implementation details.
+For those interested, you can find the current state of the project
+&lt;a href=&#34;https://github.com/roumail/immoweb-scraper/tree/v1.0.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
