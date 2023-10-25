@@ -1,5 +1,5 @@
 ---
-title: "Personal Development Books I Read in 2023"
+title: "Personal Development Books I Read in 2023 (continued)"
 summary: "Explore a curated list of productivity books I've read this year, 
 covering a range of topics from boosting productivity and unlocking creativity 
 personal growth, spiritual insights and life-changing perspectives."
@@ -8,25 +8,22 @@ tags: ["books", "personal-development"]
 series: books-i-read-in-2023
 authors:
  - admin
-url: "/personal-development-read-list-2023/"
+url: "/personal-development-read-list-2023-continued/"
 date: 2023-10-24T12:01:32+02:00
 draft: true
 gallery_item:
   - album: "reading-list-2023"
-    image: "cheese.jpg"
-    caption: "Who Moved My Cheese"
+    image: "essentialism.jpg"
+    caption: "Essentialism"
   - album: "reading-list-2023"
-    image: "daring.jpeg"
-    caption: "Daring Greatly"
+    image: "artist.jpg"
+    caption: "The Artist's way"
   - album: "reading-list-2023"
-    image: "needs.jpg"
-    caption: "Experiencing Needs as a Gift"
+    image: "effortless.jpeg"
+    caption: "Effortless Mastery"
   - album: "reading-list-2023"
-    image: "surrender.jpeg"
-    caption: "Surrender Experiment"
-  - album: "reading-list-2023"
-    image: "untethered.jpg"
-    caption: "Untethered Soul"
+    image: "nothin.jpeg"
+    caption: "How to Do Nothing"
 ---
 
 ## Books overview

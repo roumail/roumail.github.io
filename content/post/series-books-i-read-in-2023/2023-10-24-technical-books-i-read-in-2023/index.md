@@ -1,6 +1,6 @@
 ---
 title: "Technical books I read in 2023"
-summary: "Explore my discussion of a curated list of books delving into python, software engineering and software architecture. Discover spiritual insights and life-changing perspectives."
+summary: "Explore my discussion of a curated list of books delving into python, software engineering and software architecture."
 categories: ["musings", "technical"]
 tags: ["books", "python"]
 series: books-i-read-in-2023
