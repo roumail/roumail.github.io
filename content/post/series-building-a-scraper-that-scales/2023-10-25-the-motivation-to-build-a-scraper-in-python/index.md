@@ -7,7 +7,7 @@ series: series-building-a-scraper-that-scales
 authors:
  - admin
 url: "/a-scraper-that-scales-part-i/"
-date: 2023-10-25T16:14:00+02:00
+date: 2023-10-24T16:14:00+02:00
 draft: false
 ---
 
