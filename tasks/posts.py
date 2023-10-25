@@ -12,7 +12,7 @@ def update_series(post_path, series):
     with open(post_path, "w") as f:
         for line in lines:
             if "series:" in line:
-                f.write(f"series: {series}\n")
+                f.write(f"series: [\"{series}\"]\n")
             else:
                 f.write(line)
 
