@@ -124,7 +124,8 @@ analysis.
 Switch to Beautiful Soup: I wanted to transition from 
 [Selenium](https://pypi.org/project/selenium/) to 
 [Beautiful Soup](https://pypi.org/project/beautifulsoup4/) for parsing raw 
-HTML. This change ought to significantly reduced the time needed to scrape data.
+HTML. This change ought to significantly reduced the time needed to scrape data.  
+
 Parametrization of Postal Codes: Allowing postal codes as an input parameter 
 to make the scraper more flexible. I was initially only looking into a few 
 communes in Brussels that I was interested in. However, if I wanted to do some 
@@ -153,6 +154,7 @@ run.
 SQLite Database: I wanted to use a SQLite database with an initial schema to 
 store the data I'd be accumulating over time. I've really enjoyed working with 
 [`SQLAlchemy`](https://pypi.org/project/SQLAlchemy/) as the ORM mapper to interact with the database.
+
 Data Validation with Pydantic: Before adding the scraped data to the database, 
 I implemented validation checks using 
 [Pydantic](https://pypi.org/project/pydantic/). This ensured that only 
@@ -164,7 +166,7 @@ complex analyses and experiments.
 
 ## Final comments
 
-In the next blog post in the series, I will go over the implementation details.
+In the next blog [post](/a-scraper-that-scales-part-ii/) in the series, I will go over the implementation details.
 For those interested, you can find the current state of the project 
 [here](https://github.com/roumail/immoweb-scraper/tree/v1.0.0).
 
