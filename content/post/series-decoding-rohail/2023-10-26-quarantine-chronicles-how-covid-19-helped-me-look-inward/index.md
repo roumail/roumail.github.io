@@ -71,11 +71,6 @@ I was experimenting with different material, playing along to songs I loved and 
 
 {{< figure src="kit-setup.jpg" caption="Hi hat (left) setup incredibly low for open handed playing"  >}}
 
-<!---
-This is what a typical practice session would look like for me:
-{{< video src="drum-beat.mp4" controls="yes" caption="left hand lead basic beat" >}}
--->
-
 A typical practice session eventually came to be an hour or more of playing 
 between 2-3 exercises, on a 15-20 minute break. Sound boring? I found it to be 
 rather meditative actually. This setup was a result of a lot of self-reflection 

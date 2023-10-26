@@ -51,6 +51,8 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  newsletter:
+    mailchimpURL: 'https://us21.us21.list-manage.com/subscribe?u=51797cdf15c0dbf7a7f4831b3&id=e897286f6b'
 
 # Localization
 
