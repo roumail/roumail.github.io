@@ -10,7 +10,7 @@ authors:
  - admin
 url: "/personal-development-read-list-2023/"
 date: 2023-10-24T12:01:32+02:00
-draft: false
+draft: true
 gallery_item:
   - album: "reading-list-2023"
     image: "cheese.jpg"
@@ -32,6 +32,12 @@ gallery_item:
 ## Books overview
 
 {{< gallery album="reading-list-2023" resize_options="250x250" >}}
+
+caption: "Who Moved My Cheese"
+caption: "Daring Greatly"
+caption: "Experiencing Needs as a Gift"
+caption: "Surrender Experiment"
+caption: "Untethered Soul"
 
 ## Theme of the year: Personal development and self-reflection
 

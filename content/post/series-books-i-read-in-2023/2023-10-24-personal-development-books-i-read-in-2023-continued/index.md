@@ -35,6 +35,10 @@ gallery_item:
 2023 has been a productive year as far as reading books is concerned. The most 
 crucial ingredient in achieving this was  
 
+caption: "Essentialism"
+caption: "Effortless Mastery"
+caption: "How to Do Nothing"
+caption: "The Artist's way"
 
 ## Comments from the books below
 
