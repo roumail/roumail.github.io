@@ -5,12 +5,12 @@ covering a range of topics from boosting productivity and unlocking creativity
 personal growth, spiritual insights and life-changing perspectives."
 categories: ["musings"]
 tags: ["books", "personal-development"]
-series: books-i-read-in-2023
+series: ["books-i-read-in-2023"]
 authors:
  - admin
 url: "/personal-development-read-list-2023/"
 date: 2023-10-24T12:01:32+02:00
-draft: true
+draft: false
 gallery_item:
   - album: "reading-list-2023"
     image: "cheese.jpg"
@@ -80,12 +80,4 @@ Spirituality
 * insight 1  
 * insight 2
 * insight 3
-
-
-{{% callout note %}}
-I've also read some fiction this year!
-{{% /callout %}}
-
-
-[Stephen Fry's Mythos](https://www.amazon.com/Mythos-Ancient-Mythology-Telling-Classical-ebook/dp/B07SLLYGF6/ref=sr_1_1?crid=23SXF3WEB1HWH&keywords=Stephen+Fry%27s+Mythos&qid=1698135309&s=digital-text&sprefix=stephen+fry%27s+mythos%2Cdigital-text%2C139&sr=1-1)
 
