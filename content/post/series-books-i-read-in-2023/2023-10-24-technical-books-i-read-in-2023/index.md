@@ -3,7 +3,7 @@ title: "Technical books I read in 2023"
 summary: "Explore my discussion of a curated list of books delving into python, software engineering and software architecture."
 categories: ["musings", "technical"]
 tags: ["books", "python"]
-series: ["books-i-read-in-2023"]
+series: ["Books I Read in 2023"]
 authors:
  - admin
 url: "/technical-read-list-2023/"

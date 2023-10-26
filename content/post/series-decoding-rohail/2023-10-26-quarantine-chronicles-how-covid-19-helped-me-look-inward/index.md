@@ -3,7 +3,7 @@ title: "Quarantine Chronicles: How COVID-19 Helped me look inward"
 summary: ""
 categories: ["musings"]
 tags: ["drums"]
-series: ["series-decoding-rohail"]
+series: ["Decoding Rohail"]
 authors:
  - admin
 url: "/personal-values-part-i/"

@@ -5,7 +5,7 @@ covering a range of topics from boosting productivity and unlocking creativity
 personal growth, spiritual insights and life-changing perspectives."
 categories: ["musings"]
 tags: ["books", "personal-development"]
-series: ["books-i-read-in-2023"]
+series: ["Books I Read in 2023"]
 authors:
  - admin
 url: "/personal-development-read-list-2023-final/"

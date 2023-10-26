@@ -3,7 +3,7 @@ title: "Stateful Applications Need to Be Designed Differently"
 summary: "The improvements and what remains"
 categories: ["technology"]
 tags: ["python", "web-scraping"]
-series: ["series-building-a-scraper-that-scales"]
+series: ["Building a Scraper that scales"]
 authors:
  - admin
 url: "/a-scraper-that-scales-part-ii/"

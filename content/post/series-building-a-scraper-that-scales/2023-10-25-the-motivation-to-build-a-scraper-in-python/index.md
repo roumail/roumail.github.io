@@ -3,7 +3,7 @@ title: "The Motivation to Build a Scraper in Python"
 summary: "Explore the journey of building a robust web scraper for analyzing Belgium's property market. Learn how we transitioned from Selenium to Beautiful Soup for efficiency, used Poetry and Typer for better dependency management, amongst other tools. This blog is part one of a series aimed at creating a scalable data collection and analysis tool"
 categories: ["technology"]
 tags: ["python", "web-scraping"]
-series: ["series-building-a-scraper-that-scales"]
+series: ["Building a Scraper that scales"]
 authors:
  - admin
 url: "/a-scraper-that-scales-part-i/"

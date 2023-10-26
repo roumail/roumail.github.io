@@ -5,7 +5,7 @@ from pathlib import Path
 from invoke import task
 
 
-def update_series(post_path, series):
+def update_series(post_path: str, series: str):
     with open(post_path, "r") as f:
         lines = f.readlines()
 
@@ -21,7 +21,7 @@ def harmonize_name(name):
     """
     Harmonize the given name by removing colons and replacing spaces with hyphens.
     """
-    name = re.sub(r":", "", name)  # Remove colons
+    name = re.sub(r"[:?/\]", "", name)  # Remove colons
     name = name.replace(" ", "-")  # Replace spaces with hyphens
     return name.lower()
 
@@ -41,7 +41,7 @@ def new_post(c, title, series=None, quarto=False):
     # Harmonize the title and series names
     title_harmonized = harmonize_name(title)
     if series:
-        series_harmonized = f"series-{harmonize_name(series)}"
+        series_path_name = f"series-{harmonize_name(series)}"
 
     # Create a timestamped directory
     timestamp = datetime.now().strftime("%Y-%m-%d")
@@ -49,7 +49,7 @@ def new_post(c, title, series=None, quarto=False):
 
     # Determine the path where the new blog post should be created
     if series:
-        post_dir = f"content/post/{series_harmonized}/{timestamped_dir}"
+        post_dir = f"content/post/{series_path_name}/{timestamped_dir}"
     else:
         post_dir = f"content/post/{timestamped_dir}"
 
@@ -73,10 +73,10 @@ def new_post(c, title, series=None, quarto=False):
 
     # Check if a series is specified
     if series:
-        path2series_dir = f"content/post/{series_harmonized}"
+        path2series_dir = f"content/post/{series_path_name}"
 
         # Update the series front matter in index.md
-        update_series(path2post, series_harmonized)
+        update_series(path2post, series)
         print(f"Updated series front matter for '{series}' at {path2post}")
 
         # Path to the _index.md file

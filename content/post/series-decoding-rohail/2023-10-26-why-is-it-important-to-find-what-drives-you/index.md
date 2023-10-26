@@ -3,7 +3,7 @@ title: "Why Is It Important to Find What Drives You"
 summary: ""
 categories: ["musings"]
 tags: []
-series: ["series-decoding-rohail"]
+series: ["Decoding Rohail"]
 authors:
  - admin
 url: "/personal-values-part-ii/"
