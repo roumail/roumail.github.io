@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books I read in 2023 | Musings from Rohail</title>
+    <link>https://roumail.github.io/post/series-books-i-read-in-2023/</link>
+      <atom:link href="https://roumail.github.io/post/series-books-i-read-in-2023/index.xml" rel="self" type="application/rss+xml" />
+    <description>Books I read in 2023</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://roumail.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Books I read in 2023</title>
+      <link>https://roumail.github.io/post/series-books-i-read-in-2023/</link>
+    </image>
+    
+  </channel>
+</rss>

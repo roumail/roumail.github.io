@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>series-building-a-scraper-that-scales | Musings from Rohail</title>
-    <link>https://roumail.github.io/series/series-building-a-scraper-that-scales/</link>
-      <atom:link href="https://roumail.github.io/series/series-building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
-    <description>series-building-a-scraper-that-scales</description>
+    <title>Building a Scraper that scales | Musings from Rohail</title>
+    <link>https://roumail.github.io/series/building-a-scraper-that-scales/</link>
+      <atom:link href="https://roumail.github.io/series/building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
+    <description>Building a Scraper that scales</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Oct 2023 16:15:28 +0200</lastBuildDate>
     <image>
       <url>https://roumail.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>series-building-a-scraper-that-scales</title>
-      <link>https://roumail.github.io/series/series-building-a-scraper-that-scales/</link>
+      <title>Building a Scraper that scales</title>
+      <link>https://roumail.github.io/series/building-a-scraper-that-scales/</link>
     </image>
     
     <item>
