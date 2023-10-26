@@ -71,51 +71,111 @@ I was experimenting with different material, playing along to songs I loved and 
 
 {{< figure src="kit-setup.jpg" caption="Hi hat (left) setup incredibly low for open handed playing"  >}}
 
+<!---
 This is what a typical practice session would look like for me:
-
 {{< video src="drum-beat.mp4" controls="yes" caption="left hand lead basic beat" >}}
+-->
 
-There would be about an hour or more of playing between 2-3 exercises, on a 15-20 minute break. Sound boring? I found it to be rather meditative actually. This setup was a result of a lot of self-reflection on what makes a good practice session. Benny Greb's [Effective practicing for musicians](https://www.goodreads.com/book/show/56515701-effective-practicing-for-musicians) had a lot of wisdom to share on the topic and much like Essentialism, the message was the same: Choosing is not losing. You need to make choices to go deeper and further on your topic of interest. This is especially true for something like drumming where there is more than an analytical understanding that you need to undertake to execute a particular pattern on the drums. You need to literally drill that pattern down into your body to the point where your muscle memory can take over and execute the pattern instinctively at will. 
+A typical practice session eventually came to be an hour or more of playing 
+between 2-3 exercises, on a 15-20 minute break. Sound boring? I found it to be 
+rather meditative actually. This setup was a result of a lot of self-reflection 
+on what makes a good practice session. Benny Greb's 
+[Effective practicing for musicians](https://www.goodreads.com/book/show/56515701-effective-practicing-for-musicians) had a lot of wisdom to share on 
+the topic and much like Essentialism, the message was the same: Choosing is not 
+losing. You need to make choices to go deeper and further on your topic of 
+interest. This is especially true for something like drumming where there is 
+more than an analytical understanding that you need to undertake to execute a 
+particular pattern on the drums. You need to literally drill that pattern down 
+into your body to the point where your muscle memory can take over and execute 
+the pattern instinctively at will. 
 
-Coming to this realisation wasn't easy. While it's great having all this information on our finger tips with platforms like youtube and social media but these platforms are also a constant reminder of the different way's that you're not `enough` where you are right now. We are constantly bombarded with what we don't know, what's cool and hip right now and 10 ways for you to {{ insert a hyped up skill here }}. 
+Coming to this realisation wasn't easy. While it's great having all this 
+information on our finger tips with platforms like youtube and social media but
+ these platforms are also a constant reminder of the different way's that 
+ you're not `enough` where you are right now. We are constantly bombarded with 
+ what we don't know, what's cool and hip right now and 10 ways for you to 
+ {{ insert a hyped up skill here }}. 
 
 
 ## Choices were always there, but I never realised the implications of failing to choose
 
-The learnings I had from drumming could be easily transferred to other areas of my life. I saw a number of parallels in my journey as a machine learning practitioner. Scrolling through LinkedIn, is just a reminder of all the technology frameworks you are yet to learn. That may not be everyone's experience but I bet a number of us feel that way. Feeling that way is normal unless we become hyper aware of what exactly are the topics that we are super-knowledgable and passionate about. And those topics have to necessarily form a finite set, rather than one that changes depending which side of the bed you went to sleep. The fear of missing out (FOMO) is what often prevents us from commiting to this finite set of topics that we dig our heels into. Choosing one thing, necessarily means letting go of something else and who wants that? Can't we just have it all?  
+The learnings I had from drumming could be easily transferred to other areas of
+my life. I saw a number of parallels in my journey as a machine learning 
+practitioner. Scrolling through LinkedIn, is just a reminder of all the 
+technology frameworks you are yet to learn. That may not be everyone's 
+experience but I bet a number of us feel that way. Feeling that way is normal
+unless we become hyper aware of what exactly are the topics that we are 
+super-knowledgable and passionate about. And those topics have to necessarily 
+form a finite set, rather than one that changes depending which side of the 
+bed you went to sleep. The fear of missing out (FOMO) is what often prevents`
+us from commiting to this finite set of topics that we dig our heels into.
+Choosing one thing, necessarily means letting go of something else and who 
+wants that? Can't we just have it all?  
 
-Coming back to my 5 am adventures, I was getting some exceptional results in my drumming with the discipline of putting in the time consistently every day. That was, until greed started to set in...
+Coming back to my 5 am adventures, I was getting some exceptional results in 
+my drumming with the discipline of putting in the time consistently every day.
+That was, until greed started to set in...
 
-Now I'm quite big on productivity. I have a productivity system including a number of tools:  
+Now I'm quite big on productivity. I have a productivity system including a 
+number of tools:  
 * [Evernote](www.evernote.com) for taking notes, 
 * [Trello](www.trello.com) for big picture planning, 
 * [Sunsama](www.sunsama.com) for a daily planner,  
-* [Todoist](www.todoist.com) for capturing ideas and doing some tactical prioritization,
+* [Todoist](www.todoist.com) for capturing ideas and doing some tactical 
+* prioritization,
 * Google calendar and calendly for scheduling appointments,
-* [Remarkable](www.remarkable.com) for hand written digital notes that I can send myself later for further processing.
+* [Remarkable](www.remarkable.com) for hand written digital notes that I can 
+send myself later for further processing.
 
-To the uninitiated, this would seem like a rather long list, but I've been refining this system slowly over time and it feels very natural to me. Applying Tiago Forte's [PARA](https://fortelabs.com/blog/para/) method allows me to pretty much make sure nothing escapes my attention.
+To the uninitiated, this would seem like a rather long list, but I've been 
+refining this system slowly over time and it feels very natural to me. Applying
+ Tiago Forte's [PARA](https://fortelabs.com/blog/para/) method allows me to 
+ pretty much make sure nothing escapes my attention.
 
 {{% callout note %}}
-The productivity tools above may imply, to those in the know, that I'm following some sort of [Getting Things Done](https://gettingthingsdone.com/) system. However, I just kind of came up with this system on my own, following different people on youtube who were probably taking inspiration from David Allen's work.
+The productivity tools above may imply, to those in the know, that I'm following
+some sort of [Getting Things Done](https://gettingthingsdone.com/) system. 
+However, I just kind of came up with this system on my own, following different
+people on youtube who were probably taking inspiration from David Allen's work.
 {{% /callout %}}
 
-Waking up at 5 meant that I had roughly 4 hours before I started work and that's A LOT of time to get things done. Soon enough, I started to do more than just drumming when I woke up at 5. I made a system where I tried to make sure I "hit each area" a given number of times. You can think of it like going to the gym and having a push/pull/legs like of setup. I was rotating through different areas in my life to make sure "everything was in balance". 
+Waking up at 5 meant that I had roughly 4 hours before I started work and 
+that's A LOT of time to get things done. Soon enough, I started to do more than
+ just drumming when I woke up at 5. I made a system where I tried to make sure 
+ I "hit each area" a given number of times. You can think of it like going to 
+ the gym and having a push/pull/legs like of setup. I was rotating through 
+ different areas in my life to make sure "everything was in balance". 
 
-The result you ask? I was no longer jumping out of bed anymore. I would wake up, and look at the list of things I had planned to do for the time before 9 am. There was likely also the fatigue from the long drawn COVID lockdowns coming in, but I had basically taken the magic out of my mornings by overengineering that time I had to myself. Don't get me wrong, a number of good things came out of this time, such as for example a scraper of immoweb that I wrote around this time (see blog entry [here](/a-scraper-that-scales-part-i/)).
+The result you ask? I was no longer jumping out of bed anymore. I would wake up,
+ and look at the list of things I had planned to do for the time before 9 am.
+  There was likely also the fatigue from the long drawn COVID lockdowns coming 
+  in, but I had basically taken the magic out of my mornings by overengineering
+   that time I had to myself. Don't get me wrong, a number of good things came 
+   out of this time, such as for example a scraper of immoweb that I wrote 
+   around this time (see blog entry [here](/a-scraper-that-scales-part-i/)).
 
-Nonetheless, it wasn't long before I started to wake up, only to hit the snooze button and go back to bed once I saw the long todo list I had left for myself.
+Nonetheless, it wasn't long before I started to wake up, only to hit the snooze
+ button and go back to bed once I saw the long todo list I had left for myself.
 
-I knew that I needed to reorient myself and get back to the basics. I had let my greed, to get more done, get the best of me. I knew at this time that I needed a value system that would help me decide what's worth (to me) spending time on and what's better left on the backlog (or better yet, not even added to the backlog to begin with!).
+I knew that I needed to reorient myself and get back to the basics. I had let 
+my greed, to get more done, get the best of me. I knew at this time that I 
+needed a value system that would help me decide what's worth (to me) spending 
+time on and what's better left on the backlog (or better yet, not even added to
+ the backlog to begin with!).
 
 ## This was just the beginning
 
-I knew that it wasn't going to be easy coming up a list of values to give me a foundation. Making such decisions is hard! For example, if you had to choose between knowledge and imagination, which value would you prioritize? What if you had to choose between Integrity and Accountability? Not easy is it?
+I knew that it wasn't going to be easy coming up a list of values to give me a
+ foundation. Making such decisions is hard! For example, if you had to choose 
+ between knowledge and imagination, which value would you prioritize? What if
+  you had to choose between Integrity and Accountability? Not easy is it?
 
-I explore how these insights helped me formulate my values in a following [article](/personal-values-part-ii/). Stay posted!
+I explore how these insights helped me formulate my values in a following 
+[article](/personal-values-part-ii/). Stay posted!
 
 {{% callout note %}}
-Soon, playing on the electronic kit wasn't enough and I needed to rent out a practice room
+Soon, playing on the electronic kit wasn't enough and I needed to rent out
+a practice room
 {{% /callout %}}
 
 {{< figure src="real-kit.jpg" caption="Yamaha DTX 452"  >}}
