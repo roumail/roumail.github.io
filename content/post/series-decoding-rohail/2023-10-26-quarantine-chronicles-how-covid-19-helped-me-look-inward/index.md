@@ -1,8 +1,9 @@
 ---
 title: "Quarantine Chronicles: How COVID-19 Helped me look inward"
-summary: ""
+summary: "In this edition of 'Decoding Rohail,' I delve into the transformative journey of self-discovery and personal growth spurred by the COVID-19 pandemic. From buying my first drum set to reevaluating life priorities, this blog post explores how the quarantine period became a catalyst for meaningful change. Discover how I balanced the rhythm of drumming with the tempo of life, and what it taught me about setting personal values."
 categories: ["musings"]
-tags: ["drums"]
+tags: ["drums", "COVID-19", "self-reflection", "personal growth", "life lessons", "productivity"]
+featured: true
 series: ["Decoding Rohail"]
 authors:
  - admin
