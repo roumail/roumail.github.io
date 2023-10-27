@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Musings from Rohail</title>
-    <link>https://roumail.github.io/post/</link>
-      <atom:link href="https://roumail.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rohailtaimour.com/post/</link>
+      <atom:link href="https://rohailtaimour.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 18:24:31 +0200</lastBuildDate>
     <image>
-      <url>https://roumail.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rohailtaimour.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://roumail.github.io/post/</link>
+      <link>https://rohailtaimour.com/post/</link>
     </image>
     
     <item>
       <title>Welcome to my Website! 👋</title>
-      <link>https://roumail.github.io/post/20231017-hello-world/</link>
+      <link>https://rohailtaimour.com/post/20231017-hello-world/</link>
       <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://roumail.github.io/post/20231017-hello-world/</guid>
+      <guid>https://rohailtaimour.com/post/20231017-hello-world/</guid>
       <description>&lt;p&gt;Exciting News: My Website is Live! 🎉&lt;br&gt;
 Hello everyone, and welcome to &lt;a href=&#34;https://www.rohailtaimour.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.rohailtaimour.com&lt;/a&gt;! I am incredibly excited to announce that my website is officially live. 🚀&lt;/p&gt;
 &lt;p&gt;Built it Myself with Hugo 🛠️&lt;/p&gt;

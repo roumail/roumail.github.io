@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Building a Scraper that scales | Musings from Rohail</title>
-    <link>https://roumail.github.io/series/building-a-scraper-that-scales/</link>
-      <atom:link href="https://roumail.github.io/series/building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rohailtaimour.com/series/building-a-scraper-that-scales/</link>
+      <atom:link href="https://rohailtaimour.com/series/building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
     <description>Building a Scraper that scales</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Oct 2023 16:15:28 +0200</lastBuildDate>
     <image>
-      <url>https://roumail.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rohailtaimour.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Building a Scraper that scales</title>
-      <link>https://roumail.github.io/series/building-a-scraper-that-scales/</link>
+      <link>https://rohailtaimour.com/series/building-a-scraper-that-scales/</link>
     </image>
     
     <item>
       <title>Stateful Applications Need to Be Designed Differently</title>
-      <link>https://roumail.github.io/a-scraper-that-scales-part-ii/</link>
+      <link>https://rohailtaimour.com/a-scraper-that-scales-part-ii/</link>
       <pubDate>Wed, 25 Oct 2023 16:15:28 +0200</pubDate>
-      <guid>https://roumail.github.io/a-scraper-that-scales-part-ii/</guid>
+      <guid>https://rohailtaimour.com/a-scraper-that-scales-part-ii/</guid>
       <description>&lt;p&gt;Complete me&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Motivation to Build a Scraper in Python</title>
-      <link>https://roumail.github.io/a-scraper-that-scales-part-i/</link>
+      <link>https://rohailtaimour.com/a-scraper-that-scales-part-i/</link>
       <pubDate>Tue, 24 Oct 2023 16:14:00 +0200</pubDate>
-      <guid>https://roumail.github.io/a-scraper-that-scales-part-i/</guid>
+      <guid>https://rohailtaimour.com/a-scraper-that-scales-part-i/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -178,7 +178,7 @@ high-quality, accurate data was stored.&lt;/p&gt;
 one-off script but a robust data collection tool capable of supporting more
 complex analyses and experiments.&lt;/p&gt;
 &lt;h2 id=&#34;final-comments&#34;&gt;Final comments&lt;/h2&gt;
-&lt;p&gt;In the next blog &lt;a href=&#34;https://roumail.github.io/a-scraper-that-scales-part-ii/&#34;&gt;post&lt;/a&gt; in the series, I will go over the implementation details.
+&lt;p&gt;In the next blog &lt;a href=&#34;https://rohailtaimour.com/a-scraper-that-scales-part-ii/&#34;&gt;post&lt;/a&gt; in the series, I will go over the implementation details.
 For those interested, you can find the current state of the project
 &lt;a href=&#34;https://github.com/roumail/immoweb-scraper/tree/v1.0.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
