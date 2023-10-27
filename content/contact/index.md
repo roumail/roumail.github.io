@@ -45,7 +45,7 @@ sections:
         formspree:
           id: xpzeelgp
           captcha: true
-          captcha_key: 6LcIP7IoAAAAAJia7QUudAiHpVMfLiPO08f-tVFn
+          captcha_key: "6Lf_YNEoAAAAAExiqXxW51UtSLY8i07Zej1OoTsn"
   #       netlify:
   #         # Enable CAPTCHA challenge to reduce spam?
   #         captcha: false
