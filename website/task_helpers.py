@@ -51,6 +51,7 @@ def concatenate_drafts(
     """
 
     # Initialize an empty file to store the concatenated drafts
+    drafts = []
     with open(file_out, "w") as f:
         f.write("")
 
@@ -59,12 +60,17 @@ def concatenate_drafts(
         with open(filepath, "r") as f:
             content = f.read()
         # Check if the file contains the specified search string
-        if search_string in content:
-            print(f"Appending {filepath.name} to {file_out}")
-            with open(file_out, "a") as f:
-                f.write(content)
-                f.write("\n---\n")
 
+        if search_string in content:
+            blog_name = re.sub(f"{search_directory}/", "", str(filepath.parent))
+            print(f"Appending {blog_name} to {file_out}")
+            drafts.append(blog_name)
+
+    drafts.sort()
+
+    # Write the sorted drafts back to the file
+    with open(file_out, "w") as f:
+        f.write("\n".join(drafts))
     print(f"Drafts have been concatenated into {file_out}")
 
 
