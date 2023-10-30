@@ -21,3 +21,6 @@ public/
 test/go.sum
 
 /.quarto/
+
+
+current_draft_posts.md

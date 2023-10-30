@@ -37,7 +37,7 @@ def new_post(c, title, series=None, quarto=False):
 )
 def list_draft_posts(
     c,
-    file_out="concatenated_drafts.md",
+    file_out="current_draft_posts.md",
     search_directory="content/post",
     search_string="draft: true",
 ):

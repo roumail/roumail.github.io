@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-def check_project_root(c):
+def check_project_root():
     """
     Check if the command is being executed from the project root.
     """
