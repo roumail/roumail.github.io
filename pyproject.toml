@@ -9,7 +9,7 @@ description = "Automation and build tools for my website"
 authors = ["Rohail Taimour"]
 license = "MIT"
 packages = [
-    { include = "src" },
+    { include = "website" },
 ]
 
 [tool.poetry.dependencies]
