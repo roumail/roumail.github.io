@@ -17,10 +17,10 @@ draft: false
 
 1. Acceptance
 2. Belonging
-3. Creativity 
-4. Curiosity 
+3. Creativity
+4. Curiosity
 5. Commitment
-6. Simplicity 
+6. Simplicity
 7. Faith
 8. Exploration
 9. Humility
@@ -29,4 +29,5 @@ draft: false
 12. Perseverance
 
 -->
+
 Complete me
