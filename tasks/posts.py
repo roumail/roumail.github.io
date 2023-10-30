@@ -5,6 +5,18 @@ from pathlib import Path
 from invoke import task
 
 
+@task
+def check_project_root(c):
+    """
+    Check if the command is being executed from the project root.
+    """
+    if not os.path.exists("pyproject.toml"):
+        print("Error: This command must be run from the project root.")
+        exit(1)
+    else:
+        print("Running from project root.")
+
+
 def update_series(post_path: str, series: str):
     with open(post_path, "r") as f:
         lines = f.readlines()
@@ -27,6 +39,7 @@ def harmonize_name(name):
 
 
 @task(
+    pre=[check_project_root],
     help={
         "title": "The title of the blog post you want to create.",
         "series": "The series to which the blog post belongs (optional).",
@@ -101,3 +114,31 @@ view: 2
 """
                 )
             print(f"_index.md for series '{series}' created at {index_file_path}")
+
+@task(
+        pre=[check_project_root],
+)
+def list_draft_posts(c):
+    """
+    Concatenate all draft posts into a single markdown file.
+    """
+    # Initialize an empty file to store the concatenated drafts
+    file_out = "concatenated_drafts.md" 
+    with open(file_out, "w") as f:
+        f.write("")
+
+    # Loop through each markdown file in the content/post directory
+    for filename in os.listdir("content/post"):
+        if filename.endswith(".md"):
+            filepath = os.path.join("content/post", filename)
+            with open(filepath, "r") as f:
+                content = f.read()
+            
+            # Check if the file contains the string "draft: true"
+            if "draft: true" in content:
+                print(f"Appending {filename} to {file_out}")
+                with open(file_out, "a") as f:
+                    f.write(content)
+                    f.write("\n---\n")
+
+    print("Drafts have been concatenated into concatenated_drafts.md")
