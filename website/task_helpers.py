@@ -61,7 +61,7 @@ def concatenate_drafts(
             content = f.read()
         # Check if the file contains the specified search string
 
-        if search_string in content:
+        if search_string in content or "complete me" in content.lower():
             blog_name = re.sub(f"{search_directory}/", "", str(filepath.parent))
             print(f"Appending {blog_name} to {file_out}")
             drafts.append(blog_name)
