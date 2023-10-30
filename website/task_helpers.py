@@ -36,27 +36,39 @@ def harmonize_name(name):
     return name.lower()
 
 
-def concatenate_drafts():
+def concatenate_drafts(
+    file_out="concatenated_drafts.md",
+    search_directory="content/post",
+    search_string="draft: true",
+):
+    """
+    Concatenate all draft posts into a single markdown file.
+
+    Parameters:
+        file_out (str): The output file name. Defaults to "concatenated_drafts.md".
+        search_directory (str): The directory to search for draft posts. Defaults to "content/post".
+        search_string (str): The string to search for in the markdown files to identify drafts. Defaults to "draft: true".
+    """
+
     # Initialize an empty file to store the concatenated drafts
-    file_out = "concatenated_drafts.md"
     with open(file_out, "w") as f:
         f.write("")
 
-    # Loop through each markdown file in the content/post directory
-    for filename in os.listdir("content/post"):
+    # Loop through each markdown file in the specified search directory
+    for filename in os.listdir(search_directory):
         if filename.endswith(".md"):
-            filepath = os.path.join("content/post", filename)
+            filepath = os.path.join(search_directory, filename)
             with open(filepath, "r") as f:
                 content = f.read()
 
-            # Check if the file contains the string "draft: true"
-            if "draft: true" in content:
+            # Check if the file contains the specified search string
+            if search_string in content:
                 print(f"Appending {filename} to {file_out}")
                 with open(file_out, "a") as f:
                     f.write(content)
                     f.write("\n---\n")
 
-    print("Drafts have been concatenated into concatenated_drafts.md")
+    print(f"Drafts have been concatenated into {file_out}")
 
 
 def create_new_post(title, series=None, quarto=False):

@@ -29,9 +29,23 @@ def new_post(c, title, series=None, quarto=False):
 
 @task(
     pre=[check_project_root_task],
+    help={
+        "file_out": "The output file name for concatenated drafts. Defaults to 'concatenated_drafts.md'.",
+        "search_directory": "The directory to search for draft posts. Defaults to 'content/post'.",
+        "search_string": "The string to search for in the markdown files to identify drafts. Defaults to 'draft: true'.",
+    },
 )
-def list_draft_posts(c):
+def list_draft_posts(
+    c,
+    file_out="concatenated_drafts.md",
+    search_directory="content/post",
+    search_string="draft: true",
+):
     """
     Concatenate all draft posts into a single markdown file.
     """
-    concatenate_drafts()
+    concatenate_drafts(
+        file_out=file_out,
+        search_directory=search_directory,
+        search_string=search_string,
+    )
