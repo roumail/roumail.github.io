@@ -2,6 +2,7 @@ import os
 import re
 from datetime import datetime
 from pathlib import Path
+import toml
 
 
 def check_project_root():
@@ -138,3 +139,8 @@ view: 2
 """
                 )
             print(f"_index.md for series '{series}' created at {index_file_path}")
+
+
+def get_version_from_pyproject():
+    pyproject_data = toml.load("pyproject.toml")
+    return pyproject_data["tool"]["poetry"]["version"]
