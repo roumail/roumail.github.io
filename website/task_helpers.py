@@ -55,18 +55,15 @@ def concatenate_drafts(
         f.write("")
 
     # Loop through each markdown file in the specified search directory
-    for filename in os.listdir(search_directory):
-        if filename.endswith(".md"):
-            filepath = os.path.join(search_directory, filename)
-            with open(filepath, "r") as f:
-                content = f.read()
-
-            # Check if the file contains the specified search string
-            if search_string in content:
-                print(f"Appending {filename} to {file_out}")
-                with open(file_out, "a") as f:
-                    f.write(content)
-                    f.write("\n---\n")
+    for filepath in Path(search_directory).rglob("*.md"):
+        with open(filepath, "r") as f:
+            content = f.read()
+        # Check if the file contains the specified search string
+        if search_string in content:
+            print(f"Appending {filepath.name} to {file_out}")
+            with open(file_out, "a") as f:
+                f.write(content)
+                f.write("\n---\n")
 
     print(f"Drafts have been concatenated into {file_out}")
 
