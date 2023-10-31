@@ -94,8 +94,7 @@ meant I was using it on average 4 times more than my right hand. This was
 incredibly awkward and frustrating in the beginning. However, I stuck to it and
 configured my kit to suit this style of playing too:
 
-{{< figure src="kit-setup.jpg" caption="Hi hat (left) setup incredibly low for
-open handed playing"  >}}
+{{< figure src="kit-setup.jpg" caption="Hi hat (left) setup incredibly low for open handed playing"  >}}
 
 A typical practice session eventually came to be an hour or more of playing
 between 2-3 exercises, on a 15-20 minute break. Sound boring? I found it to be
