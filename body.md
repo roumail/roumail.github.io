@@ -1,3 +1,4 @@
 # Website
 
-* Utilities for handling new post creation in a series using invoke
+- Fix bug in harmonizing name
+- Add more modules and structure to the package
