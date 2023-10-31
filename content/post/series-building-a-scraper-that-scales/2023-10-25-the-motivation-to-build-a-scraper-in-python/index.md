@@ -1,5 +1,5 @@
 ---
-title: "The Motivation to Build a Scraper in Python"
+title: "Part I: The Motivation to Build a Scraper in Python"
 summary:
   "Explore the journey of building a robust web scraper for analyzing Belgium's
   property market. Learn how we transitioned from Selenium to Beautiful Soup for

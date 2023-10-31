@@ -1,5 +1,5 @@
 ---
-title: "Embedding Your True North"
+title: "Part III: Embedding Your True North"
 summary:
   "In the final installment of 'Decoding Rohail,' we move from identifying core
   values to living them. This article offers a practical guide on how to

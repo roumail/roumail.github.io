@@ -1,5 +1,5 @@
 ---
-title: "Quarantine Chronicles: How COVID-19 Helped me look inward"
+title: "Part I: Quarantine Chronicles: How COVID-19 Helped me look inward"
 summary:
   "In this edition of 'Decoding Rohail,' I delve into the transformative journey
   of self-discovery and personal growth spurred by the COVID-19 pandemic. From

@@ -1,5 +1,5 @@
 ---
-title: "Unearthing Your True North"
+title: "Part II: Unearthing Your True North"
 summary:
   "In this thought-provoking sequel to 'Decoding Rohail,' I explore the
   transformative power of identifying core values, making conscious choices, and

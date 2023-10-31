@@ -1,5 +1,5 @@
 ---
-title: "Stateful Applications Need to Be Designed Differently"
+title: "Part II: Stateful Applications Need to Be Designed Differently"
 summary: "The improvements and what remains"
 categories: ["technology"]
 tags: ["python", "web-scraping"]
