@@ -37,7 +37,7 @@ this:
 > Space to think, time to look and listen, permission to play, wisdom to sleep
 > and the discipline to apply highly selective criteria to the choices we make
 
-## Taking the plunge and buying my first drum set
+## Buying my first drum set {#my-first-drum-kit}
 
 I think the COVID period forced many of us to reconsider our routines and how we
 process everyday events. One of the best things that came out of COVID for me
@@ -50,12 +50,12 @@ certain moment in your life so Music holds transcendental qualities for me.
 While I certainly enjoyed air guitaring to some of my favourite guitar solos
 like Pink Floyd's comfortably numb, Drumming is something that had an
 inexplicable allure for me. The raw energy and force that drumming is able to
-convey - the rhytmic elements of Music was something I naturally inlined
+convey - the rhythmic elements of Music was something I naturally inlined
 towards. And on March 30th 2020, my life was forever changed.
 
 {{< figure src="AJLF3953.jpg" caption="Yamaha DTX 452"  >}}
 
-## The honeymoon period
+## Drumming at 5 am in the morning {#drumming-5-am}
 
 I'm very glad I have an understanding wife and neighbours that didn't complain
 about the thumping sound and vibrations from my bass pedal. With drumming, I
@@ -116,7 +116,7 @@ not `enough` where you are right now. We are constantly bombarded with what we
 don't know, what's cool and hip right now and 10 ways for you to
 {{ insert a hyped up skill here }}.
 
-## Choices were always there, but I never realised the implications of failing to choose
+## Failing to choose is also a choice {#failing-to-choose}
 
 The learnings I had from drumming could be easily transferred to other areas of
 my life. I saw a number of parallels in my journey as a machine learning
@@ -124,12 +124,12 @@ practitioner. Scrolling through LinkedIn, is just a reminder of all the
 technology frameworks you are yet to learn. That may not be everyone's
 experience but I bet a number of us feel that way. Feeling that way is normal
 unless we become hyper aware of what exactly are the topics that we are
-super-knowledgable and passionate about. And those topics have to necessarily
+super-knowledgeable and passionate about. And those topics have to necessarily
 form a finite set, rather than one that changes depending which side of the bed
 you went to sleep. The fear of missing out (FOMO) is what often prevents` us
-from commiting to this finite set of topics that we dig our heels into. Choosing
-one thing, necessarily means letting go of something else and who wants that?
-Can't we just have it all?
+from committing to this finite set of topics that we dig our heels into.
+Choosing one thing, necessarily means letting go of something else and who wants
+that? Can't we just have it all?
 
 Coming back to my 5 am adventures, I was getting some exceptional results in my
 drumming with the discipline of putting in the time consistently every day. That
@@ -142,7 +142,7 @@ number of tools:
 - [Trello](www.trello.com) for big picture planning,
 - [Sunsama](www.sunsama.com) for a daily planner,
 - [Todoist](www.todoist.com) for capturing ideas and doing some tactical
-- prioritization,
+  prioritization,
 - Google calendar and calendly for scheduling appointments,
 - [Remarkable](www.remarkable.com) for hand written digital notes that I can
   send myself later for further processing.
