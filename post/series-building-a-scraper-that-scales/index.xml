@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Building a scraper that scales | Musings from Rohail</title>
+    <title>(Series) Building a scraper that scales | Musings from Rohail</title>
     <link>https://rohailtaimour.com/post/series-building-a-scraper-that-scales/</link>
       <atom:link href="https://rohailtaimour.com/post/series-building-a-scraper-that-scales/index.xml" rel="self" type="application/rss+xml" />
-    <description>Building a scraper that scales</description>
+    <description>(Series) Building a scraper that scales</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Oct 2023 16:15:28 +0200</lastBuildDate>
     <image>
       <url>https://rohailtaimour.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Building a scraper that scales</title>
+      <title>(Series) Building a scraper that scales</title>
       <link>https://rohailtaimour.com/post/series-building-a-scraper-that-scales/</link>
     </image>
     
     <item>
-      <title>Stateful Applications Need to Be Designed Differently</title>
+      <title>Part II: Stateful Applications Need to Be Designed Differently</title>
       <link>https://rohailtaimour.com/a-scraper-that-scales-part-ii/</link>
       <pubDate>Wed, 25 Oct 2023 16:15:28 +0200</pubDate>
       <guid>https://rohailtaimour.com/a-scraper-that-scales-part-ii/</guid>
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>The Motivation to Build a Scraper in Python</title>
+      <title>Part I: The Motivation to Build a Scraper in Python</title>
       <link>https://rohailtaimour.com/a-scraper-that-scales-part-i/</link>
       <pubDate>Tue, 24 Oct 2023 16:14:00 +0200</pubDate>
       <guid>https://rohailtaimour.com/a-scraper-that-scales-part-i/</guid>
