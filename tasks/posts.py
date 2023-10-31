@@ -1,6 +1,7 @@
 from invoke import task
+from website.posts import concatenate_drafts, create_new_post
 
-from website.task_helpers import create_new_post, concatenate_drafts, check_project_root
+from website.task_helpers import check_project_root
 
 
 @task
