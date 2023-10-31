@@ -22,5 +22,6 @@ test/go.sum
 
 /.quarto/
 
-
 current_draft_posts.md
+
+.last_body_md_sha
