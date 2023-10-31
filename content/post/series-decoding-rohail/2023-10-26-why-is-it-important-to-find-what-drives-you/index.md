@@ -246,7 +246,7 @@ However, at a certain point, a leap of faith is needed, with self-belief that
 while things might get tough along the way, you would be able to handle them.
 Having a strong PAB really helps at such a point.
 
-## The values I've landed at for the moment
+## My values {#my-values}
 
 Not to beat around the bush too much further, the result of my soul searching in
 the shape and form of a list of values that resonate with me is given below:
