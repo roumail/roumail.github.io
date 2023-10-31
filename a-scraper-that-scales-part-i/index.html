@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: October 27, 2023 --><html lang="en-us" >
+<!-- Last Published: October 31, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -945,8 +945,8 @@ market.</p>
 property listings website: <a href="https://immoweb.be" target="_blank" rel="noopener">immoweb</a>. My desire for this
 first version was to first, be able to have a very general idea of the Brussels
 property market. Thereafter, I would launch this script every few days to look
-at the new  properties. The output of this script would be a CSV that I&rsquo;d use
-to spot good deals and have all the relevant information I&rsquo;d need to schedule
+at the new properties. The output of this script would be a CSV that I&rsquo;d use to
+spot good deals and have all the relevant information I&rsquo;d need to schedule
 visits.</p>
 <h2 id="implementing-the-proof-of-concept">Implementing the Proof of concept</h2>
 <p>I was running this script from a windows machine at the time and having done a
@@ -954,33 +954,35 @@ scraping project once before already, knew that I&rsquo;d start with <code>selen
 the browser automation and parsing of the html. The setup required that I choose
 a browser and a corresponding geckodriver (with the appropriate version for your
 browser) to go along with it. I&rsquo;ve used firefox and edge browsers (and their
-respective drivers) for different iterations of the  scraper implementation.</p>
-<p>After messing around with developer tools, looking into the dom&rsquo;s containing
-the information I was looking for using <code>inspect</code>, I had a script that was doing
-the job. I made a conda export of the environment I used for the scraping in
-case I ever needed to revisit this work again. This script did the job and I
-was quite happy leaving it at that with an environment export so I could pick
-up from this analysis when needed. This version of the script can be found
-<a href="https://github.com/roumail/immoweb-scraper/tree/second_run" target="_blank" rel="noopener">here</a> for
-those who are interested.</p>
+respective drivers) for different iterations of the scraper implementation.</p>
+<p>After messing around with developer tools, looking into the dom&rsquo;s containing the
+information I was looking for using <code>inspect</code>, I had a script that was doing the
+job. I made a conda export of the environment I used for the scraping in case I
+ever needed to revisit this work again. This script did the job and I was quite
+happy leaving it at that with an environment export so I could pick up from this
+analysis when needed. This version of the script can be found
+<a href="https://github.com/roumail/immoweb-scraper/tree/second_run" target="_blank" rel="noopener">here</a> for those who
+are interested.</p>
 <h2 id="a-sidenote-on-bayesian-statistics">A sidenote on Bayesian statistics</h2>
 <p>For the longest time I&rsquo;ve been a fan of Bayesian statistics. Being able to
 explicitly encode your modelling assumptions in the form of priors, as well as
 being very deliberate in reconstructing the data generating process of the
 phenomenon you&rsquo;re modelling. You can visually verify how well your model is
-generalizing by doing what is called a <a href="https://en.wikipedia.org/wiki/Posterior_predictive_distribution" target="_blank" rel="noopener">posterior predictive check</a>. The computational aspects of MCMC sampling
-also appeals to the nerd in me, while the convergence of your sampler gives
-indications about how well-informed a hypothesis you have for your data
-generating process. An ill-formulated model will simply not converge,
-unlike a number of other approaches which would always give a solution and then
-you&rsquo;re left to figure out if you&rsquo;re overfitting or underfitting. Then there is
-the fact that you are always able to work with distributions of your phenomenon
-of interest rather than relying solely on point estimates like we would in most
-other methods. There&rsquo;s a number of fascinating things that are possible with
-these posterior distributions, which include bayesian decision making. I will
-link to a great discussion on the subject by Thomas Wiecki on the subject
-<a href="https://twiecki.io/blog/2019/01/14/supply_chain/" target="_blank" rel="noopener">here</a> where we can see how
-to use our models to directly show the impact of uncertainy on real business
+generalizing by doing what is called a
+<a href="https://en.wikipedia.org/wiki/Posterior_predictive_distribution" target="_blank" rel="noopener">posterior predictive check</a>.
+The computational aspects of MCMC sampling also appeals to the nerd in me, while
+the convergence of your sampler gives indications about how well-informed a
+hypothesis you have for your data generating process. An ill-formulated model
+will simply not converge, unlike a number of other approaches which would always
+give a solution and then you&rsquo;re left to figure out if you&rsquo;re overfitting or
+underfitting. Then there is the fact that you are always able to work with
+distributions of your phenomenon of interest rather than relying solely on point
+estimates like we would in most other methods. There&rsquo;s a number of fascinating
+things that are possible with these posterior distributions, which include
+bayesian decision making. I will link to a great discussion on the subject by
+Thomas Wiecki on the subject
+<a href="https://twiecki.io/blog/2019/01/14/supply_chain/" target="_blank" rel="noopener">here</a> where we can see how to
+use our models to directly show the impact of uncertainy on real business
 metrics rather than arcane statistical metrics such as <code>mean squared error</code>,
 <code>f1 score</code> and the like which don&rsquo;t hold any real business meaning.</p>
 <p>Naturally, I have my bias for these methods and using these models bring their
@@ -991,13 +993,15 @@ I was on the lookout for an opportunity to find a dataset where I could exploit
 the natural hierarchical structure of data in a
 <a href="https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling" target="_blank" rel="noopener">hierarchical modelling</a>
 or the flexiblity of Gaussian process modelling to capture the intricaties of
-non-linear processes. The <a href="https://www.pymc.io/projects/examples/en/latest/gaussian_processes/GP-smoothing.html" target="_blank" rel="noopener">link</a> shows the distinction between modelling
-the same problem as a regression vs using a gaussian process smoothing model.</p>
+non-linear processes. The
+<a href="https://www.pymc.io/projects/examples/en/latest/gaussian_processes/GP-smoothing.html" target="_blank" rel="noopener">link</a>
+shows the distinction between modelling the same problem as a regression vs
+using a gaussian process smoothing model.</p>
 <h2 id="revisiting-the-implementation-once-again">Revisiting the implementation once again</h2>
 <p>Any data scientist or machine learning practitioner will tell you about their
 struggles with data. It&rsquo;s either data quality (or lack thereof) or just the lack
-of data itself for performing interesting analyses. Then it suddenly occurred
-to me: property data is perfect for the experiments I wanted to conduct.</p>
+of data itself for performing interesting analyses. Then it suddenly occurred to
+me: property data is perfect for the experiments I wanted to conduct.</p>
 <p>Scraping property prices over time gives the opportunity to model property
 prices over time and ask interesting questions, including, but not limited to
 the following:</p>
@@ -1012,13 +1016,13 @@ this vary by commune?</li>
 property prices evolve over time. There is also a natural structure in the data
 that can be exploited since we can indeed expect properties within communes to
 be similarly priced. This would be a place where we can use Gaussian process
-modelling to capture the underlying trends and fluctuations in property
-prices within each commune. We can use property proximity to model the inherent
-spatial relationships between properties, assuming that properties closer to
-each other are more likely to have similar prices!</p>
+modelling to capture the underlying trends and fluctuations in property prices
+within each commune. We can use property proximity to model the inherent spatial
+relationships between properties, assuming that properties closer to each other
+are more likely to have similar prices!</p>
 <p>By revisiting my initial scraper implementation with this newfound focus, I am
-not just enhancing a tool; I am building a robust data collection pipeline
-that will serve as the backbone for these sophisticated analytical experiments.</p>
+not just enhancing a tool; I am building a robust data collection pipeline that
+will serve as the backbone for these sophisticated analytical experiments.</p>
 <h2 id="areas-of-improvement">Areas of improvement</h2>
 <p>With a clear goal in mind, I identified several key areas to refine the
 scraper&rsquo;s implementation. These improvements were aimed at making the scraper
@@ -1027,41 +1031,43 @@ analysis.</p>
 <h3 id="1-efficiency-in-data-scraping">1. Efficiency in Data Scraping</h3>
 <p>Switch to Beautiful Soup: I wanted to transition from
 <a href="https://pypi.org/project/selenium/" target="_blank" rel="noopener">Selenium</a> to
-<a href="https://pypi.org/project/beautifulsoup4/" target="_blank" rel="noopener">Beautiful Soup</a> for parsing raw
-HTML. This change ought to significantly reduced the time needed to scrape data.</p>
-<p>Parametrization of Postal Codes: Allowing postal codes as an input parameter
-to make the scraper more flexible. I was initially only looking into a few
-communes in Brussels that I was interested in. However, if I wanted to do some
+<a href="https://pypi.org/project/beautifulsoup4/" target="_blank" rel="noopener">Beautiful Soup</a> for parsing raw HTML.
+This change ought to significantly reduced the time needed to scrape data.</p>
+<p>Parametrization of Postal Codes: Allowing postal codes as an input parameter to
+make the scraper more flexible. I was initially only looking into a few communes
+in Brussels that I was interested in. However, if I wanted to do some
 interesting analyses, I also wanted to consider communes neighboring Brussels.</p>
 <h3 id="2-dependency-management">2. Dependency Management</h3>
-<p>Use of Poetry: To manage the project&rsquo;s dependencies more effectively, I
-wanted to convert the script into a Python package and used <a href="">Poetry</a> for managing
-the dependencies. This streamlines the installation process and allows me to
-manage the package versions in a systematic version. This would be especially
-useful as we dockerize the analysis in the future and build a CI/CD pipeline.</p>
+<p>Use of Poetry: To manage the project&rsquo;s dependencies more effectively, I wanted
+to convert the script into a Python package and used <a href="">Poetry</a> for managing the
+dependencies. This streamlines the installation process and allows me to manage
+the package versions in a systematic version. This would be especially useful as
+we dockerize the analysis in the future and build a CI/CD pipeline.</p>
 <p>Implementation of Typer: I used <a href="https://pypi.org/project/typer/" target="_blank" rel="noopener">Typer</a> to
 create a command-line interface from the main application entrypoint. I&rsquo;ve
 effectively transitioned to using this instead of
 <a href="https://pypi.org/project/click/" target="_blank" rel="noopener"><code>click</code></a> recently.</p>
 <h3 id="3-code-refactoring-for-readability-and-maintainability">3. Code Refactoring for Readability and Maintainability</h3>
 <p>Object-Oriented Approach: I wanted to refactor the code to use Python classes
-instead of just functions where appropriate. By using meaningful class names, the
-code can become self-documenting and easier to maintain and extend in the long
-run.</p>
+instead of just functions where appropriate. By using meaningful class names,
+the code can become self-documenting and easier to maintain and extend in the
+long run.</p>
 <h3 id="5-data-storage-and-validation">5. Data Storage and Validation</h3>
 <p>SQLite Database: I wanted to use a SQLite database with an initial schema to
 store the data I&rsquo;d be accumulating over time. I&rsquo;ve really enjoyed working with
-<a href="https://pypi.org/project/SQLAlchemy/" target="_blank" rel="noopener"><code>SQLAlchemy</code></a> as the ORM mapper to interact with the database.</p>
-<p>Data Validation with Pydantic: Before adding the scraped data to the database,
-I implemented validation checks using
+<a href="https://pypi.org/project/SQLAlchemy/" target="_blank" rel="noopener"><code>SQLAlchemy</code></a> as the ORM mapper to
+interact with the database.</p>
+<p>Data Validation with Pydantic: Before adding the scraped data to the database, I
+implemented validation checks using
 <a href="https://pypi.org/project/pydantic/" target="_blank" rel="noopener">Pydantic</a>. This ensured that only
 high-quality, accurate data was stored.</p>
 <p>By focusing on these areas, I aimed to build a scraper that was not just a
 one-off script but a robust data collection tool capable of supporting more
 complex analyses and experiments.</p>
 <h2 id="final-comments">Final comments</h2>
-<p>In the next blog <a href="/a-scraper-that-scales-part-ii/">post</a> in the series, I will go over the implementation details.
-For those interested, you can find the current state of the project
+<p>In the next blog <a href="/a-scraper-that-scales-part-ii/">post</a> in the series, I will
+go over the implementation details. For those interested, you can find the
+current state of the project
 <a href="https://github.com/roumail/immoweb-scraper/tree/v1.0.0" target="_blank" rel="noopener">here</a>.</p>
 
       

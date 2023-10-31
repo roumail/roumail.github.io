@@ -5,7 +5,7 @@
     <link>https://rohailtaimour.com/post/</link>
       <atom:link href="https://rohailtaimour.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 18:24:31 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Oct 2023 13:26:24 +0100</lastBuildDate>
     <image>
       <url>https://rohailtaimour.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -18,17 +18,34 @@
       <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://rohailtaimour.com/post/20231017-hello-world/</guid>
       <description>&lt;p&gt;Exciting News: My Website is Live! 🎉&lt;br&gt;
-Hello everyone, and welcome to &lt;a href=&#34;https://www.rohailtaimour.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.rohailtaimour.com&lt;/a&gt;! I am incredibly excited to announce that my website is officially live. 🚀&lt;/p&gt;
+Hello everyone, and welcome to &lt;a href=&#34;https://www.rohailtaimour.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.rohailtaimour.com&lt;/a&gt;! I am incredibly excited to
+announce that my website is officially live. 🚀&lt;/p&gt;
 &lt;p&gt;Built it Myself with Hugo 🛠️&lt;/p&gt;
-&lt;p&gt;In the tech world, there are countless ways to build a website, many of which offer quick and easy solutions. However, I chose to take a different route by building this website myself using Hugo. The journey was challenging but immensely rewarding, providing me with hands-on experience that goes beyond just writing code.&lt;/p&gt;
+&lt;p&gt;In the tech world, there are countless ways to build a website, many of which
+offer quick and easy solutions. However, I chose to take a different route by
+building this website myself using Hugo. The journey was challenging but
+immensely rewarding, providing me with hands-on experience that goes beyond just
+writing code.&lt;/p&gt;
 &lt;p&gt;Hosted on GitHub Pages with GitHub Actions 🌐&lt;/p&gt;
-&lt;p&gt;One of the most enlightening aspects of this project was learning how to host a static website using GitHub Pages and automating the deployment process with GitHub Actions. Surprisingly, this was not as daunting as it sounds, and I found the experience to be relatively straightforward. Keep an eye out for a future blog post where I&amp;rsquo;ll document this process in detail!&lt;/p&gt;
+&lt;p&gt;One of the most enlightening aspects of this project was learning how to host a
+static website using GitHub Pages and automating the deployment process with
+GitHub Actions. Surprisingly, this was not as daunting as it sounds, and I found
+the experience to be relatively straightforward. Keep an eye out for a future
+blog post where I&amp;rsquo;ll document this process in detail!&lt;/p&gt;
 &lt;p&gt;Customized to My Needs 🎨&lt;/p&gt;
-&lt;p&gt;The journey didn’t stop at just building the website; I’ve also customized it to suit my preferences and needs. This involved tweaking the template to accommodate blog series, implementing a contact form, and even adding the ability for visitors to comment on blog posts. One challenge still ahead is optimizing the website for SEO—turns out my MySpace account is incredibly resilient in search rankings!&lt;/p&gt;
+&lt;p&gt;The journey didn’t stop at just building the website; I’ve also customized it to
+suit my preferences and needs. This involved tweaking the template to
+accommodate blog series, implementing a contact form, and even adding the
+ability for visitors to comment on blog posts. One challenge still ahead is
+optimizing the website for SEO—turns out my MySpace account is incredibly
+resilient in search rankings!&lt;/p&gt;
 &lt;p&gt;What&amp;rsquo;s Coming Up 📝&lt;/p&gt;
-&lt;p&gt;This website will serve as my digital canvas. I’ll use it to share my insights and experiences on a range of topics: from Python development, machine learning, and data engineering, to open-source technology frameworks and beyond.&lt;/p&gt;
+&lt;p&gt;This website will serve as my digital canvas. I’ll use it to share my insights
+and experiences on a range of topics: from Python development, machine learning,
+and data engineering, to open-source technology frameworks and beyond.&lt;/p&gt;
 &lt;p&gt;Your Feedback is Welcome 🙏&lt;/p&gt;
-&lt;p&gt;Feel free to explore the website and let me know what you think. Your feedback is invaluable and will help me continue to improve this digital space.&lt;/p&gt;
+&lt;p&gt;Feel free to explore the website and let me know what you think. Your feedback
+is invaluable and will help me continue to improve this digital space.&lt;/p&gt;
 &lt;p&gt;Thank you for visiting, and stay tuned for exciting content!&lt;/p&gt;
 &lt;p&gt;🔗 &lt;a href=&#34;https://www.rohailtaimour.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.rohailtaimour.com&lt;/a&gt;&lt;/p&gt;
 </description>
