@@ -23,13 +23,10 @@ def get_or_create_sha1(filename, last_sha_file):
         last_sha = f.read().strip()
 
     if current_sha == last_sha:
-        print("Warning: body.md has not changed since the last release.")
         return False
     else:
         with open(last_sha_file, "w") as f:
             f.write(current_sha)
-        print("body.md has changed. Updating the last SHA.")
-
     return current_sha
 
 
