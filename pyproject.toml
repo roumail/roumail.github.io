@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "website"
-version = "1.0.2"
+version = "1.0.3"
 description = "Automation and build tools for my website"
 authors = ["Rohail Taimour"]
 license = "MIT"
