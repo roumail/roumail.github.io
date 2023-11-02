@@ -1,13 +1,12 @@
-import re
-from website.task_helpers import harmonize_name
-
-
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 
+from website.task_helpers import harmonize_name
 
-def update_series(post_path: str, series: str):
+
+def update_series_frontmatter(post_path: str, series: str):
     with open(post_path, "r") as f:
         lines = f.readlines()
 
@@ -17,6 +16,39 @@ def update_series(post_path: str, series: str):
                 f.write(f'series: ["{series}"]\n')
             else:
                 f.write(line)
+
+
+def add_quarto_frontmatter(post_path: str):
+    """
+    Adds Quarto specific front matter to the post file.
+
+    Parameters:
+        post_path (str): The path to the post file.
+    """
+    # Read the current content of the file
+    with open(post_path, "r") as f:
+        content = f.readlines()
+
+    # Find the end of the YAML front matter block
+    end_of_frontmatter_index = None
+    for i, line in enumerate(content):
+        # Assuming the first line is always ---
+        if line.strip() == "---" and i > 0:
+            end_of_frontmatter_index = i
+            break
+
+    # If the end of the front matter block is found, insert the Quarto front matter
+    if end_of_frontmatter_index is not None:
+        quarto_frontmatter = ["format: hugo-md\n", "jupyter: python3\n"]
+        content.insert(end_of_frontmatter_index, "\n".join(quarto_frontmatter))
+
+        # Write the modified content back to the file
+        with open(post_path, "w") as f:
+            content = "".join(content)
+            f.write(content)
+        print(f"Quarto front matter added to {post_path}")
+    else:
+        print("Error: Could not find the end of the YAML front matter block.")
 
 
 def create_new_post(title, series=None, quarto=False):
@@ -50,15 +82,14 @@ def create_new_post(title, series=None, quarto=False):
         path2post_qmd = path2post.with_suffix(".qmd")
         path2post.rename(path2post_qmd)
         path2post = path2post_qmd
-        with open(path2post, "a") as f:
-            f.write("\nformat: hugo-md\njupyter: python3\n")
+        add_quarto_frontmatter(path2post)
 
     # Check if a series is specified
     if series:
         path2series_dir = f"content/post/{series_path_name}"
 
         # Update the series front matter in index.md
-        update_series(path2post, series)
+        update_series_frontmatter(path2post, series)
         print(f"Updated series front matter for '{series}' at {path2post}")
 
         # Path to the _index.md file

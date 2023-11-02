@@ -5,10 +5,12 @@ categories: ["technology"]
 tags: ["python", "web-scraping"]
 series: ["Building a Scraper that scales"]
 authors:
-  - admin
+ - admin
 url: "/a-scraper-that-scales-part-ii/"
-date: 2023-10-25T16:15:28+02:00
+date: 2023-11-02T11:28:27+01:00
 draft: false
+format: hugo-md
+jupyter: python3
 ---
 
 Complete me
