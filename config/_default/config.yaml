@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'Musings from Rohail' # Website name
-baseURL: 'https://rohailtaimour.com' # Website URL
+title: "Musings from Rohail" # Website name
+baseURL: "https://www.rohailtaimour.com" # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -51,11 +51,21 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [ \.qmd$, \.py$, \.R$,\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles:
+  [
+    \.qmd$,
+    \.py$,
+    \.R$,
+    \.ipynb$,
+    .ipynb_checkpoints$,
+    \.Rmd$,
+    \.Rmarkdown$,
+    _cache$,
+  ]
 permalinks:
   # event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
   # publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
