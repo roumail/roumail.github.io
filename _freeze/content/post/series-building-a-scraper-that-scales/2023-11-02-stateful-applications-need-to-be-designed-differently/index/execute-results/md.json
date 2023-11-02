@@ -1,0 +1,11 @@
+{
+  "hash": "6e7e38a1c94a8488d854617b4e47e0c0",
+  "result": {
+    "markdown": "---\ntitle: 'Part II: Stateful Applications Need to Be Designed Differently'\nsummary: The improvements and what remains\ncategories:\n  - technology\ntags:\n  - python\n  - web-scraping\nseries:\n  - Building a Scraper that scales\nauthors:\n  - admin\nurl: /a-scraper-that-scales-part-ii/\ndate: '2023-11-02T11:28:27+01:00'\ndraft: false\nformat: hugo-md\n---\n\nComplete me\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

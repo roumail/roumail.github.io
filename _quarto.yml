@@ -1,5 +1,8 @@
 project:
   type: hugo
+  render:
+    - "*.qmd"
+    - "!themes/"
       
 format: 
   hugo-md:
