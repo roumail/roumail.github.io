@@ -16,17 +16,19 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: 'Sigma Graph Inc'
-    description: 'Project portfolio and blog website of Rohail Taimour for Machine Learning, Data science and personal musics about Drums and life'
+    local_business_type: ""
+    org_name: "Sigma Graph Inc"
+    description:
+      "Project portfolio and blog website of Rohail Taimour for Machine
+      Learning, Data science and personal musics about Drums and life"
     # twitter: 'wowchemy'
   analytics:
-    google_analytics: ''
+    google_analytics: ""
     # baidu_tongji: ''
     # google_tag_manager: ''
-    # microsoft_clarity: ''  
+    # microsoft_clarity: ''
   verification:
-    google: ''
+    google: ""
     # baidu: ''
 
 # Site header
@@ -53,13 +55,13 @@ footer:
       share_alike: true
       allow_commercial: false
   newsletter:
-    mailchimpURL: 'https://us21.us21.list-manage.com/subscribe?u=51797cdf15c0dbf7a7f4831b3&id=e897286f6b'
+    mailchimpURL: "https://us21.us21.list-manage.com/subscribe?u=51797cdf15c0dbf7a7f4831b3&id=e897286f6b"
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
   address_format: en-us
 
 # Site features
@@ -69,41 +71,42 @@ features:
     enable: true
     extra_languages:
       - r
-    theme_light: github-light
-    theme_dark: dracula
+      - python
+    theme_light: pygments # dark #dracula #xcode-light
+    theme_dark: pygments
   math:
     enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'github.com/roumail/roumail.github.io'
+    url: "github.com/roumail/roumail.github.io"
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: 'giscus'
+    provider: "giscus"
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: 'roumail/website-stuff'
-      repo_id: 'R_kgDOJIE7Sw'
-      category: 'Announcements'
-      category_id: 'DIC_kwDOJIE7S84CUy6u'
+      repo: "roumail/website-stuff"
+      repo_id: "R_kgDOJIE7Sw"
+      category: "Announcements"
+      category_id: "DIC_kwDOJIE7S84CUy6u"
   search:
     provider: wowchemy
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
+    provider: "mapnik"
+    api_key: ""
     zoom: 15
 
 # Extensions

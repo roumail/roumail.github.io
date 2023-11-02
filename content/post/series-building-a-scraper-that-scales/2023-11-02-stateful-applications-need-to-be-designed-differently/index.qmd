@@ -10,7 +10,16 @@ url: "/a-scraper-that-scales-part-ii/"
 date: 2023-11-02T11:28:27+01:00
 draft: false
 format: hugo-md
-jupyter: python3
+jupyter: 
+  kernel: "scraper-series"
+execute:
+  enabled: true
+  freeze: false
 ---
 
-Complete me
+```{python}
+import sys
+
+sys.path
+```
+

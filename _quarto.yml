@@ -7,6 +7,16 @@ project:
 format: 
   hugo-md:
     code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    code-copy: hover
+    code-line-numbers: true
+    # highlight-style: 
+    #   light: arrow
+    #   dark: arrow-dark
   
 execute: 
   warning: false
