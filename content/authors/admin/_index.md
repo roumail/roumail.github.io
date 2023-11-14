@@ -14,7 +14,7 @@ last_name: Taimour
 superuser: true
 
 # Role/position/tagline
-role: "Machine Learning Engineer"
+role: "Software developer | Data Scientist | Machine Learning Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,26 +22,28 @@ organizations:
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: The writer is passionate about using open source technology for development and deployment of machine learning algorithms
+bio:
+  The writer is passionate about using open source technology for development
+  and deployment of software solutions
 
 # Interests to show in About widget
 interests:
-- Drumming and Music (in general)
-- Productivity
-- Bayesian Statistics
-- Data analysis
-- Software development in Python and R
-- Machine learning
+  - Drumming and Music (in general)
+  - Productivity
+  - Bayesian Statistics
+  - Data analysis
+  - Software development in Python and R
+  - Machine learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: MSc in Statistics
-    institution: KU Leuven
-    year: 2016
-  - course: BSc. (Hons) in Accounting and Finance
-    institution: Lahore University of Management Sciences (LUMS)
-    year: 2014
+    - course: MSc in Statistics
+      institution: KU Leuven
+      year: 2016
+    - course: BSc. (Hons) in Accounting and Finance
+      institution: Lahore University of Management Sciences (LUMS)
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -71,14 +73,13 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://www.rohailtaimour.com/markdown-cv
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
 
 {style="text-align: justify;"}
