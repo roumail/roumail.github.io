@@ -76,7 +76,7 @@ social:
     link: https://www.rohailtaimour.com/markdown-cv
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "rohail.taimour@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
