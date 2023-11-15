@@ -1,0 +1,36 @@
+name: Update CV on Hugo Site
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Hugo Site Repository
+        uses: actions/checkout@v3
+
+      - name: Download Latest CV Release Asset
+        uses: houqp/download-release-assets-action@v1.0.1
+        with:
+          repository: 'roumail/cv-data'
+          token: ${{ secrets.GH_PAT }}
+          match: 'resume-general-v.*\\.zip'
+          rename: resume.zip
+
+      - name: Place Latest Resume in Static Folder
+        run: |
+          unzip resume.zip -d resume
+          RESUME_NAME=$(ls resume/*.pdf)
+          RESUME_NAME=${RESUME_NAME##*/}
+          cp -f "resume/$RESUME_NAME" static/upload/resume.pdf
+
+      - name: Commit and Push CV Update
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add static/upload/resume.pdf
+          git commit -m 'Update CV to latest version'
+          git push
