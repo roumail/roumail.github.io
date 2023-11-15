@@ -16,7 +16,7 @@ jobs:
       - name: Download Latest CV Release Asset
         uses: houqp/download-release-assets-action@v1.0.1
         with:
-          repository: 'roumail/cv-data'
+          repo: 'roumail/cv-data'
           token: ${{ secrets.GH_PAT }}
           match: 'resume-general-v.*\\.zip'
           rename: resume.zip
