@@ -17,6 +17,10 @@ execute:
   freeze: false
 ---
 
+
+<!-- {{{< figure src="run-1.gif" caption="Yamaha DTX 452"  >}}} -->
+<!-- $x + 1$ -->
+
 ```{python}
 import sys
 
