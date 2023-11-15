@@ -8,6 +8,10 @@ on:
 jobs:
   update-cv:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # env:
+    #   GH_TOKEN: ${{ secrets.GH_PAT }}
 
     steps:
       - name: Checkout Hugo Site Repository

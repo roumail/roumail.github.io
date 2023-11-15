@@ -1,4 +1,4 @@
-name: Releases
+name: Release Website Package
 
 on:
   push:
