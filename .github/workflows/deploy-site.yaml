@@ -1,9 +1,11 @@
-name: Deploy to Github Pages
+name: Build and Deploy site
 
 on:
-  push:
-    branches:
-    - main
+  workflow_dispatch:
+  # Make the website deployment manual
+  # push:
+  #   branches:
+  #   - main
 
 jobs:
   deploy:
