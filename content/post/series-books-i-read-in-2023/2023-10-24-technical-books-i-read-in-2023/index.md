@@ -18,6 +18,12 @@ gallery_item:
   - album: "technical-list-2023"
     image: "data-intensive.jpeg"
     caption: "Designing Data-Intensive Applications"
+  - album: "technical-list-2023"
+    image: "ml-systems.jpg"
+    caption: "Designing Machine Learning Systems"
+  - album: "technical-list-2023"
+    image: "pytorch.jpg"
+    caption: "Machine Learning with PyTorch and Scikit-Learn"
 ---
 
 ## Books overview
