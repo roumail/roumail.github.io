@@ -4,8 +4,15 @@ summary:
   "Explore my discussion of a curated list of books delving into python,
   software engineering and software architecture."
 categories: ["musings", "technology"]
-tags: ["books", "python", "r"]
-series: ["Books I Read in 2023"]
+tags:
+  [
+    "books",
+    "python",
+    "data-engineering",
+    "machine-learning",
+    "pytorch",
+    "scikit-learn",
+  ]
 authors:
   - admin
 url: "/technical-read-list-2023/"
