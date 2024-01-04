@@ -28,23 +28,23 @@
   <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
   <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
 
-  <!-- Display Series Name -->
+  <!-- Display Series Name and Skip Other Metadata -->
+  div class="view-list view-list-item">
+  <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
+  <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+
   {{ if isset $item.Params "series" }}
-  <span class="article-series">
+  <div class="article-series-highlight">
     Series:
     {{ range $index, $seriesName := $item.Params.series }}
     {{ if gt $index 0 }}, {{ end }}
     <a href="{{ $.Site.BaseURL }}/series/{{ $seriesName | urlize }}">{{ $seriesName }}</a>
     {{ end }}
-  </span>
-  <span class="middot-divider"></span>
-  {{ end }}
-
+  </div>
+  {{ else }}
   {{ if eq $item.Type "event" }}
   <div class="article-metadata">
-    <span>
-      {{ partial "functions/get_event_dates" $item }}
-    </span>
+    <span>{{ partial "functions/get_event_dates" $item }}</span>
     {{ with $item.Params.location }}
     <span class="middot-divider"></span>
     <span>{{ . }}</span>
@@ -63,5 +63,5 @@
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}
-
+  {{ end }}
 </div>

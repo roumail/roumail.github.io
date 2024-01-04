@@ -19,3 +19,15 @@ html {
         background-color: var(--notice-bg-dark);
     }
 }
+
+.article-series-highlight {
+    background-color: var(--notice-bg-light);
+    padding: 5px;
+    border: 1px solid var(--notice-border-color);
+    /* Add more styling as needed */
+}
+@media (prefers-color-scheme: dark) {
+    .article-series-highlight {
+        background-color: var(--notice-bg-dark);
+    }
+}
