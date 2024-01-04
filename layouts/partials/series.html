@@ -6,18 +6,18 @@
     <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a>
     series.
   </p>
-</div>
-<!-- Series List -->
-{{- $series := .Pages.ByDate -}}
-<ol>
-  {{- range $series -}}
-  <li>
-    {{- if eq .File.UniqueID $.File.UniqueID -}}
-    <b>{{ .Title }}</b>
-    {{- else -}}
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  <!-- Series List -->
+  {{- $series := .Pages.ByDate -}}
+  <ol>
+    {{- range $series -}}
+    <li>
+      {{- if eq .File.UniqueID $.File.UniqueID -}}
+      <b>{{ .Title }}</b>
+      {{- else -}}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- end -}}
+    </li>
     {{- end -}}
-  </li>
-  {{- end -}}
-</ol>
+  </ol>
+</div>
 {{- end -}} {{- end -}}

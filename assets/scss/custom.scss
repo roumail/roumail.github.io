@@ -1,3 +1,21 @@
+:root {
+	--notice-bg-light: #f2f2f2; // Light theme background
+	--notice-bg-dark: #333;     // Dark theme background
+	--notice-border-color: #007bff;
+  }
+  
 html {
 	scroll-behavior: smooth;
+}
+
+.notice--info {
+    background-color: var(--notice-bg-light);
+    padding: 10px;
+    border-left: 3px solid var(--notice-border-color);
+    margin-bottom: 20px;
+}
+@media (prefers-color-scheme: dark) {
+    .notice--info {
+        background-color: var(--notice-bg-dark);
+    }
 }
