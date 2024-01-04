@@ -8,6 +8,7 @@ summary:
 categories: ["musings"]
 
 tags: ["self-reflection", "personal growth", "life lessons", "core values"]
+type: book
 series: ["Decoding Rohail"]
 authors:
   - admin

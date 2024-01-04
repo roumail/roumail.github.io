@@ -8,6 +8,7 @@ summary:
   Discover how I balanced the rhythm of drumming with the tempo of life, and
   what it taught me about setting personal values."
 categories: ["musings"]
+type: book
 tags:
   [
     "drums",
@@ -25,8 +26,6 @@ url: "/personal-values-part-i/"
 date: 2023-10-26T10:50:45+02:00
 draft: false
 ---
-
-{{< toc >}}
 
 I came across this quote from the book
 ["Essentialism"](https://www.amazon.com/Essentialism-Greg-McKeown-audiobook/dp/B00IWYP5NI/ref=sr_1_1?crid=RZC41UQUFCF6&keywords=essentialism&qid=1698311094&s=books&sprefix=essentialism%2Cstripbooks-intl-ship%2C150&sr=1-1)

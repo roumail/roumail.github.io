@@ -7,6 +7,7 @@ summary:
   to influential books, this post serves as a comprehensive guide to
   self-reflection, personal growth, and life lessons."
 categories: ["musings"]
+type: book
 tags:
   [
     "self-reflection",
@@ -23,8 +24,6 @@ url: "/personal-values-part-ii/"
 date: 2023-10-26T18:24:31+02:00
 draft: false
 ---
-
-{{< toc >}}
 
 ## Values exercise
 
