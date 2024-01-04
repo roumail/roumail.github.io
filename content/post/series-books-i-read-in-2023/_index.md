@@ -1,6 +1,7 @@
 ---
-title: (Series) Books I read in 2023
+title: Books I read in 2023
 cms_exclude: true
+series: ["Books I Read in 2023"]
 
 # View.
 #   1 = List
