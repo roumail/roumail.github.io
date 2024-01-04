@@ -1,36 +1,26 @@
 {{- define "main" -}}
 
 <article class="article">
-
   {{ partial "page_header" . }}
 
   <!-- Series Notification at Top -->
-  {{- if .Params.series -}}
-  {{- with index (.GetTerms "series") 0 -}}
+  {{- if .Params.series -}} {{- with index (.GetTerms "series") 0 -}}
   <div class="notice--info">
-    <p>Thisx post is part of the <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a> series.</p>
+    <p>
+      Thisx post is part of the
+      <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a>
+      series.
+    </p>
   </div>
-  {{- end -}}
-  {{- end -}}
+  {{- end -}} {{- end -}}
 
   <div class="article-container">
-
     <div class="article-style">
-      {{ partial "series.html" . }}
-      {{ .Content }}
-      {{ partial "series.html" . }}
+      {{ partial "series.html" . }} {{ .Content }} {{ partial "series.html" . }}
     </div>
 
     {{ partial "page_footer" . }}
-
   </div>
-
-  <!-- Series List at the Bottom -->
-  {{- if .Params.series -}}
-  <div class="post-series-bottom">
-    {{ partial "series.html" . }}
-  </div>
-  {{- end -}}
 </article>
 
 {{- end -}}
