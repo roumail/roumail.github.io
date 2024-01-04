@@ -9,11 +9,16 @@ html {
 }
 
 .notice--info {
-    background-color: var(--notice-bg-light);
     padding: 10px;
     border-left: 3px solid var(--notice-border-color);
     margin-bottom: 20px;
 }
+@media (prefers-color-scheme: light) {
+    .notice--info {
+        background-color: var(--notice-bg-light);
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     .notice--info {
         background-color: var(--notice-bg-dark);
@@ -21,13 +26,18 @@ html {
 }
 
 .article-series-highlight {
-    background-color: var(--notice-bg-light);
     padding: 5px;
     border: 1px solid var(--notice-border-color);
     /* Add more styling as needed */
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .article-series-highlight {
         background-color: var(--notice-bg-dark);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .article-series-highlight {
+        background-color: var(--notice-bg-light);
     }
 }
