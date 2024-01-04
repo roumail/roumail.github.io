@@ -9,7 +9,7 @@ summary:
 categories: ["technology"]
 tags: ["python", "web-scraping"]
 series: ["Building a Scraper that scales"]
-type: book
+toc: true
 authors:
   - admin
 url: "/a-scraper-that-scales-part-i/"

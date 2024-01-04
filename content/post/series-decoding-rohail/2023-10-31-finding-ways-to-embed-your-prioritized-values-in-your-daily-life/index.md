@@ -8,8 +8,9 @@ summary:
 categories: ["musings"]
 
 tags: ["self-reflection", "personal growth", "life lessons", "core values"]
-type: book
+toc: true
 series: ["Decoding Rohail"]
+series_part: 3
 authors:
   - admin
 url: "/personal-values-part-iii/"

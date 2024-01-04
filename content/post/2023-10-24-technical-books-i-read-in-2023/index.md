@@ -4,7 +4,7 @@ summary:
   "Explore my discussion of a curated list of books delving into python,
   software engineering and software architecture."
 categories: ["musings", "technology"]
-type: book
+toc: true
 tags:
   [
     "books",

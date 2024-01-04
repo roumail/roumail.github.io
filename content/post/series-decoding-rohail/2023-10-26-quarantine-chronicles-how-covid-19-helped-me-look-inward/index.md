@@ -8,7 +8,7 @@ summary:
   Discover how I balanced the rhythm of drumming with the tempo of life, and
   what it taught me about setting personal values."
 categories: ["musings"]
-type: book
+toc: true
 tags:
   [
     "drums",
@@ -20,6 +20,7 @@ tags:
   ]
 featured: true
 series: ["Decoding Rohail"]
+series_part: 1
 authors:
   - admin
 url: "/personal-values-part-i/"

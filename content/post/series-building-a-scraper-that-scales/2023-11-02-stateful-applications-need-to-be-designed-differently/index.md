@@ -9,7 +9,7 @@ authors:
 url: "/a-scraper-that-scales-part-ii/"
 date: 2023-11-02T11:28:27+01:00
 draft: true
-type: book
+toc: true
 format: hugo-md
 jupyter:
   kernel: "scraper-series"

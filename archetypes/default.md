@@ -9,5 +9,5 @@ authors:
 url: "/descriptive-and-keyword-rich-url/"
 date: {{ .Date }}
 draft: true
-type: book
+toc: false
 ---
