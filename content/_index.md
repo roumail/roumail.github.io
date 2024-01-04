@@ -39,17 +39,19 @@ sections:
     content:
       title: "Hello, I'm Rohail Taimour"
       subtitle: "Welcome to my website!"
-      text: "I'm a software engineer with a passion for drumming, data science and machine learning. Here you'll find my blog posts, projects, and more."
+      text:
+        "I'm a software engineer with a passion for drumming, data science and
+        machine learning. Here you'll find my blog posts, projects, and more."
       # image:
       #   filename: webResult.JPG
-      #   focal_point: "Smart"
+      # focal_point: "Smart"
       #   preview_only: false
-      #   avatar: true # Set this to true to make the image an avatar
-    design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
+      # avatar: true # Set this to true to make the image an avatar
+    # design:
+    #   background:
+    #     gradient_end: '#1976d2'
+    #     gradient_start: '#004ba0'
+    #     text_color_light: true
   - block: about.biography
     id: about
     content:
@@ -150,8 +152,8 @@ sections:
     id: posts
     content:
       title: Recent Posts
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -172,5 +174,5 @@ sections:
     design:
       # Choose a layout view
       view: compact
-      columns: '2'  
+      columns: "2"
 ---
