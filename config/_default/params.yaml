@@ -77,7 +77,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: "github.com/roumail/roumail.github.io"
     content_dir: content
