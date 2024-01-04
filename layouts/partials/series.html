@@ -1,6 +1,13 @@
-{{- with (.GetTerms "series") -}}
-{{- range . -}}
-<h3>{{ .Title }} series</h3>
+{{- with (.GetTerms "series") -}} {{- range . -}}
+<!-- Series Notification -->
+<div class="notice--info">
+  <p>
+    This post is part of the
+    <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a>
+    series.
+  </p>
+</div>
+<!-- Series List -->
 {{- $series := .Pages.ByDate -}}
 <ol>
   {{- range $series -}}
@@ -13,5 +20,4 @@
   </li>
   {{- end -}}
 </ol>
-{{- end -}}
-{{- end -}}
+{{- end -}} {{- end -}}
