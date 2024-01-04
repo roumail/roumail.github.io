@@ -1,7 +1,7 @@
 ---
-title: (Series) Decoding Rohail
+title: Decoding Rohail
 cms_exclude: true
-
+series: ["Decoding Rohail"]
 # View.
 #   1 = List
 #   2 = Compact

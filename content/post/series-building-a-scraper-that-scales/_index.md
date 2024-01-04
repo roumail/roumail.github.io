@@ -1,7 +1,7 @@
 ---
-title: (Series) Building a scraper that scales
+title: Building a scraper that scales
 cms_exclude: true
-
+series: ["Building a Scraper that scales"]
 # View.
 #   1 = List
 #   2 = Compact
