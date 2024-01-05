@@ -6,10 +6,12 @@
   series.
 </p>
 <!-- Series List -->
-{{- $seriesPages := where .Pages "Kind" "page" -}}
+{{- $seriesPages := where .Pages "Kind" "page" -}} {{- $sortedSeriesPages :=
+sort $seriesPages "Date" "asc" -}}
+<!-- Sort the filtered pages -->
 <!-- Filter out list pages -->
 <ol>
-  {{- range $seriesPages -}}
+  {{- range $sortedSeriesPages -}}
   <li>
     {{- if eq .File.UniqueID $.File.UniqueID -}}
     <b>{{ .Title }}</b>
