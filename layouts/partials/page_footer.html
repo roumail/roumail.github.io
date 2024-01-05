@@ -1,15 +1,6 @@
-{{ partial "page_edit" . }}
-{{ partial "tags" . }}
+{{ partial "page_edit" . }} {{ partial "tags" . }}
 <h3>Share this Article:</h3>
-{{ partial "components/page_sharer" . }}
-{{ partial "page_author" . }}
-{{ partial "comments" . }}
-
-{{ if .Params.pager }}
-<div class="article-widget">
-  {{ partial "components/pager" . }}
-</div>
-{{ end }}
-
-{{ partial "page_related" . }}
-{{ partial "mailchimp-form.html" . }}
+{{ partial "components/page_sharer" . }} {{ partial "page_author" . }} {{
+partial "page_related" . }} {{ partial "comments" . }} {{ if .Params.pager }}
+<div class="article-widget">{{ partial "components/pager" . }}</div>
+{{ end }} {{ partial "mailchimp-form.html" . }}

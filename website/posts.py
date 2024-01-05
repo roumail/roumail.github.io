@@ -104,11 +104,8 @@ def create_new_post(title, series=None, quarto=False):
 title: {series}
 cms_exclude: true
 draft: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
+series: [\"{series}\"]
+type: series
 view: 2
 ---
 """

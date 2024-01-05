@@ -1,19 +1,31 @@
 {{- define "main" -}}
 
 <article class="article">
-
   {{ partial "page_header" . }}
 
-  <div class="article-container">
+  <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+      <!-- ToC Column -->
+      {{ if .Params.toc }}
+      <div class="d-none d-xl-block col-xl-2 docs-toc">
+        {{ partial "toc.html" . }}
+      </div>
+      {{ end }}
 
-    <div class="article-style">
-      {{ partial "series.html" . }}
-      {{ .Content }}
-      {{ partial "series.html" . }}
+      <!-- Main Content Column -->
+      <main
+        class="col-12 {{ if .Params.toc }}col-md-9 col-xl-8{{ else }}col-md-12{{ end }} py-md-3 pl-md-5 docs-content"
+        role="main">
+        <div class="article-container">
+          <div class="article-style">
+            {{ partial "series.html" . }}
+            {{ .Content }}
+            {{ partial "series.html" . }}
+          </div>
+          {{ partial "page_footer" . }}
+        </div>
+      </main>
     </div>
-
-    {{ partial "page_footer" . }}
-
   </div>
 </article>
 

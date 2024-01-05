@@ -1,12 +1,8 @@
 ---
-title: (Series) Building a scraper that scales
+title: Building a scraper that scales
 cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+series: ["Building a Scraper that scales"]
+type: series
 ---
 
 This is a series where I explore what a scalable web scraper implemented in

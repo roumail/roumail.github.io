@@ -7,6 +7,7 @@ summary:
   to influential books, this post serves as a comprehensive guide to
   self-reflection, personal growth, and life lessons."
 categories: ["musings"]
+toc: true
 tags:
   [
     "self-reflection",
@@ -17,14 +18,13 @@ tags:
     "overcoming procrastination",
   ]
 series: ["Decoding Rohail"]
+series_part: 2
 authors:
   - admin
 url: "/personal-values-part-ii/"
 date: 2023-10-26T18:24:31+02:00
 draft: false
 ---
-
-{{< toc >}}
 
 ## Values exercise
 
