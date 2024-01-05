@@ -7,9 +7,10 @@
     series.
   </p>
   <!-- Series List -->
-  {{- $series := .Pages.ByDate -}}
+  {{- $seriesPages := where .Pages "Kind" "page" -}}
+  <!-- Filter out list pages -->
   <ol>
-    {{- range $series -}}
+    {{- range $seriesPages -}}
     <li>
       {{- if eq .File.UniqueID $.File.UniqueID -}}
       <b>{{ .Title }}</b>
