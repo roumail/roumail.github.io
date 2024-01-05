@@ -1,43 +1,20 @@
-:root {
-	--notice-bg-light: #f2f2f2; // Light theme background
-	--notice-bg-dark: #333;     // Dark theme background
-	--notice-border-color: #007bff;
-  }
-  
 html {
 	scroll-behavior: smooth;
 }
 
 .notice--info {
     padding: 10px;
-    border-left: 3px solid var(--notice-border-color);
     margin-bottom: 20px;
 }
 @media (prefers-color-scheme: light) {
     .notice--info {
-        background-color: var(--notice-bg-light);
+        border-left: 3px solid #c1c7ce;;
+        background-color: #e1dfdf; // Light theme background
     }
 }
-
 @media (prefers-color-scheme: dark) {
     .notice--info {
-        background-color: var(--notice-bg-dark);
-    }
-}
-
-.article-series-highlight {
-    padding: 5px;
-    border: 1px solid var(--notice-border-color);
-    /* Add more styling as needed */
-}
-@media (prefers-color-scheme: light) {
-    .article-series-highlight {
-        background-color: var(--notice-bg-dark);
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .article-series-highlight {
-        background-color: var(--notice-bg-light);
+        background-color: #333;     // Dark theme background
+        --notice-border-color: #007bff;
     }
 }
