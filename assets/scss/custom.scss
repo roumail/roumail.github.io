@@ -1,20 +1,3 @@
 html {
 	scroll-behavior: smooth;
 }
-
-.notice--info {
-    padding: 10px;
-    margin-bottom: 20px;
-}
-@media (prefers-color-scheme: light) {
-    .notice--info {
-        border-left: 3px solid #c1c7ce;;
-        background-color: #e1dfdf; // Light theme background
-    }
-}
-@media (prefers-color-scheme: dark) {
-    .notice--info {
-        background-color: #333;     // Dark theme background
-        --notice-border-color: #007bff;
-    }
-}

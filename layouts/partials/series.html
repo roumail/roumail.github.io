@@ -1,24 +1,22 @@
 {{- with (.GetTerms "series") -}} {{- range . -}}
 <!-- Series Notification -->
-<div class="notice--info">
-  <p>
-    This post is part of the
-    <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a>
-    series.
-  </p>
-  <!-- Series List -->
-  {{- $seriesPages := where .Pages "Kind" "page" -}}
-  <!-- Filter out list pages -->
-  <ol>
-    {{- range $seriesPages -}}
-    <li>
-      {{- if eq .File.UniqueID $.File.UniqueID -}}
-      <b>{{ .Title }}</b>
-      {{- else -}}
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      {{- end -}}
-    </li>
+<p>
+  This post is part of the
+  <a href="{{ .Permalink }}" style="font-weight: bold">{{ .LinkTitle }}</a>
+  series.
+</p>
+<!-- Series List -->
+{{- $seriesPages := where .Pages "Kind" "page" -}}
+<!-- Filter out list pages -->
+<ol>
+  {{- range $seriesPages -}}
+  <li>
+    {{- if eq .File.UniqueID $.File.UniqueID -}}
+    <b>{{ .Title }}</b>
+    {{- else -}}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
     {{- end -}}
-  </ol>
-</div>
+  </li>
+  {{- end -}}
+</ol>
 {{- end -}} {{- end -}}
