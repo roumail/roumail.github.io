@@ -2,11 +2,7 @@
 title: Decoding Rohail
 cms_exclude: true
 series: ["Decoding Rohail"]
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+type: series
 ---
 
 This is a series where I explore what makes me tick and my journey of finding
