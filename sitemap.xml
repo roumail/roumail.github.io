@@ -30,15 +30,15 @@
     <lastmod>2023-11-02T16:50:02+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.rohailtaimour.com/post/series-decoding-rohail/</loc>
-    <lastmod>2023-10-31T13:26:24+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://www.rohailtaimour.com/tag/core-values/</loc>
     <lastmod>2023-10-31T13:26:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://www.rohailtaimour.com/series/decoding-rohail/</loc>
+    <lastmod>2023-10-31T13:26:24+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://www.rohailtaimour.com/post/series-decoding-rohail/</loc>
     <lastmod>2023-10-31T13:26:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -162,6 +162,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://www.rohailtaimour.com/post/series-books-i-read-in-2023/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://www.rohailtaimour.com/series/books-i-read-in-2023/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://www.rohailtaimour.com/contact/</loc>

@@ -17,30 +17,7 @@
       <link>https://www.rohailtaimour.com/a-scraper-that-scales-part-i/</link>
       <pubDate>Tue, 24 Oct 2023 16:14:00 +0200</pubDate>
       <guid>https://www.rohailtaimour.com/a-scraper-that-scales-part-i/</guid>
-      <description>
-
-&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;Motivation&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#implementing-the-proof-of-concept&#34;&gt;Implementing the Proof of concept&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#a-sidenote-on-bayesian-statistics&#34;&gt;A sidenote on Bayesian statistics&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#revisiting-the-implementation-once-again&#34;&gt;Revisiting the implementation once again&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#areas-of-improvement&#34;&gt;Areas of improvement&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#1-efficiency-in-data-scraping&#34;&gt;1. Efficiency in Data Scraping&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#2-dependency-management&#34;&gt;2. Dependency Management&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#3-code-refactoring-for-readability-and-maintainability&#34;&gt;3. Code Refactoring for Readability and Maintainability&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#5-data-storage-and-validation&#34;&gt;5. Data Storage and Validation&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#final-comments&#34;&gt;Final comments&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Remember that period when most parts of the world were in a lockdown due to
 COVID? Yes, we&amp;rsquo;re nearing the end of 2023 and COVID seems like a distant memory
 at this point. However, like I imagine many of us, I suddenly found that being
