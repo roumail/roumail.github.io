@@ -30,10 +30,9 @@ bio:
 interests:
   - Drumming and Music (in general)
   - Productivity
+  - Writing
   - Bayesian Statistics
-  - Data analysis
-  - Software development in Python and R
-  - Machine learning
+  - Software development
 
 # Education to show in About widget
 education:
