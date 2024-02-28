@@ -14,7 +14,7 @@ last_name: Taimour
 superuser: true
 
 # Role/position/tagline
-role: "Software developer | Data Scientist | Machine Learning Engineer"
+role: "Python Developer | Backend Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -29,10 +29,10 @@ bio:
 # Interests to show in About widget
 interests:
   - Drumming and Music (in general)
+  - Software development
   - Productivity
   - Writing
   - Bayesian Statistics
-  - Software development
 
 # Education to show in About widget
 education:
