@@ -1,10 +1,8 @@
 ---
 title: "Part III: Embedding Your True North"
 summary:
-  "In the final installment of 'Decoding Rohail,' we move from identifying core
-  values to living them. This article offers a practical guide on how to
-  integrate your cherished values into daily actions and decisions and
-  strategies to help steer you back when you've strayed off course."
+  "In the final installment of 'Decoding Rohail,' we explore how to move from
+  identifying core values to living them."
 categories: ["musings"]
 
 tags: ["self-reflection", "personal growth", "life lessons", "core values"]
