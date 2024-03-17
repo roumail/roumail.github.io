@@ -2,7 +2,7 @@ name: Release Website Package
 
 on:
   workflow_dispatch:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -36,21 +36,11 @@ jobs:
     - name: Build Package
       run: poetry build
     
-    - name: Check if tag exists
-      id: check_tag
-      run: |
-        if git rev-parse ${{ env.PACKAGE_VERSION }} >/dev/null 2>&1; then
-          echo "Tag exists!"
-          echo "TAG_EXISTS=true" >> $GITHUB_ENV
-        else
-          echo "Tag does not exist."
-          echo "TAG_EXISTS=false" >> $GITHUB_ENV
-        fi
-
     - name: Tag Release
-      if: env.TAG_EXISTS == 'false'
       run: |
-        git tag v${{ env.PACKAGE_VERSION }}
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git tag -a v${{ env.PACKAGE_VERSION }} -m "Release v${{ env.PACKAGE_VERSION }}"
         git push origin v${{ env.PACKAGE_VERSION }}
 
     - name: Create Release
