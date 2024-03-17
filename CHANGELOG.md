@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+## Removed
+
+- Version retrieval now doesn't use toml package
+
 ## [1.0.3] - 2024-03-17
 
 ### Removed
