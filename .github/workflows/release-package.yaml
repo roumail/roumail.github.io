@@ -1,9 +1,10 @@
 name: Release Website Package
 
 on:
-  push:
-    tags:
-    - 'v*'
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -30,13 +31,18 @@ jobs:
         PACKAGE_VERSION=$(poetry version -s)
         echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
     
-    - name: Build Package
-      run: poetry build
-
     - name: Get changelog body
       run: |
         CHANGELOG_BODY=$(keepachangelog show ${PACKAGE_VERSION})
         echo "CHANGELOG_BODY=$CHANGELOG_BODY" >> $GITHUB_ENV
+    
+    - name: Build Package
+      run: poetry build
+    
+    - name: Tag Release
+      run: |
+        git tag v${{ env.PACKAGE_VERSION }}
+        git push origin v${{ env.PACKAGE_VERSION }}
 
     - name: Create Release
       uses: ncipollo/release-action@v1
