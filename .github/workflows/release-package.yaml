@@ -25,11 +25,22 @@ jobs:
         pip install poetry
         pip install keepachangelog@git+https://github.com/Colin-b/keepachangelog
 
+    - name: Get package version via Poetry
+      run: |
+        PACKAGE_VERSION=$(poetry version -s)
+        echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
+    
     - name: Build Package
       run: poetry build
+
+    - name: Get changelog body
+      run: |
+        CHANGELOG_BODY=$(keepachangelog show ${PACKAGE_VERSION})
+        echo "CHANGELOG_BODY=$CHANGELOG_BODY" >> $GITHUB_ENV
 
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
         artifacts: "dist/*.tar.gz"
+        body: ${{ env.CHANGELOG_BODY }}
         token: ${{ secrets.GH_PAT }}
