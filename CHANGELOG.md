@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.3] - 2024-03-17
+
 ### Removed
 
 - retrieving body of changelog using internal function. Defer to function
