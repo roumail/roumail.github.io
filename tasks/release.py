@@ -1,17 +1,14 @@
 from invoke import task
 
-from website.release import get_or_create_sha1, get_version_from_pyproject
+from website.release import get_version_from_pyproject
 
 from .posts import check_project_root_task
 
 
 @task(
     pre=[check_project_root_task],
-    help={
-        "force": "Avoid checking SHA of last body.",
-    },
 )
-def tag_version(c, force=False):
+def tag_version(c):
     """
     Create a new Git tag with the version from pyproject.toml and push it to
     the remote repository.
@@ -19,13 +16,6 @@ def tag_version(c, force=False):
     Presupposes that you've already done poetry version bump using
     poetry version patch/minor, etc
     """
-    if not force:
-        # Check if body.md has changed
-        current_sha = get_or_create_sha1("body.md", ".last_body_md_sha")
-        if current_sha is False:
-            print("Warning: body.md has not changed since the last release. Aborting.")
-            return
-
     version = get_version_from_pyproject()
     print(f"Current version is {version}")
 
