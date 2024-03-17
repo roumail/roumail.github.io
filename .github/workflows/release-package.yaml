@@ -33,7 +33,7 @@ jobs:
     
     - name: Get changelog body
       run: |
-        CHANGELOG_BODY=$(keepachangelog show ${PACKAGE_VERSION})
+        CHANGELOG_BODY=$(keepachangelog show ${env.PACKAGE_VERSION})
         echo "CHANGELOG_BODY=$CHANGELOG_BODY" >> $GITHUB_ENV
     
     - name: Build Package
