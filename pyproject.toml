@@ -14,7 +14,6 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
-toml = "^0.10.2"
 
 [tool.poetry.group.dev.dependencies]
 invoke = "^1.6.0"
