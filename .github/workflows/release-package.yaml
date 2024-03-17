@@ -20,8 +20,10 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Poetry
-      run: pip install poetry
+    - name: Install Python dependencies
+      run: |
+        pip install poetry
+        pip install keepachangelog@git+https://github.com/Colin-b/keepachangelog
 
     - name: Build Package
       run: poetry build
@@ -30,5 +32,4 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         artifacts: "dist/*.tar.gz"
-        bodyFile: "body.md"
         token: ${{ secrets.GH_PAT }}

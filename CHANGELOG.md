@@ -7,3 +7,8 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Removed
+
+- retrieving body of changelog using internal function. Defer to function
+  keepachangelog
