@@ -1,9 +1,9 @@
 name: Update CV from CV-repo
 
 on:
-  schedule:
-    - cron: '0 0 * * 1' # Runs every Monday at midnight
   workflow_dispatch:
+  # schedule:
+    # - cron: '0 0 * * 1' # Runs every Monday at midnight
 
 jobs:
   update-cv:
