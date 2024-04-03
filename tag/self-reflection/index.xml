@@ -5,12 +5,191 @@
     <link>https://www.rohailtaimour.com/tag/self-reflection/</link>
       <atom:link href="https://www.rohailtaimour.com/tag/self-reflection/index.xml" rel="self" type="application/rss+xml" />
     <description>self-reflection</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Oct 2023 13:26:24 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Feb 2024 19:49:26 +0100</lastBuildDate>
     <image>
       <url>https://www.rohailtaimour.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>self-reflection</title>
       <link>https://www.rohailtaimour.com/tag/self-reflection/</link>
     </image>
+    
+    <item>
+      <title>Falling Into Analysis Paralysis</title>
+      <link>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</link>
+      <pubDate>Tue, 27 Feb 2024 19:49:26 +0100</pubDate>
+      <guid>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</guid>
+      <description>&lt;h2 id=&#34;dig-deeper-if-youre-hesitating&#34;&gt;Dig deeper if you&amp;rsquo;re hesitating&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s been a while since I wrote my last entry! It&amp;rsquo;s been a busy period with the
+adaptations needed in one&amp;rsquo;s life after they become new parents. It&amp;rsquo;s been
+challenging to say the least. However, writing new entries doesn&amp;rsquo;t take as much
+time once you&amp;rsquo;ve put your mind to it. Which brings up the first question I&amp;rsquo;ve
+been pondering ever since I decided to write a blog: Is this platform a digital
+garden for me to test out new ideas or more a place for me to unleash and make
+sense of my inner world?&lt;/p&gt;
+&lt;p&gt;This blog entry is clearly one of the latter. And this is not a journal entry
+either, which would be rather more personal in nature. These entries stay on the
+web for the foreseeable future (unless I take them down myself).&lt;/p&gt;
+&lt;p&gt;And the answer to the main thesis of this blog entry is ofcourse also: all of
+the above. This was one of the primary reasons I have categories for each of the
+main topics I&amp;rsquo;m planning to be writing on. So deciding to write on one topic
+does not at all preclude the other. That micro-decision, however, is where the
+issue begins. It presents the perfect opportunity to ruminate over getting
+certain details right that don&amp;rsquo;t really matter at all.&lt;/p&gt;
+&lt;p&gt;I know that I certainly fall victim to this now and again. I&amp;rsquo;ve been thinking
+for sometime now to finish writing the series on the
+&lt;a href=&#34;https://www.rohailtaimour.com/content/post/series-building-a-scraper-that-scales/_index.md&#34;&gt;scraper&lt;/a&gt;. There
+remain a number of ideas remaining to tackle in that series and there&amp;rsquo;s a few
+lazy shortcuts I took I&amp;rsquo;ve been looking to rectify.&lt;/p&gt;
+&lt;p&gt;Then on the other hand, I have the third part of the
+&lt;a href=&#34;https://www.rohailtaimour.com/content/post/series-decoding-rohail/_index.md&#34;&gt;series&lt;/a&gt; on decoding myself. The
+values that I&amp;rsquo;ve chosen to base myself off, to guide me through life if you
+will, leave a lot of room for interpretation. Circumstances over the past few
+months, with the birth of our daughter, a change in job, the industry I&amp;rsquo;m
+working on, and I&amp;rsquo;ve even started having regular jam sessions with a band as a
+drummer. These are exciting times and have left me with a lot to reflect and
+ponder over.&lt;/p&gt;
+&lt;p&gt;This explains the stream of nature blog entry we have here because it&amp;rsquo;s a
+reaffirmation of what this blog is ultimately about: mostly unfiltered
+expression.&lt;/p&gt;
+&lt;h2 id=&#34;its-about-showing-up-make-it-happen&#34;&gt;It&amp;rsquo;s about showing up: make it happen!&lt;/h2&gt;
+&lt;p&gt;Most of my efforts so far have focused on setting up the website, learning the
+different pieces of the puzzle when it comes to statically generated websites.
+My goal was always to avoid spending too much time editing the content that I
+put out. The tools we have today allow us to run into loops editing things to
+our hearts desire. For example, I read somewhere that some of our favourite
+bands, when they recorded albums, would only get one take to record the whole
+thing due to technology constraints of the time. These kind of constraints mean
+that firstly, you need to have mastered your material to the point where you can
+do everything in one take and secondly, that some mistakes are bound to creep
+in. I think there was probably a far more tolerant view of these mistakes at the
+time.&lt;/p&gt;
+&lt;p&gt;When it comes to my writing, I can be quite accepting of it&amp;rsquo;s imperfections.
+That is, unless, I&amp;rsquo;m actually writing software. In the imperative paradigm of
+programming, where you have to give the computer complete instructions of what
+needs to be done, for the program to perform as expected, we need to provide
+sufficient instructions. Hence, these instructions require a certain amount of
+rigorousness, thinking of different edge cases: some of which you are only bound
+to find at runtime or when the users of the software use it in unexpected ways.&lt;/p&gt;
+&lt;p&gt;I was hesitating to write because I have been inundated with a rush of new
+information, whether it was from technologies I was encountering in my recent
+role, or technical books I was reading at the moment. The book,
+&lt;a href=&#34;https://www.amazon.de/-/en/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=3FJXGHQ63JL2S&amp;amp;keywords=designing&amp;#43;data-intensive&amp;#43;applications&amp;#43;by&amp;#43;martin&amp;#43;kleppmann&amp;amp;qid=1697911731&amp;amp;sprefix=designing&amp;#43;data%2Caps%2C74&amp;amp;sr=8-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Designing Data-Intensive Applications&lt;/a&gt;,
+for example is a classic and has left me with a lot of food for thought. It&amp;rsquo;s
+fundamentally changed the way I look at any application I work on in the past.
+However, writing an article discussing it becomes more of a research endeavour,
+demanding a somewhat rigorous attitude. And hence, the procrastination.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.rohailtaimour.com/media/albums/technical-list-2023/data-intensive.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;The key takeaway here is that it&amp;rsquo;s more important to show up, to write blog
+entries, whatever they may happen to be, than to curate the non-existent entries
+you will have on your website. Clearly I had projected this website to be more
+of a technical playground and was stuck to that idea instead of letting the
+entries come and for the website to organically grow as it will.&lt;/p&gt;
+&lt;p&gt;The tendency to go for over complicated solutions, or planning for solutions to
+problems that don&amp;rsquo;t exist yet is far too common. I see it all the time amongst
+developers, and I catch myself doing this far too often. I recently spotted this
+in a drumming context, where I saw how different playing in a band can be
+compared to practicing on your own. Since the past few months that I&amp;rsquo;ve been
+playing drums with a guitarist and bassist, it&amp;rsquo;s increased my sense of musical
+awareness and forced me revisit some basics I had started to gloss over.
+Concretely speaking, I had been drumming at a bpm of about 70-80 for most of the
+past three years I had been practicing. Suddenly, I needed to play at almost
+double that bpm because that&amp;rsquo;s how fast most rock is played.&lt;/p&gt;
+&lt;h2 id=&#34;best-to-accept-vulnerability-when-youre-aiming-to-show-up&#34;&gt;Best to accept vulnerability when you&amp;rsquo;re aiming to show up&lt;/h2&gt;
+&lt;p&gt;I read the book, Who moved my cheese, in the beginning of last year at what may
+have been the best possible time to read it. I had started on my freelance
+journey about six months ago and I had to start looking for my next mission soon
+after returning from holidays. In many ways, once you become a freelancer, you
+have to come to terms with accepting uncertainty. I had been a permanent
+employee at the same company for all of my professional working experience and
+it&amp;rsquo;s very easy to become detached from the realities of looking for new
+opportunities. This book punches way above it&amp;rsquo;s weight, for the amount of wisdom
+it imparts in a very short number of pages. The key takeaway? How to keep a
+healthy mindset about change and reframing it such that you see change for what
+it really is: a chance for you to encounter something, perhaps much better than
+what you could have possibly imagined for yourself.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.rohailtaimour.com/media/albums/reading-list-2023/cheese.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;The truth is we all think we know exactly how things will play out and most
+often than not, it&amp;rsquo;s the fear of change and uncertainty that&amp;rsquo;s stopping you from
+taking that next step. That&amp;rsquo;s where vulnerability comes in, where you take a
+step, not knowing all the details. This was around the time that I was doing a
+lot of reflection on my
+&lt;a href=&#34;http://localhost:1313/personal-values-part-ii/#my-values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;values&lt;/a&gt; and I had
+realised that my list of values had one half that I perceived myself to be
+naturally good at while there was another half which I tended to ignore. Turns
+out the values I was ignoring were the ones that were key to handling
+uncertainty better and that allowed me to remain exposed in vulnerable
+situations without pulling my hair out as I might have done not too long ago.&lt;/p&gt;
+&lt;h2 id=&#34;key-ingredients-to-staying-strong-when-feeling-exposed&#34;&gt;Key ingredients to staying strong when feeling exposed&lt;/h2&gt;
+&lt;p&gt;What purpose do vague words like the ones below serve us anyway when we&amp;rsquo;re faced
+with a challenging situation?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Acceptance&lt;/li&gt;
+&lt;li&gt;Faith&lt;/li&gt;
+&lt;li&gt;Simplicity&lt;/li&gt;
+&lt;li&gt;Humility&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Personally, I&amp;rsquo;ve found that it&amp;rsquo;s good that these words are ambiguous. At
+different points in your life, they can mean different things to you.
+Nonetheless, I find that the key to withstand vulnerability is to remember that
+not ever situation calls for a complex solution. We need to be embrace
+&lt;em&gt;Simplicity&lt;/em&gt; in our actions, have &lt;em&gt;Faith&lt;/em&gt; that we&amp;rsquo;re on the right track. We need
+to &lt;em&gt;Accept&lt;/em&gt; that not everything pan out as we&amp;rsquo;d want and remember to stay
+&lt;em&gt;Humble&lt;/em&gt; since it&amp;rsquo;s very likely we were at least partially wrong about any
+meaningful endeavour we take. Do we need to fear making mistakes? Why should we?
+Fear makes life interesting because it means you&amp;rsquo;re pushing yourself out of your
+comfort zone. I guess we can ask ourselves, if we&amp;rsquo;d really like a life without
+fear.&lt;/p&gt;
+&lt;h2 id=&#34;circling-back-to-this-blog&#34;&gt;Circling back to this blog&lt;/h2&gt;
+&lt;p&gt;I don&amp;rsquo;t know what this blog will be about. I don&amp;rsquo;t have to put any labels to
+what it be a few years from now. I don&amp;rsquo;t even have to care what it will look
+like a few entries from now. It&amp;rsquo;s more important to show up, write and let it
+take on a life of it&amp;rsquo;s own.&lt;/p&gt;
+&lt;p&gt;Thank&amp;rsquo;s for reading!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Part III: Embedding Your True North</title>

@@ -33,39 +33,389 @@
     </item>
     
     <item>
+      <title>Falling Into Analysis Paralysis</title>
+      <link>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</link>
+      <pubDate>Tue, 27 Feb 2024 19:49:26 +0100</pubDate>
+      <guid>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</guid>
+      <description>&lt;h2 id=&#34;dig-deeper-if-youre-hesitating&#34;&gt;Dig deeper if you&amp;rsquo;re hesitating&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s been a while since I wrote my last entry! It&amp;rsquo;s been a busy period with the
+adaptations needed in one&amp;rsquo;s life after they become new parents. It&amp;rsquo;s been
+challenging to say the least. However, writing new entries doesn&amp;rsquo;t take as much
+time once you&amp;rsquo;ve put your mind to it. Which brings up the first question I&amp;rsquo;ve
+been pondering ever since I decided to write a blog: Is this platform a digital
+garden for me to test out new ideas or more a place for me to unleash and make
+sense of my inner world?&lt;/p&gt;
+&lt;p&gt;This blog entry is clearly one of the latter. And this is not a journal entry
+either, which would be rather more personal in nature. These entries stay on the
+web for the foreseeable future (unless I take them down myself).&lt;/p&gt;
+&lt;p&gt;And the answer to the main thesis of this blog entry is ofcourse also: all of
+the above. This was one of the primary reasons I have categories for each of the
+main topics I&amp;rsquo;m planning to be writing on. So deciding to write on one topic
+does not at all preclude the other. That micro-decision, however, is where the
+issue begins. It presents the perfect opportunity to ruminate over getting
+certain details right that don&amp;rsquo;t really matter at all.&lt;/p&gt;
+&lt;p&gt;I know that I certainly fall victim to this now and again. I&amp;rsquo;ve been thinking
+for sometime now to finish writing the series on the
+&lt;a href=&#34;https://www.rohailtaimour.com/content/post/series-building-a-scraper-that-scales/_index.md&#34;&gt;scraper&lt;/a&gt;. There
+remain a number of ideas remaining to tackle in that series and there&amp;rsquo;s a few
+lazy shortcuts I took I&amp;rsquo;ve been looking to rectify.&lt;/p&gt;
+&lt;p&gt;Then on the other hand, I have the third part of the
+&lt;a href=&#34;https://www.rohailtaimour.com/content/post/series-decoding-rohail/_index.md&#34;&gt;series&lt;/a&gt; on decoding myself. The
+values that I&amp;rsquo;ve chosen to base myself off, to guide me through life if you
+will, leave a lot of room for interpretation. Circumstances over the past few
+months, with the birth of our daughter, a change in job, the industry I&amp;rsquo;m
+working on, and I&amp;rsquo;ve even started having regular jam sessions with a band as a
+drummer. These are exciting times and have left me with a lot to reflect and
+ponder over.&lt;/p&gt;
+&lt;p&gt;This explains the stream of nature blog entry we have here because it&amp;rsquo;s a
+reaffirmation of what this blog is ultimately about: mostly unfiltered
+expression.&lt;/p&gt;
+&lt;h2 id=&#34;its-about-showing-up-make-it-happen&#34;&gt;It&amp;rsquo;s about showing up: make it happen!&lt;/h2&gt;
+&lt;p&gt;Most of my efforts so far have focused on setting up the website, learning the
+different pieces of the puzzle when it comes to statically generated websites.
+My goal was always to avoid spending too much time editing the content that I
+put out. The tools we have today allow us to run into loops editing things to
+our hearts desire. For example, I read somewhere that some of our favourite
+bands, when they recorded albums, would only get one take to record the whole
+thing due to technology constraints of the time. These kind of constraints mean
+that firstly, you need to have mastered your material to the point where you can
+do everything in one take and secondly, that some mistakes are bound to creep
+in. I think there was probably a far more tolerant view of these mistakes at the
+time.&lt;/p&gt;
+&lt;p&gt;When it comes to my writing, I can be quite accepting of it&amp;rsquo;s imperfections.
+That is, unless, I&amp;rsquo;m actually writing software. In the imperative paradigm of
+programming, where you have to give the computer complete instructions of what
+needs to be done, for the program to perform as expected, we need to provide
+sufficient instructions. Hence, these instructions require a certain amount of
+rigorousness, thinking of different edge cases: some of which you are only bound
+to find at runtime or when the users of the software use it in unexpected ways.&lt;/p&gt;
+&lt;p&gt;I was hesitating to write because I have been inundated with a rush of new
+information, whether it was from technologies I was encountering in my recent
+role, or technical books I was reading at the moment. The book,
+&lt;a href=&#34;https://www.amazon.de/-/en/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=3FJXGHQ63JL2S&amp;amp;keywords=designing&amp;#43;data-intensive&amp;#43;applications&amp;#43;by&amp;#43;martin&amp;#43;kleppmann&amp;amp;qid=1697911731&amp;amp;sprefix=designing&amp;#43;data%2Caps%2C74&amp;amp;sr=8-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Designing Data-Intensive Applications&lt;/a&gt;,
+for example is a classic and has left me with a lot of food for thought. It&amp;rsquo;s
+fundamentally changed the way I look at any application I work on in the past.
+However, writing an article discussing it becomes more of a research endeavour,
+demanding a somewhat rigorous attitude. And hence, the procrastination.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.rohailtaimour.com/media/albums/technical-list-2023/data-intensive.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;The key takeaway here is that it&amp;rsquo;s more important to show up, to write blog
+entries, whatever they may happen to be, than to curate the non-existent entries
+you will have on your website. Clearly I had projected this website to be more
+of a technical playground and was stuck to that idea instead of letting the
+entries come and for the website to organically grow as it will.&lt;/p&gt;
+&lt;p&gt;The tendency to go for over complicated solutions, or planning for solutions to
+problems that don&amp;rsquo;t exist yet is far too common. I see it all the time amongst
+developers, and I catch myself doing this far too often. I recently spotted this
+in a drumming context, where I saw how different playing in a band can be
+compared to practicing on your own. Since the past few months that I&amp;rsquo;ve been
+playing drums with a guitarist and bassist, it&amp;rsquo;s increased my sense of musical
+awareness and forced me revisit some basics I had started to gloss over.
+Concretely speaking, I had been drumming at a bpm of about 70-80 for most of the
+past three years I had been practicing. Suddenly, I needed to play at almost
+double that bpm because that&amp;rsquo;s how fast most rock is played.&lt;/p&gt;
+&lt;h2 id=&#34;best-to-accept-vulnerability-when-youre-aiming-to-show-up&#34;&gt;Best to accept vulnerability when you&amp;rsquo;re aiming to show up&lt;/h2&gt;
+&lt;p&gt;I read the book, Who moved my cheese, in the beginning of last year at what may
+have been the best possible time to read it. I had started on my freelance
+journey about six months ago and I had to start looking for my next mission soon
+after returning from holidays. In many ways, once you become a freelancer, you
+have to come to terms with accepting uncertainty. I had been a permanent
+employee at the same company for all of my professional working experience and
+it&amp;rsquo;s very easy to become detached from the realities of looking for new
+opportunities. This book punches way above it&amp;rsquo;s weight, for the amount of wisdom
+it imparts in a very short number of pages. The key takeaway? How to keep a
+healthy mindset about change and reframing it such that you see change for what
+it really is: a chance for you to encounter something, perhaps much better than
+what you could have possibly imagined for yourself.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.rohailtaimour.com/media/albums/reading-list-2023/cheese.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;The truth is we all think we know exactly how things will play out and most
+often than not, it&amp;rsquo;s the fear of change and uncertainty that&amp;rsquo;s stopping you from
+taking that next step. That&amp;rsquo;s where vulnerability comes in, where you take a
+step, not knowing all the details. This was around the time that I was doing a
+lot of reflection on my
+&lt;a href=&#34;http://localhost:1313/personal-values-part-ii/#my-values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;values&lt;/a&gt; and I had
+realised that my list of values had one half that I perceived myself to be
+naturally good at while there was another half which I tended to ignore. Turns
+out the values I was ignoring were the ones that were key to handling
+uncertainty better and that allowed me to remain exposed in vulnerable
+situations without pulling my hair out as I might have done not too long ago.&lt;/p&gt;
+&lt;h2 id=&#34;key-ingredients-to-staying-strong-when-feeling-exposed&#34;&gt;Key ingredients to staying strong when feeling exposed&lt;/h2&gt;
+&lt;p&gt;What purpose do vague words like the ones below serve us anyway when we&amp;rsquo;re faced
+with a challenging situation?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Acceptance&lt;/li&gt;
+&lt;li&gt;Faith&lt;/li&gt;
+&lt;li&gt;Simplicity&lt;/li&gt;
+&lt;li&gt;Humility&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Personally, I&amp;rsquo;ve found that it&amp;rsquo;s good that these words are ambiguous. At
+different points in your life, they can mean different things to you.
+Nonetheless, I find that the key to withstand vulnerability is to remember that
+not ever situation calls for a complex solution. We need to be embrace
+&lt;em&gt;Simplicity&lt;/em&gt; in our actions, have &lt;em&gt;Faith&lt;/em&gt; that we&amp;rsquo;re on the right track. We need
+to &lt;em&gt;Accept&lt;/em&gt; that not everything pan out as we&amp;rsquo;d want and remember to stay
+&lt;em&gt;Humble&lt;/em&gt; since it&amp;rsquo;s very likely we were at least partially wrong about any
+meaningful endeavour we take. Do we need to fear making mistakes? Why should we?
+Fear makes life interesting because it means you&amp;rsquo;re pushing yourself out of your
+comfort zone. I guess we can ask ourselves, if we&amp;rsquo;d really like a life without
+fear.&lt;/p&gt;
+&lt;h2 id=&#34;circling-back-to-this-blog&#34;&gt;Circling back to this blog&lt;/h2&gt;
+&lt;p&gt;I don&amp;rsquo;t know what this blog will be about. I don&amp;rsquo;t have to put any labels to
+what it be a few years from now. I don&amp;rsquo;t even have to care what it will look
+like a few entries from now. It&amp;rsquo;s more important to show up, write and let it
+take on a life of it&amp;rsquo;s own.&lt;/p&gt;
+&lt;p&gt;Thank&amp;rsquo;s for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>I Joined a Band as a Drummer!</title>
       <link>https://www.rohailtaimour.com/post/2023-11-02-i-joined-a-band-as-a-drummer/</link>
       <pubDate>Thu, 02 Nov 2023 16:50:02 +0100</pubDate>
       <guid>https://www.rohailtaimour.com/post/2023-11-02-i-joined-a-band-as-a-drummer/</guid>
       <description>&lt;h2 id=&#34;milestone-unlocked-my-first-band&#34;&gt;Milestone unlocked: My first band&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m part of a number of different facebook groups where people post about
-looking for jam partners or asking for information about where there&amp;rsquo;d be live
-music playing in Brussels.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m part of a few facebook groups where people post about looking for jam
+partners or asking for information about where there&amp;rsquo;d be live music playing in
+Brussels.&lt;/p&gt;
 &lt;p&gt;I made a similar post in one of these groups asking for information about a
 place I can book a practice room that contains a drum kit. As you would have it,
-by a matter of pure luck, I got in touch with Nicholas, who was looking for a
-drummer. It seems he happened to see one of my post looking for a rehearsal room
-and decided to get in touch.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s been a while I&amp;rsquo;ve been looking to play along with folks to get to that next
-level as a musician. Practicing and improving your techniques is something I
-really enjoy but at the end of the day, we play our preferred instruments to
-make music. This was always something my drum teacher taught me that in the end,
-the techniques and tools we have are always there to serve music.&lt;/p&gt;
+by a matter of pure luck, I got in touch with someone looking for a drummer. It
+seems he happened to see one of my post looking for a rehearsal room and decided
+to get in touch for a few projects he was part of.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;d already been a while I&amp;rsquo;d been looking to play along with folks to get to
+that next level as a musician. Practicing and improving your techniques is
+something I really enjoy but at the end of the day, we play our preferred
+instruments to make Music. This was something my drum teacher always told me,
+that all technique and tools at our disposal ultimately are only meant to serve
+the Music.&lt;/p&gt;
 &lt;p&gt;Moreover, there are certain aspects of playing music, which only come from
 playing with each other. There is an element of communication, improvisation and
 when these elements come together in a natural manner, there&amp;rsquo;s nothing that&amp;rsquo;s
 more satisfying.&lt;/p&gt;
-&lt;p&gt;This is a video of the second single from the second time we&amp;rsquo;ve jammed together
-as a group!&lt;/p&gt;
-&lt;p&gt;Check out
-&lt;a href=&#34;https://www.facebook.com/groups/1128615181441179/permalink/1132430547726309/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weird Times&lt;/a&gt;
-on facebook!&lt;/p&gt;
-&lt;p&gt;Band members:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Arnaud Veraart (Guitar/vocals)&lt;/li&gt;
-&lt;li&gt;Rohail Taimour (Drum)&lt;/li&gt;
-&lt;li&gt;Nicolas Forthomme (Bass)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;a-new-reason-to-practice-a-different-focus-altogether&#34;&gt;A new reason to practice, a different focus altogether!&lt;/h2&gt;
+&lt;p&gt;I would be the first to admit that I can get quite geeky about percussive
+instruments in general. For about 8 months I picked up the tabla, a percussive
+instrument prevalent in the musical tradition from the subcontinent. There&amp;rsquo;s a
+few obvious reasons to be fascinated by the tabla. I grew up listening to the
+instrument and had a natural connection with the rhythmic tradition. Secondly,
+this is a percussive instrument that can be tuned in different pitches, making
+it sound like a melodic instrument in the hands of the right person. Go check
+out this
+&lt;a href=&#34;https://www.youtube.com/watch?v=HKX0XoO0jaI&amp;amp;ab_channel=RetrointheMetro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;
+by the Maestro Zakir Hussain if you want to see that in action. However, what&amp;rsquo;s
+really the most amazing part of the tabla is that the tradition requires one to
+master the rhythm vocally before attempting to play it on the instrument.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/tabla_hu320711c7e4d0a631a33416d45fc39afd_1692072_bc99d3f7482b1cbdfecce9d0127d51ae.webp 400w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/tabla_hu320711c7e4d0a631a33416d45fc39afd_1692072_e836a1104e31a55a95ce81f20ce5e696.webp 760w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/tabla_hu320711c7e4d0a631a33416d45fc39afd_1692072_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://www.rohailtaimour.com/post/2023-11-02-i-joined-a-band-as-a-drummer/tabla_hu320711c7e4d0a631a33416d45fc39afd_1692072_bc99d3f7482b1cbdfecce9d0127d51ae.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;Each sound that tabla can make (and there&amp;rsquo;s a lot of them), has been assigned a
+vocal counterpart. This is a very rich concept can be adapted and applied to the
+drumset setting and leads to some very creative practice ideas!&lt;/p&gt;
+&lt;h2 id=&#34;explore-vs-exploit-when-to-know-you-need-to-keep-digging-in-deeper&#34;&gt;Explore vs Exploit: When to know you need to keep digging in deeper&lt;/h2&gt;
+&lt;p&gt;While it&amp;rsquo;s been such a fantastic journey to learn about the Tabla, I eventually
+had to put it on pause because I saw I was spreading myself too thin. As a
+weekend warrior of sorts, when it comes to playing my instrument, you can&amp;rsquo;t let
+your limited number of practice hours be dispersed across different activities.
+You can, ofcourse, but there is a very hard tradeoff to be made here when you&amp;rsquo;re
+counting on seeing progress in your playing, as a way to stay motivated in your
+practice sessions.&lt;/p&gt;
+&lt;p&gt;Making that decision wasn&amp;rsquo;t easy. I have the impression human beings hesitate
+before committing to something. We want to keep our options open. Why? Maybe
+because it&amp;rsquo;s easier to make mistakes as a beginner but more difficult to show up
+when you realize how much incremental effort&amp;rsquo;s really needed to realise
+something. Taking the tabla as an example, I would have had to train my fingers
+to be able to articulate the notes properly. This is an exercise that develops
+slowly, as you develop the muscle memory over sustained and focused practice. I
+saw this from my own experience when I started playing the drums using the
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Open-handed_drumming&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Open handed&amp;rdquo;&lt;/a&gt; style. In a
+nutshell, this style implies that a right handed player would need to develop
+their left, weaker, hand to lead on the instrument. It took me months and even a
+couple of years before I started to notice my left hand feeling on par, or at
+least in the same category, as my dominant right hand. There&amp;rsquo;s a number of
+advantages to being able to play this way and having gone through the steep
+learning curve, I can now take advantage of a higher degree of ambidexterity on
+the drum kit. Had I been unable to commit to this approach at the start of my
+drumming journey, I wouldn&amp;rsquo;t have been able to meet this drumming milestone.&lt;/p&gt;
+&lt;p&gt;However, while it is imperative spending time in the Exploit phase, honing in on
+skills slowly and steadily over time, you cannot ignore the Explore phase.
+Indeed, trying the tabla or even Open handed drumming when I first started was
+the result of the Explore phase. It was something that I decided to move into
+the Exploit phase once I decided committing to it.&lt;/p&gt;
+&lt;h2 id=&#34;explore-periods-can-have-a-wider-spectrum-range-than-you-might-think&#34;&gt;Explore periods can have a wider spectrum range than you might think&lt;/h2&gt;
+&lt;p&gt;At one point, I thought that this stage is about looking into big ideas. As seen
+in the figure below, that an Explore phase, necessarily entails a high amount of
+uncertainty. I&amp;rsquo;ve come to see this phase a bit differently more recently.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/_hu588ab622fa13a15d46efaed8c58ad4dc_56319_38baf2fd4b5d5a2cb6a3fdead7db853b.webp 400w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/_hu588ab622fa13a15d46efaed8c58ad4dc_56319_ee5ce1bba922e3f72d2cac6d3b8ff070.webp 760w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/_hu588ab622fa13a15d46efaed8c58ad4dc_56319_edc5b49e4f99bd69acb72c17d47f3cfe.webp 1200w&#34;
+               src=&#34;https://www.rohailtaimour.com/post/2023-11-02-i-joined-a-band-as-a-drummer/_hu588ab622fa13a15d46efaed8c58ad4dc_56319_38baf2fd4b5d5a2cb6a3fdead7db853b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;431&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;I believe that we are constantly walking on the blurry line between Explore and
+Exploit. In digging deeper, in the Exploit phase, you start to notice more and
+more details, nuances, that were simply impossible for you to perceive earlier.
+This is a fascinating observation I&amp;rsquo;ve made in many areas of my life and not
+just drumming. In some ways, it&amp;rsquo;s about being open to coming across new paths
+along the way you didn&amp;rsquo;t know existed before you start on your way. This is most
+self-evident to me when I have a 20 minute session of playing a particular
+groove. While playing this obviously monotonous pattern, my consciousness is
+constantly evolving. Where ten minutes ago, I couldn&amp;rsquo;t move my limbs in harmony,
+and I&amp;rsquo;d constantly be trying to lock in, say my right hand and left foot, the
+coordination, suddenly, those limbs start to move subconsciously. I&amp;rsquo;m not even
+thinking of it anymore, which leaves me the mental space to consider other
+aspects of the groove: Am I playing at the right volume, what&amp;rsquo;s my right foot
+doing and how does it &amp;ldquo;feel&amp;rdquo; striking the bass drum, etc.&lt;/p&gt;
+&lt;p&gt;I always try to enter this space during a practice session. This is where, as
+drummers would say, you go from thinking the groove, to feeling it in your body.&lt;/p&gt;
+&lt;h2 id=&#34;you-can-always-choose-to-come-back-to-something---it-wont-go-anywhere&#34;&gt;You can always choose to come back to something - it won&amp;rsquo;t go anywhere&lt;/h2&gt;
+&lt;p&gt;When I first started drumming, I went into a phase of buying all the classic
+books I saw. I wanted one on Progressive drumming essentials, one on basic rock
+grooves, one on coordination, etc. There was so much I didn&amp;rsquo;t know that it was
+difficult knowing where to start and I had the tendency to rush moving onto new
+material before really capturing the essence of the material. This anxiousness,
+I now realise, was mostly because I was more concerned about where I needed to
+be by a given point in time. I thought I could plan up front a year, or more,
+into the future. However, it really doesn&amp;rsquo;t work that way. All drummers know the
+book Stick Control, by George W. Lawrence Stone.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/1200x630bf-4124031017_hu082ec7775596841f28aef6fb968a2982_89180_7675993219af301fb58a5681705d1d35.webp 400w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/1200x630bf-4124031017_hu082ec7775596841f28aef6fb968a2982_89180_06adbd3474527785af5757c3f1c4461f.webp 760w,
+               /post/2023-11-02-i-joined-a-band-as-a-drummer/1200x630bf-4124031017_hu082ec7775596841f28aef6fb968a2982_89180_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.rohailtaimour.com/post/2023-11-02-i-joined-a-band-as-a-drummer/1200x630bf-4124031017_hu082ec7775596841f28aef6fb968a2982_89180_7675993219af301fb58a5681705d1d35.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;399&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;p&gt;This book has forty pages or so. But this isn&amp;rsquo;t a book you can &amp;ldquo;finish&amp;rdquo;. Each
+page of this book are sticking patterns, indicating a rhythm to play and the
+hand that needs to play it. Almost 4 years into drumming and I keep revisting
+this book with a fresh pair of eyes. It&amp;rsquo;s a timeless book and a source of
+endless material. At this point today, I can honestly say I haven&amp;rsquo;t made it past
+the first four pages and I still think I got so much out of it!&lt;/p&gt;
+&lt;p&gt;However, previously, I&amp;rsquo;d always want to move on to the next book, and then the
+one after that. Ofcourse, this was before I learnt that the Explore phase
+doesn&amp;rsquo;t have to be about taking on a new book to practice material, but really
+imbibing the material in as many different ways as you possibly can. That&amp;rsquo;s the
+best way I&amp;rsquo;ve found to make the material stick - so that you can improvise and
+the material you&amp;rsquo;re practicing actually shows up in your playing.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s plenty of time for me to revisit those other books I have planned for.
+That&amp;rsquo;s where faith comes in. I know I&amp;rsquo;d pick them up when the right time comes
+in.&lt;/p&gt;
 </description>
     </item>
     
