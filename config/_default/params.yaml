@@ -85,18 +85,18 @@ features:
   avatar:
     gravatar: true
     shape: circle
-  comment:
-    provider: "giscus"
+  comment:    
+    provider: "disqus"
     disqus:
-      shortname: ""
+      shortname: "roumail-github-io"
       show_count: true
-    commento:
-      url: ""
-    giscus:
-      repo: "roumail/website-stuff"
-      repo_id: "R_kgDOJIE7Sw"
-      category: "Announcements"
-      category_id: "DIC_kwDOJIE7S84CUy6u"
+    # commento:
+    #   url: ""
+    # giscus:
+    #   repo: "roumail/website-stuff"
+    #   repo_id: "R_kgDOJIE7Sw"
+    #   category: "Announcements"
+    #   category_id: "DIC_kwDOJIE7S84CUy6u"
   search:
     provider: wowchemy
     algolia:
