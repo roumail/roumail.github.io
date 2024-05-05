@@ -116,14 +116,13 @@ healthy mindset about change and reframing it such that you see change for what
 it really is: a chance for you to encounter something, perhaps much better than
 what you could have possibly imagined for yourself.
 
-{{< figure src="/media/albums/reading-list-2023/cheese.jpg" >}}
+{{< figure src="cheese.jpg" >}}
 
 The truth is we all think we know exactly how things will play out and most
 often than not, it's the fear of change and uncertainty that's stopping you from
 taking that next step. That's where vulnerability comes in, where you take a
 step, not knowing all the details. This was around the time that I was doing a
-lot of reflection on my
-[values](http://localhost:1313/personal-values-part-ii/#my-values) and I had
+lot of reflection on my [values](/personal-values-part-ii/#my-values) and I had
 realised that my list of values had one half that I perceived myself to be
 naturally good at while there was another half which I tended to ignore. Turns
 out the values I was ignoring were the ones that were key to handling

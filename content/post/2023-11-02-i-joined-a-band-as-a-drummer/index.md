@@ -51,6 +51,8 @@ master the rhythm vocally before attempting to play it on the instrument.
 
 {{< figure src="tabla.png"  >}}
 
+{{< youtube HKX0XoO0jaI >}}
+
 Each sound that tabla can make (and there's a lot of them), has been assigned a
 vocal counterpart. This is a very rich concept can be adapted and applied to the
 drumset setting and leads to some very creative practice ideas!
