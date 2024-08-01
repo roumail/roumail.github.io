@@ -34,9 +34,9 @@
     
     <item>
       <title>Falling Into Analysis Paralysis</title>
-      <link>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</link>
+      <link>https://www.rohailtaimour.com/analysis-paralysis/</link>
       <pubDate>Tue, 27 Feb 2024 19:49:26 +0100</pubDate>
-      <guid>https://www.rohailtaimour.com/post/2024-02-27-falling-into-analysis-paralysis/</guid>
+      <guid>https://www.rohailtaimour.com/analysis-paralysis/</guid>
       <description>&lt;h2 id=&#34;dig-deeper-if-youre-hesitating&#34;&gt;Dig deeper if you&amp;rsquo;re hesitating&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s been a while since I wrote my last entry! It&amp;rsquo;s been a busy period with the
 adaptations needed in one&amp;rsquo;s life after they become new parents. It&amp;rsquo;s been
@@ -168,15 +168,21 @@ what you could have possibly imagined for yourself.&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://www.rohailtaimour.com/media/albums/reading-list-2023/cheese.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /analysis-paralysis/cheese_hue9af93e9b876f3658344384ff139110c_70161_c5f9bc9349e8d888fad47fa26da4ba98.webp 400w,
+               /analysis-paralysis/cheese_hue9af93e9b876f3658344384ff139110c_70161_9175055eaa9f588e6fa951278089ad52.webp 760w,
+               /analysis-paralysis/cheese_hue9af93e9b876f3658344384ff139110c_70161_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.rohailtaimour.com/analysis-paralysis/cheese_hue9af93e9b876f3658344384ff139110c_70161_c5f9bc9349e8d888fad47fa26da4ba98.webp&#34;
+               width=&#34;502&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;p&gt;The truth is we all think we know exactly how things will play out and most
 often than not, it&amp;rsquo;s the fear of change and uncertainty that&amp;rsquo;s stopping you from
 taking that next step. That&amp;rsquo;s where vulnerability comes in, where you take a
 step, not knowing all the details. This was around the time that I was doing a
-lot of reflection on my
-&lt;a href=&#34;http://localhost:1313/personal-values-part-ii/#my-values&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;values&lt;/a&gt; and I had
+lot of reflection on my &lt;a href=&#34;https://www.rohailtaimour.com/personal-values-part-ii/#my-values&#34;&gt;values&lt;/a&gt; and I had
 realised that my list of values had one half that I perceived myself to be
 naturally good at while there was another half which I tended to ignore. Turns
 out the values I was ignoring were the ones that were key to handling
@@ -277,6 +283,11 @@ master the rhythm vocally before attempting to play it on the instrument.&lt;/p&
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HKX0XoO0jaI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Each sound that tabla can make (and there&amp;rsquo;s a lot of them), has been assigned a
 vocal counterpart. This is a very rich concept can be adapted and applied to the
@@ -420,11 +431,111 @@ in.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Part III: Embedding Your True North</title>
+      <title>Part III: Bringing your values into your daily life</title>
       <link>https://www.rohailtaimour.com/personal-values-part-iii/</link>
       <pubDate>Tue, 31 Oct 2023 13:26:24 +0100</pubDate>
       <guid>https://www.rohailtaimour.com/personal-values-part-iii/</guid>
-      <description>&lt;p&gt;Complete me&lt;/p&gt;
+      <description>&lt;h2 id=&#34;an-article-harder-to-write-than-expected&#34;&gt;An article harder to write than expected&lt;/h2&gt;
+&lt;p&gt;When I first created this website, my primary goal was to create series
+articles: Write mostly technical content that needed exploring over a series of
+posts. This desire sprung from the large number of posts I had read online,
+which would introduce a topic at an introductory level and leave it at that.
+Oftentimes, I wanted something that went a bit deeper and far too often, google
+searches would amount to nothing in the end. Every once in a while, however,
+I&amp;rsquo;ve come across authors who took a more series oriented approach. I&amp;rsquo;ve
+benefitted immensely from such series, for example, while making this website.
+Hugo, the engine i&amp;rsquo;m using to render this website from markdown content, didn&amp;rsquo;t
+ship with a very natural way to create series blog posts and I had to put
+something together for myself. Adding this functionality delayed my launch (
+publishing my fist article) far longer than I care to admit (ahem, 6 months).&lt;/p&gt;
+&lt;p&gt;Why say this all anyway? Have we gone off topic when this article was about how
+to embed your prioritized values in your life? Well, yes and no. The short
+answer is, I wish there was this one golden tip, or even a few, that I could
+share with you, which would magically allow you to get clarity around your
+values and find ways to embed them in your day to day life. I certainly wish it
+was possible to be described within a thousand word article. I delayed &amp;amp;
+hesitated writing this article, hoping for an epiphany in the meantime, that I&amp;rsquo;d
+be able to share with you. This last point prevented me from writing more &amp;amp;
+eventually I broke through it with the &lt;a href=&#34;https://www.rohailtaimour.com/analysis-paralysis&#34;&gt;article&lt;/a&gt; &amp;amp; here I
+revisited my motivations for even putting this blog together. I hope what I&amp;rsquo;ve
+come to learn is still worth sharing.&lt;/p&gt;
+&lt;h2 id=&#34;values-are-only-words-you-breathe-life-into&#34;&gt;Values are only words you breathe life into&lt;/h2&gt;
+&lt;p&gt;The first few years of COVID had been a time of real introspection for me. I&amp;rsquo;ve
+come that once you&amp;rsquo;ve decided on a few values to live by, embedding them in your
+daily life still has some pre-requisites. It&amp;rsquo;s a process, which will be personal
+to you &amp;amp; which would evolve much as you evolve as a person. Wait a minute
+though-if we&amp;rsquo;re evolving as a person, then are our values also something that
+need to be revisited? If our reference, the values &amp;amp; our process to embed them,
+are both changing, then how do we make any sense of it all? In my experience,
+you do not need to revisit your values every fully moon cycle. You can, if you
+want. However, if you earnestly went through the process of defining them the
+first time, I&amp;rsquo;d leave it at that. This is because values in themselves have no
+meaning. They are only words. It&amp;rsquo;s your actions, what they mean to you and how
+you decide to live them that brings those words to life.&lt;/p&gt;
+&lt;p&gt;At a given point in time, you shortlisted &amp;ldquo;values&amp;rdquo; from a list of 100. You made
+tradeoffs and assessed how you saw yourself. For example, loyalty, strength &amp;amp;
+patience. If you had to choose one of these, and I presume everyone would choose
+differently, can the choice of these words really change who we are? Does
+choosing strength mean loyalty becomes any less important? That I think patience
+is only for idiots? Of course not. What&amp;rsquo;s important here is to take note of the
+mental process which led you to choose one value over another. Making that
+choice is critical to reduce the noise and to have a sense of direction. The
+tool we&amp;rsquo;ve just achieved will help guide us when we&amp;rsquo;re in need of direction.
+When there&amp;rsquo;s a moment you&amp;rsquo;re faced with a tough decision and you&amp;rsquo;re able to
+water down that conundrum in terms of values that you feel are conflicting with
+each other.&lt;/p&gt;
+&lt;h2 id=&#34;values-are-like-post-it-notes&#34;&gt;Values are like post-it notes&lt;/h2&gt;
+&lt;p&gt;Remember writing reminders on the palm of your hand for something you&amp;rsquo;re likely
+to forget? Maybe you didn&amp;rsquo;t need to do that like I used to as a kid, but the
+point is these values are little post-it notes for you to use for course
+correction. Anytime you hesitate &amp;amp; feel lost you can revisit the choice you made
+to be a certain version of yourself you had envisioned at a time of clarity.
+Another reason why it&amp;rsquo;s not so important to get too attached to the value itself
+is that your interpretation of the value will keep changing as you move through
+life. Strength may mean something completely different to a youth in the prime
+of their life and an elder with decades of wisdom behind them. Your attachment
+to the word keeps deepening as you keep revisiting it, letting the words sink
+deeper &amp;amp; deeper into the palms of your hand.&lt;/p&gt;
+&lt;h2 id=&#34;the-importance-of-having-space-in-your-life&#34;&gt;The importance of having space in your life&lt;/h2&gt;
+&lt;p&gt;There is a crucial ingredient in making any of this work. You can choose your
+values, commit to them, but without having &amp;ldquo;space&amp;rdquo; in your life, you won&amp;rsquo;t get
+too far. I&amp;rsquo;m talking about mental space where you can look inside yourself; be
+willing to make some decisions about who you aspire to be. It is critical that
+you understand and appreciate that these are choices YOU are making about
+yourself and that these choices are more important than many other choices we
+make in our day to day life. These are choices where we cannot let anyone else&amp;rsquo;s
+opinions colour our own. This is your inner world. This will be the lens you use
+to view the world around you. Therefore, we must learn to create space in our
+life on an ongoing basis where we can come to get to know ourselves, be gracious
+for who are, compassionate for who we are still unable to be and understand that
+much like how the outside world can impact our inner being, our inner state can
+have a massive impact on our outside world.&lt;/p&gt;
+&lt;h2 id=&#34;decision-fatigue-and-the-misconception-with-space&#34;&gt;Decision fatigue and the misconception with space&lt;/h2&gt;
+&lt;p&gt;A possible misconception about &amp;ldquo;space&amp;rdquo;, as we use this term, is it&amp;rsquo;s magnitude.
+Do you need days of space? Hours? I often find myself falling for this trap, and
+it&amp;rsquo;s the prime way to let procrastination get in the way of your goals. I don&amp;rsquo;t
+know if this is an actual japanese rule, but it&amp;rsquo;s how I came across it: 5 minute
+rule. The gist of this rule is to plan spending no more than 5 minutes when you
+initially plan on getting a new habit. Have the discipline to stop when 5
+minutes are over. Continue with this process for a fixed duration of time, until
+you&amp;rsquo;re ready to bump it up to say 10 minutes, and then later at some point,
+maybe fifteen minutes and so on. What this technique helps you avoid, is the
+mental laziness of avoiding something when you&amp;rsquo;re feeling decision fatigued.
+Don&amp;rsquo;t know what that is? It&amp;rsquo;s the feeling you have when you come back from a
+long day and you have to decide what you want to eat. To make matters worse,
+there&amp;rsquo;s no groceries in the fridge either. That is decision fatigue.&lt;/p&gt;
+&lt;p&gt;In summary, we tend to stay more consistent when we have a pre-determined,
+predictable time allotted for a new habit. Giving a 100 percent inconsistently,
+does not yield better results than taking out small amounts of space,
+consistently, to think about your values and how to embed them in your life.&lt;/p&gt;
+&lt;h2 id=&#34;much-remains-to-be-said&#34;&gt;Much remains to be said&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s a few other mindset shifts, or perspectives that remain to be shared on
+living your values. However, to keep this post from being longer still, I will
+keep that for another article. This article will be picking up on the importance
+of &lt;code&gt;surrender&lt;/code&gt; and how by changing the way I understood this word, had a
+profound impact on the way I saw living my values. We will explore what it means
+to live effortlessly and how living effortlessly, doesn&amp;rsquo;t necessarily translate
+into living complacently.&lt;/p&gt;
 </description>
     </item>
     
