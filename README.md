@@ -30,3 +30,5 @@ Sections to be added and updated
 
 The website, latest version of the CV and `website` python package itself all
 have separate github actions to deploy them.
+
+### Bumping package version and updating changelog
