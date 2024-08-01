@@ -117,3 +117,13 @@ In summary, we tend to stay more consistent when we have a pre-determined,
 predictable time allotted for a new habit. Giving a 100 percent inconsistently,
 does not yield better results than taking out small amounts of space,
 consistently, to think about your values and how to embed them in your life.
+
+## Much remains to be said
+
+There's a few other mindset shifts, or perspectives that remain to be shared on
+living your values. However, to keep this post from being longer still, I will
+keep that for another article. This article will be picking up on the importance
+of `surrender` and how by changing the way I understood this word, had a
+profound impact on the way I saw living my values. We will explore what it means
+to live effortlessly and how living effortlessly, doesn't necessarily translate
+into living complacently.
