@@ -18,7 +18,6 @@ tags:
     "overcoming procrastination",
   ]
 series: ["Decoding Rohail"]
-# series_part: 2
 authors:
   - admin
 url: "/personal-values-part-ii/"

@@ -20,7 +20,6 @@ tags:
   ]
 featured: true
 series: ["Decoding Rohail"]
-# series_part: 1
 authors:
   - admin
 url: "/personal-values-part-i/"
