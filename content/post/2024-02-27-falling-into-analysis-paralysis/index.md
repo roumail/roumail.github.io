@@ -7,6 +7,7 @@ tags: ["self-reflection"]
 authors:
   - admin
 date: 2024-02-27T19:49:26+01:00
+url: "/analysis-paralysis/"
 draft: false
 toc: true
 ---
