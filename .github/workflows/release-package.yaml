@@ -26,6 +26,7 @@ jobs:
         pip install poetry
         poetry install 
 
+    # TODO: Add a better way to determine type of version change
     - name: Determine Bump Type
       id: bump_type
       run: |
@@ -52,5 +53,5 @@ jobs:
         tag: v${{ env.PACKAGE_VERSION }}
         artifacts: "dist/*.tar.gz"
         bodyFile: CHANGELOG.md
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ secrets.GITHUB_TOKEN }}
     
