@@ -8,13 +8,15 @@ and this project adheres to
 
 ## [Unreleased]
 
-## Changed
+## [1.0.4] - 2024-08-02
+
+### Changed
 
 - `_index.md` for a series directory now no longer contains the `series` front
   matter. This helps avoid having the series listing contain a link to the
   series listing itself.
 
-## Removed
+### Removed
 
 - Version retrieval now doesn't use toml package
 
