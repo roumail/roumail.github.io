@@ -9,6 +9,7 @@ authors:
   - admin
 url: "/personal-values-part-iii/"
 date: 2023-10-31T13:26:24+01:00
+lastmod: 2024-08-02T12:22:24+04:00
 draft: false
 ---
 
