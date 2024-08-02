@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-08-02
+
 ### Fixed
 
 - Add back series in the `_index.md` when creating a new series and and remove
