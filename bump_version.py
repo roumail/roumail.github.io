@@ -14,7 +14,7 @@ def get_current_version():
 
 # Update the changelog.md file
 def update_changelog(version):
-    changelog_path = "changelog.md"
+    changelog_path = "CHANGELOG.md"
     with open(changelog_path, "r") as f:
         lines = f.readlines()
 
