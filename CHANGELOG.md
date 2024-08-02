@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Add back series in the `_index.md` when creating a new series and and remove
+  the self-reference at the template level in hugo
+
 ## [1.0.6] - 2024-08-02
 
 ### Changed
