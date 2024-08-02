@@ -35,8 +35,10 @@ jobs:
           echo "bump_type=minor" >> $GITHUB_ENV
         fi
 
-    - name: Get package version and changelog body
+    - name: Launch bump version script
       run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         poetry run python bump_version.py ${{ env.bump_type }}
         PACKAGE_VERSION=$(poetry version -s)
         echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
@@ -44,13 +46,6 @@ jobs:
     - name: Build Package
       run: poetry build
     
-    - name: Tag Release
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git tag -a v${{ env.PACKAGE_VERSION }} -m "Release v${{ env.PACKAGE_VERSION }}"
-        git push origin v${{ env.PACKAGE_VERSION }}
-
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:

@@ -47,7 +47,10 @@ def main():
     subprocess.run(
         ["git", "commit", "-am", f"Bump version to {new_version}"], check=True
     )
-    subprocess.run(["git", "tag", f"v{new_version}"], check=True)
+    subprocess.run(
+        ["git", "tag", f"v{new_version}", "-m", f"Release v{new_version}"], check=True
+    )
+    subprocess.run(["git", "push", "origin", f"v{new_version}"], check=True)
 
 
 if __name__ == "__main__":
