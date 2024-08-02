@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "website"
-version = "1.0.5"
+version = "1.0.6"
 description = "Automation and build tools for my website"
 authors = ["Rohail Taimour"]
 license = "MIT"
@@ -13,14 +13,8 @@ packages = [
 ]
 
 [tool.bumpversion]
-current_version = "1.0.4"
 commit = true
 tag = true
-
-[[tool.bumpversion.file]]
-filename = "pyproject.toml"
-search = "version = \"{current_version}\""
-replace = "version = \"{new_version}\""
 
 [[tool.bumpversion.file]]
 filename = "CHANGELOG.md"
@@ -33,6 +27,7 @@ list-draft-posts = 'website.entrypoints:list_draft_posts'
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
+typer = "^0.12.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"

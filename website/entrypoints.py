@@ -1,7 +1,12 @@
+import typer
+
 from website.posts import concatenate_drafts, create_new_post
 from website.task_helpers import check_project_root
 
+app = typer.Typer()
 
+
+@app.command()
 def new_post(title: str, series=None, quarto=False):
     """
     Create a new post with a given title under a specified category.
@@ -15,6 +20,7 @@ def new_post(title: str, series=None, quarto=False):
     create_new_post(title, series, quarto)
 
 
+@app.command()
 def list_draft_posts(
     file_out="current_draft_posts.md",
     search_directory="content/post",
