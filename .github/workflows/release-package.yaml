@@ -24,15 +24,23 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install poetry
-        pip install keepachangelog@git+https://github.com/Colin-b/keepachangelog
+        poetry install 
+
+    - name: Determine Bump Type
+      id: bump_type
+      run: |
+        if [ "${{ github.event_name }}" == "push" ]; then
+          echo "bump_type=patch" >> $GITHUB_ENV
+        else
+          echo "bump_type=minor" >> $GITHUB_ENV
+        fi
 
     - name: Get package version and changelog body
       run: |
+        poetry run python bump_version.py ${{ env.bump_type }}
         PACKAGE_VERSION=$(poetry version -s)
-        keepachangelog show $PACKAGE_VERSION > changelog_body.txt
         echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
-        
-    
+            
     - name: Build Package
       run: poetry build
     
@@ -48,8 +56,6 @@ jobs:
       with:
         tag: v${{ env.PACKAGE_VERSION }}
         artifacts: "dist/*.tar.gz"
-        bodyFile: changelog_body.txt
+        bodyFile: CHANGELOG.md
         token: ${{ secrets.GH_PAT }}
     
-    - name: Cleanup
-      run: rm changelog_body.txt
