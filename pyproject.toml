@@ -12,15 +12,19 @@ packages = [
     { include = "website" },
 ]
 
+[tool.poetry.scripts]
+new-post = 'website.entrypoints:new_post'
+list-draft-posts = 'website.entrypoints:list_draft_posts'
+
 [tool.poetry.dependencies]
 python = "^3.10.0"
 
 [tool.poetry.group.dev.dependencies]
-invoke = "^1.6.0"
 black = "^23.7.0"
 isort = "^5.12.0"
 pre-commit = "^3.3.3"
 flake8 = "^6.1.0"
+keepachangelog = {git = "https://github.com/Colin-b/keepachangelog.git"}
 
 
 [tool.black]
