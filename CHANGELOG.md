@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.6] - 2024-08-02
+
+### Changed
+
+- Use `typer` for handling the entrypoints.
+
 ## [1.0.5] - 2024-08-02
 
 ### Changed
