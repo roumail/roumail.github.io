@@ -1,6 +1,7 @@
 ---
 title: Decoding Rohail
 cms_exclude: true
+series: ["Decoding Rohail"]
 type: series
 ---
 

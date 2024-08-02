@@ -103,6 +103,7 @@ def create_new_post(title, series=None, quarto=False):
                     f"""---
 title: {series}
 cms_exclude: true
+series: [\"{series}\"]
 draft: true
 type: series
 view: 2
