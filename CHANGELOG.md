@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.5] - 2024-08-02
+
+### Changed
+
+- Add `bumpversion` for managing changelog and version bumping.
+
 ## [1.0.4] - 2024-08-02
 
 ### Changed

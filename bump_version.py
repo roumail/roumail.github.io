@@ -35,7 +35,7 @@ def main():
         bump_type = sys.argv[1]
 
     # Bump the version
-    subprocess.run(["poetry", "run", "bump2version", bump_type], check=True)
+    subprocess.run(["poetry", "version", bump_type], check=True)
 
     # Get the new version
     new_version = get_current_version()
