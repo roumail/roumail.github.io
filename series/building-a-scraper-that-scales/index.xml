@@ -68,7 +68,7 @@ things that are possible with these posterior distributions, which include
 bayesian decision making. I will link to a great discussion on the subject by
 Thomas Wiecki on the subject
 &lt;a href=&#34;https://twiecki.io/blog/2019/01/14/supply_chain/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; where we can see how to
-use our models to directly show the impact of uncertainy on real business
+use our models to directly show the impact of uncertainty on real business
 metrics rather than arcane statistical metrics such as &lt;code&gt;mean squared error&lt;/code&gt;,
 &lt;code&gt;f1 score&lt;/code&gt; and the like which don&amp;rsquo;t hold any real business meaning.&lt;/p&gt;
 &lt;p&gt;Naturally, I have my bias for these methods and using these models bring their
@@ -78,7 +78,7 @@ a conclusion faster than using these bespoke modelling approaches. Nonetheless,
 I was on the lookout for an opportunity to find a dataset where I could exploit
 the natural hierarchical structure of data in a
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hierarchical modelling&lt;/a&gt;
-or the flexiblity of Gaussian process modelling to capture the intricaties of
+or the flexibility of Gaussian process modelling to capture the intricaties of
 non-linear processes. The
 &lt;a href=&#34;https://www.pymc.io/projects/examples/en/latest/gaussian_processes/GP-smoothing.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
 shows the distinction between modelling the same problem as a regression vs
