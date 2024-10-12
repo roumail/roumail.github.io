@@ -3,6 +3,13 @@
 # Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+
+sitemap:
+  changeFreq: "weekly"        
+  priority: 0.5               
+  filename: "sitemap.xml"     
+  disable: false             
+
 frontmatter:
   lastmod:
     - :git          
