@@ -1,3 +1,5 @@
+assets/jsconfig.json
+
 # cache
 **/__pycache__
 # IDE specific
