@@ -26,17 +26,15 @@
 
   {{ if not (in (slice "event" "page") $page.Type) | and (ne $page.Params.show_date false) }}
   <span class="article-date">
-    {{ $date := $page.Lastmod | time.Format site.Params.locale.date_format }}
-    {{ if eq $page.Type "publication" }}
-    {{ $date = $page.Date | time.Format (site.Params.publications.date_format | default "January, 2006") }}
-    {{ else }}
-    {{ if ne $page.Params.Lastmod $page.Params.Date }}
-    {{ i18n "last_updated" }}
-    {{ end }}
-    {{ end }}
-    {{ $date }}
+    Published: {{ $page.Date | time.Format site.Params.locale.date_format }}
   </span>
-  {{ end }}
+  {{ if gt $page.Lastmod.Unix $page.Date.Unix }}
+    <span class="middot-divider"></span>
+    <span class="last-modified-date">
+      Last edited: {{ $page.Lastmod | time.Format site.Params.locale.date_format }}
+    </span>
+    {{ end }}
+{{ end }}
 
   {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
   <span class="middot-divider"></span>
@@ -56,15 +54,6 @@
     {{ $page.ReadingTime }} {{ i18n "minute_read" }}
   </span>
   {{ end }}
-
-  {{/* Show Disqus comment count if enabled. */}}
-  {{ $comments_provider := trim (site.Params.features.comment.provider | lower) " " }}
-  {{ $commentable_page := $page.Params.commentable }}
-  {{ if (eq $comments_provider "disqus") | and (site.Params.features.comment.disqus.show_count | default true) | and
-  $commentable_page }}
-  <span class="middot-divider"></span>
-  <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Count will be inserted here --></a>
-  {{ end}}
 
   {{ $taxonomy := "categories" }}
   {{ if $page.Param $taxonomy }}
