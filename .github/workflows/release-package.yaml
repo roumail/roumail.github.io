@@ -23,8 +23,7 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        pip install setuptools wheel toml bump2version
-        pip install -e .
+        pip install -e ".[dev]"
 
     # TODO: Add a better way to determine type of version change
     - name: Determine Bump Type
@@ -41,7 +40,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         python release.py ${{ env.bump_type }}        
-        PACKAGE_VERSION=$(python -c 'import toml; print(toml.load("pyproject.toml")["project"]["version"])')
+        PACKAGE_VERSION=$(sed -n 's/^version *= *"\(.*\)"/\1/p' pyproject.toml)
         echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
             
     - name: Build Package

@@ -10,6 +10,13 @@ and this project adheres to
 
 ### Fixed
 
+- Removed poetry from dependencies for building and releasing the package.
+- Consolidate the bumping of versions to better leverage `bump2version`.
+- `bump_version.py` script is now renamed `release.py`.
+- Removed `toml` as a dev dependency.
+
+### Fixed
+
 - Add back series in the `_index.md` when creating a new series and and remove
   the self-reference at the template level in hugo
 
