@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-10-15
+
 ### Fixed
 
 - Removed poetry from dependencies for building and releasing the package.
