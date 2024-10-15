@@ -24,6 +24,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install -e ".[dev]"
+        pip install build
 
     # TODO: Add a better way to determine type of version change
     - name: Determine Bump Type
