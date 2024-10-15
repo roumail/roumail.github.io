@@ -1,6 +1,5 @@
 import subprocess
 import sys
-from datetime import datetime
 
 
 def bump_version(bump_type):
@@ -21,19 +20,6 @@ def bump_version(bump_type):
         print("Error: Failed to determine the new version.")
         sys.exit(1)
     return new_version
-
-
-# Update the changelog.md file
-def update_changelog(version):
-    changelog_path = "CHANGELOG.md"
-    with open(changelog_path, "r") as f:
-        lines = f.readlines()
-
-    with open(changelog_path, "w") as f:
-        for line in lines:
-            f.write(line)
-            if line.strip() == "## [Unreleased]":
-                f.write(f'\n## [{version}] - {datetime.now().strftime("%Y-%m-%d")}\n')
 
 
 def delete_tag(tag):
@@ -83,9 +69,6 @@ def main():
 
     # Bump the version
     new_version = bump_version(bump_type)
-
-    # Update the changelog
-    update_changelog(new_version)
 
     # Commit and tag the changes
     update_git(new_version)
