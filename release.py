@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 def bump_version(bump_type):
-    subprocess.run(["bump2version", "--new-version", bump_type], check=True)
+    subprocess.run(["bump2version", bump_type], check=True)
 
     # Extract the new version from bump2version's output
     result = subprocess.run(
