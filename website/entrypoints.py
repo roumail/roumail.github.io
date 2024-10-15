@@ -3,7 +3,7 @@ import typer
 from website.posts import concatenate_drafts, create_new_post
 from website.task_helpers import check_project_root
 
-app = typer.Typer()
+app = typer.Typer(add_completion=False)
 
 
 @app.command()
