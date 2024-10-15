@@ -22,6 +22,7 @@ search = "## [Unreleased]"
 replace = "## [Unreleased]\n\n## [{new_version}] - {now:%Y-%m-%d}"
 
 [tool.poetry.scripts]
+website = "website.entrypoints:app"
 new-post = 'website.entrypoints:new_post'
 list-draft-posts = 'website.entrypoints:list_draft_posts'
 
@@ -37,6 +38,8 @@ flake8 = "^6.1.0"
 bump2version = "^1.0.1"
 toml = "^0.10.2"
 
+[tool.poetry.virtualenvs]
+create = false 
 
 [tool.black]
 line-length = 88

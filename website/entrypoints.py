@@ -39,3 +39,7 @@ def list_draft_posts(
         search_directory=search_directory,
         search_string=search_string,
     )
+
+
+if __name__ == "__main__":
+    app()
