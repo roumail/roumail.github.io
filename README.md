@@ -12,12 +12,7 @@ needed to render it on github pages using hugo.
 - For jupyter notebooks like blog post entries I use
   [Quarto](https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.450/quarto-1.3.450-macos.tar.gz)
 - Python 3.10
-- uv for installing dependencies
-- Poetry for declaring dependencies
-
-I came upon uv rather recently and find it fantastic so I haven't had the chance
-to consolidate and avoid the need for both `poetry` and `uv` as external
-dependency management.
+- uv for installing dependencies, virtual environment
 
 ## Directory structure
 
@@ -77,7 +72,11 @@ execute:
 
 ## Quick start
 
-1. Install the website package using `uv pip install -e .`
+1. Install the website package and its development dependencies, follow these
+   steps:
+   ```bash
+   uv pip install -e .[dev]
+   ```
 2. `website --help` should list the relevant output
 
 ```bash
