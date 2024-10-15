@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 def bump_version(bump_type):
-    subprocess.run(["bump2version", bump_type], check=True)
+    subprocess.run(["bump2version", "--new-version", bump_type], check=True)
 
     # Extract the new version from bump2version's output
     result = subprocess.run(
@@ -55,11 +55,12 @@ def update_git(new_version: str, delete_existing_tag: bool = False):
     subprocess.run(["git", "fetch", "--tags"], check=True)
     tag_name = f"v{new_version}"
 
-    if tag_exists_on_remote(tag_name) and delete_existing_tag:
-        delete_tag(tag_name)
-    else:
-        print(f"Tag {tag_name} already exists on the remote. Aborting!")
-        sys.exit(1)
+    if tag_exists_on_remote(tag_name):
+        if delete_existing_tag:
+            delete_tag(tag_name)
+        else:
+            print(f"Tag {tag_name} already exists on the remote. Aborting!")
+            sys.exit(1)
 
     subprocess.run(
         ["git", "commit", "-am", f"Bump version to {new_version}"], check=True
