@@ -75,7 +75,7 @@ execute:
 1. Install the website package and its development dependencies, follow these
    steps:
    ```bash
-   uv pip install -e .[dev]
+   uv pip install -e ".[dev]"
    ```
 2. `website --help` should list the relevant output
 
