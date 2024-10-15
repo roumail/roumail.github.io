@@ -40,7 +40,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        python bump_version.py ${{ env.bump_type }}        
+        python release.py ${{ env.bump_type }}        
         PACKAGE_VERSION=$(python -c 'import toml; print(toml.load("pyproject.toml")["project"]["version"])')
         echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_ENV
             

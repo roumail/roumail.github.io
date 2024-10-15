@@ -1,40 +1,25 @@
+import subprocess
 import sys
 from datetime import datetime
 
-import toml
-
-
-# Read the current version from bumpversion configuration
-def get_current_version():
-    with open("pyproject.toml", "r") as f:
-        pyproject = toml.load(f)
-        return pyproject["tool"]["poetry"]["version"]
-
 
 def bump_version(bump_type):
-    current_version = get_current_version()
-    major, minor, patch = map(int, current_version.split("."))
+    subprocess.run(["bump2version", bump_type], check=True)
 
-    if bump_type == "patch":
-        patch += 1
-    elif bump_type == "minor":
-        minor += 1
-        patch = 0
-    elif bump_type == "major":
-        major += 1
-        minor = 0
-        patch = 0
+    # Extract the new version from bump2version's output
+    result = subprocess.run(
+        ["bump2version", "--dry-run", "--list", bump_type],
+        capture_output=True,
+        text=True,
+    )
+    new_version = None
+    for line in result.stdout.splitlines():
+        if line.startswith("new_version="):
+            new_version = line.split("=")[-1]
 
-    new_version = f"{major}.{minor}.{patch}"
-
-    with open("pyproject.toml", "r") as f:
-        pyproject = toml.load(f)
-
-    pyproject["project"]["version"] = new_version
-
-    with open("pyproject.toml", "w") as f:
-        toml.dump(pyproject, f)
-
+    if not new_version:
+        print("Error: Failed to determine the new version.")
+        sys.exit(1)
     return new_version
 
 
@@ -52,8 +37,6 @@ def update_changelog(version):
 
 
 def update_git(new_version):
-    import subprocess
-
     subprocess.run(
         ["git", "commit", "-am", f"Bump version to {new_version}"], check=True
     )
