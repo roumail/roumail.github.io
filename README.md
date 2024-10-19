@@ -75,7 +75,7 @@ execute:
 1. Install the website package and its development dependencies, follow these
    steps:
    ```bash
-   uv pip install -e .[dev]
+   uv pip install -e ".[dev]"
    ```
 2. `website --help` should list the relevant output
 
@@ -86,8 +86,10 @@ execute:
 
 ## Bumping package version and updating changelog
 
-I'm maintaining a `CHANGELOG.md` for keeping track of changes made to the python
-package. The script `bump_version.py` in the project root provides the utilities
-needed for releasing a new tagged version to remote. The github action
-`.github/workflows/release-package.yaml` is using this script and is triggered
-via a manual dispatch.
+Using the script `release.py`, `bump2version` and the github action
+`.github/workflows/release-package.yaml` I'm automating my package release
+process.
+
+Each new release has a section in the `CHANGELOG.md` under the `[Unreleased]`
+section for keeping track of changes made to the python package since the last
+release.

@@ -1,42 +1,36 @@
 [build-system]
-requires = ["setuptools >= 61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "website"
-version = "1.0.6"
+version = "1.1.0"
 description = "Automation and build tools for my website"
-authors = ["Rohail Taimour"]
-license = "MIT"
-packages = [
-    { include = "website" },
+authors = [
+  { name = "Rohail Taimour" }
 ]
+packages = [
+  { include = "website" }
+]
+license = { text = "MIT License" }
 dependencies = [
   "typer>=0.12.3",
 ]
+readme = "README.md"
 requires-python = ">=3.10"
 
-[project.optional-dependencies.dev]
-black = ">=23.7.0"
-isort = ">=5.12.0"
-pre-commit = ">=3.3.3"
-flake8 = ">=6.1.0"
-bump2version = ">=1.0.1"
-toml = ">=0.10.2"
-
+[project.optional-dependencies]
+dev = [
+  "black>=23.7.0",
+  "isort>=5.12.0",
+  "pre-commit>=3.3.3",
+  "flake8>=6.1.0",
+  "bump2version>=1.0.1"
+]
 [project.scripts]
 website = "website.entrypoints:app"
 new-post = 'website.entrypoints:new_post'
 list-draft-posts = 'website.entrypoints:list_draft_posts'
-
-[tool.bumpversion]
-commit = true
-tag = true
-
-[[tool.bumpversion.file]]
-filename = "CHANGELOG.md"
-search = "## [Unreleased]"
-replace = "## [Unreleased]\n\n## [{new_version}] - {now:%Y-%m-%d}"
 
 [tool.black]
 line-length = 88
