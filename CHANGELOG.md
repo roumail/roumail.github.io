@@ -10,6 +10,10 @@ and this project adheres to
 
 ### Fixed
 
+- Add documentation for website entrypoints.
+
+### Fixed
+
 - Removed poetry from dependencies for building and releasing the package.
 - Consolidate the bumping of versions to better leverage `bump2version`.
 - `bump_version.py` script is now renamed `release.py`.
