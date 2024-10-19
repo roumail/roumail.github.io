@@ -47,6 +47,7 @@ jobs:
     - name: Build Package
       run: python -m build
     
+    # TODO: Extract a subset of the changelog for the body part between [Unreleased] and last tag
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
