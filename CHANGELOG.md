@@ -12,6 +12,8 @@ and this project adheres to
 
 - Add documentation for website entrypoints.
 
+## [1.2.0] - 2024-10-15
+
 ### Fixed
 
 - Removed poetry from dependencies for building and releasing the package.
