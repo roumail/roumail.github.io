@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  <!-- Start view, if applicable -->
+  {{ if templates.Exists (printf "partials/views/%s-start.html" (lower $.Params.view | default "compact")) }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-start" $.Params.view) "index" 0) }}
+  {{ end }}
+
+  <!-- Initialize custom query and use it with pagination -->
+  {{- /* Initialize the query to fetch only "page" kinds in the "post" section, excluding _index.md files */ -}}
+  {{ $query := where (where site.RegularPages "Section" "post") "Kind" "page" }}
+  {{ $query = sort $query "Date" "desc" }}
+  {{ $paginator := .Paginate $query }}
+
+  <!-- Render paginated items as a plain list -->
+  <ul class="plain-list">
+    {{ range $index, $post := $paginator.Pages }}
+      <li>
+        {{ partial "views/compact" (dict "item" $post) }}
+      </li>
+    {{ end }}
+  </ul>
+
+  <!-- End view, if applicable -->
+  {{ if templates.Exists (printf "partials/views/%s-end.html" (lower $.Params.view | default "compact")) }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-end" $.Params.view) "index" 0) }}
+  {{ end }}
+
+  {{ partial "pagination" . }}
+</div>
+
+{{ end }}
