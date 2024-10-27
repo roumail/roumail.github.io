@@ -19,11 +19,9 @@
   {{ $paginator := .Paginate $query }}
 
   <!-- Render paginated items as a plain list -->
-  <ul class="plain-list">
+  <ul class="article-style">
     {{ range $index, $post := $paginator.Pages }}
-      <li>
         {{ partial "views/compact" (dict "item" $post) }}
-      </li>
     {{ end }}
   </ul>
 
