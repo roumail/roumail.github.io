@@ -29,8 +29,6 @@ dev = [
 ]
 [project.scripts]
 website = "website.entrypoints:app"
-new-post = 'website.entrypoints:new_post'
-list-draft-posts = 'website.entrypoints:list_draft_posts'
 
 [tool.black]
 line-length = 88
