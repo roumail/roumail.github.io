@@ -17,6 +17,6 @@ def harmonize_name(name):
     """
     Harmonize the given name by removing colons and replacing spaces with hyphens.
     """
-    name = re.sub(r"[:?/\\]", "", name)  # Remove colons
+    name = re.sub(r"[:?/,\\]", "", name)  # Remove colons
     name = name.replace(" ", "-")  # Replace spaces with hyphens
     return name.lower()
