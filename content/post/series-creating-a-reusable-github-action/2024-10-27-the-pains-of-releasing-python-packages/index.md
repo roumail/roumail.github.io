@@ -3,6 +3,7 @@ title:
   "The Pains of Releasing Python Packages, Version and Changelog Management"
 summary: "Introducing the series on creating a reusable github actions workflow"
 categories: ["technology"]
+series: ["Creating a reusable github action"]
 tags: ["python", "changelog", "github-actions", "release-management"]
 authors:
   - admin
@@ -12,3 +13,5 @@ lastmod: 2024-10-27T16:03:02+01:00
 draft: true
 toc: false
 ---
+
+Lorem ipsum
