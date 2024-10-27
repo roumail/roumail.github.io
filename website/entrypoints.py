@@ -1,9 +1,6 @@
-from __future__ import annotations
-
-from typing import Optional
+from typing import Annotated
 
 import typer
-from typing_extensions import Annotated
 
 from website.posts import concatenate_drafts, create_new_post
 from website.task_helpers import check_project_root
@@ -22,7 +19,8 @@ def callback():
 def new_post(
     title: Annotated[str, typer.Argument(help="The title of the blog.")],
     series: Annotated[
-        Optional[str],
+        str | None,
+        # Optional[str],
         typer.Argument(help="The series the blog post entry belongs to."),
     ] = None,
     quarto: Annotated[
