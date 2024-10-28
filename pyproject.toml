@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "website"
-version = "1.1.0"
+version = "0.0.0"
 description = "Automation and build tools for my website"
 authors = [
   { name = "Rohail Taimour" }
