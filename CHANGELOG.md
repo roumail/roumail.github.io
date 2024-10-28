@@ -8,12 +8,6 @@ and this project adheres to
 
 ## [Unreleased]
 
-### Fixed
-
-- test
-
-## [## [Unreleased]] - 2024-10-28
-
 ### Added
 
 - initial release
