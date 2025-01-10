@@ -98,7 +98,7 @@ for who are, compassionate for who we are still unable to be and understand that
 much like how the outside world can impact our inner being, our inner state can
 have a massive impact on our outside world.
 
-## Decision fatigue and the misconception with space
+## Decision fatigue and the misconception about space
 
 A possible misconception about "space", as we use this term, is it's magnitude.
 Do you need days of space? Hours? I often find myself falling for this trap, and
